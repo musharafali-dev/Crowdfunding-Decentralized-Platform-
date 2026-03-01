@@ -1,0 +1,112 @@
+'use client';
+
+import React, { useState } from 'react';
+import Link from 'next/link';
+import { usePathname } from 'next/navigation';
+import { ConnectButton } from '@rainbow-me/rainbowkit';
+import { Menu, X, Coins, Compass, PlusCircle, LayoutDashboard } from 'lucide-react';
+
+export default function Navbar() {
+  const pathname = usePathname();
+  const [isOpen, setIsOpen] = useState(false);
+
+  const navItems = [
+    { name: 'Explore', href: '/explore', icon: Compass },
+    { name: 'Create Campaign', href: '/create', icon: PlusCircle },
+    { name: 'Dashboard', href: '/dashboard', icon: LayoutDashboard },
+  ];
+
+  const isActive = (path: string) => pathname === path;
+
+  return (
+    <nav className="sticky top-0 z-50 glass-panel border-b border-white/5 backdrop-blur-md">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="flex items-center justify-between h-20">
+          {/* Logo */}
+          <div className="flex items-center">
+            <Link href="/" className="flex items-center gap-2 group">
+              <div className="p-2 bg-cyan-500/10 rounded-xl group-hover:bg-cyan-500/20 transition-all duration-300">
+                <Coins className="h-7 w-7 text-cyan-400 group-hover:rotate-12 transition-transform duration-300" />
+              </div>
+              <span className="text-2xl font-bold bg-gradient-to-r from-white via-cyan-200 to-cyan-400 bg-clip-text text-transparent tracking-tight">
+                DeCrowdfund
+              </span>
+            </Link>
+          </div>
+
+          {/* Desktop Nav Items */}
+          <div className="hidden md:flex items-center gap-8">
+            {navItems.map((item) => {
+              const Icon = item.icon;
+              return (
+                <Link
+                  key={item.name}
+                  href={item.href}
+                  className={`flex items-center gap-2 text-sm font-medium transition-all duration-200 hover:text-cyan-400 ${
+                    isActive(item.href) ? 'text-cyan-400 font-semibold' : 'text-slate-300'
+                  }`}
+                >
+                  <Icon className="h-4 w-4" />
+                  {item.name}
+                </Link>
+              );
+            })}
+          </div>
+
+          {/* Wallet Connect Button */}
+          <div className="hidden md:flex items-center">
+            <ConnectButton 
+              chainStatus="icon" 
+              showBalance={false}
+              accountStatus={{
+                smallScreen: 'avatar',
+                largeScreen: 'full',
+              }}
+            />
+          </div>
+
+          {/* Mobile Menu Button */}
+          <div className="md:hidden flex items-center gap-4">
+            <ConnectButton 
+              chainStatus="none" 
+              showBalance={false}
+              accountStatus="avatar"
+            />
+            <button
+              onClick={() => setIsOpen(!isOpen)}
+              className="p-2 rounded-lg text-slate-400 hover:text-white hover:bg-white/5 transition-colors focus:outline-none"
+            >
+              {isOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
+            </button>
+          </div>
+        </div>
+      </div>
+
+      {/* Mobile Menu */}
+      {isOpen && (
+        <div className="md:hidden glass-panel border-b border-white/5">
+          <div className="px-2 pt-2 pb-4 space-y-1 sm:px-3">
+            {navItems.map((item) => {
+              const Icon = item.icon;
+              return (
+                <Link
+                  key={item.name}
+                  href={item.href}
+                  onClick={() => setIsOpen(false)}
+                  className={`flex items-center gap-3 px-3 py-3 rounded-xl text-base font-medium transition-all duration-200 ${
+                    isActive(item.href)
+                      ? 'bg-cyan-500/10 text-cyan-400'
+                      : 'text-slate-300 hover:bg-white/5 hover:text-white'
+                  }`}
+                >
+                  <Icon className="h-5 w-5" />
+                  {item.name}
+                </Link>
+              );
+            })}
+          </div>
+        </div>
+      )}
+    </nav>
+  );
+}
