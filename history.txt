@@ -1,1 +1,2 @@
 Update 2: 2026-03-01T10:19:40 - chore(contracts): implement campaign creation logic
+Update 3: 2026-03-01T10:37:37 - refactor(docs): fix type errors for campaignsRaw mapping
