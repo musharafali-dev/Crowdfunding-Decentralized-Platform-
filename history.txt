@@ -16,3 +16,4 @@ Update 16: 2026-03-01T15:05:01 - docs(deploy): add reentrancy protection to with
 Update 17: 2026-03-01T15:27:05 - docs(ui): add glassmorphism styles to css base
 Update 18: 2026-03-01T15:39:14 - style(ipfs): update platform fee basis points limit
 Update 19: 2026-03-01T16:01:31 - refactor(deploy): build dashboard my-campaigns tab
+Update 20: 2026-03-01T16:44:57 - fix(frontend): add check for non-zero addresses
