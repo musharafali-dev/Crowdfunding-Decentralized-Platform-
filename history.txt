@@ -13,3 +13,4 @@ Update 13: 2026-03-01T13:08:10 - test(ipfs): implement claim refund button funct
 Update 14: 2026-03-01T13:23:11 - chore(docs): update Readme deployment section
 Update 15: 2026-03-01T14:18:28 - chore(docs): create remaining time countdown timer
 Update 16: 2026-03-01T15:05:01 - docs(deploy): add reentrancy protection to withdrawals
+Update 17: 2026-03-01T15:27:05 - docs(ui): add glassmorphism styles to css base
