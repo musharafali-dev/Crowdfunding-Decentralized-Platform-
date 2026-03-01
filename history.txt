@@ -2,3 +2,4 @@ Update 2: 2026-03-01T10:19:40 - chore(contracts): implement campaign creation lo
 Update 3: 2026-03-01T10:37:37 - refactor(docs): fix type errors for campaignsRaw mapping
 Update 4: 2026-03-01T11:22:01 - style(config): optimize active campaigns gas cost
 Update 5: 2026-03-01T11:35:31 - test(config): add default categories to constructor
+Update 6: 2026-03-01T11:52:58 - docs(frontend): add Etherscan verification settings
