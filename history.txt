@@ -38,3 +38,4 @@ Update 38: 2026-03-01T23:31:55 - fix(frontend): style dashboard layout
 Update 39: 2026-03-02T08:03:37 - docs(contracts): add double refund prevention tests
 Update 40: 2026-03-02T08:45:25 - feat(ui): refactor contract modifier checks
 Update 41: 2026-03-02T08:55:40 - fix(ipfs): fix deadline calculation bug
+Update 42: 2026-03-02T08:56:00 - test(tests): add campaign details progress bar
