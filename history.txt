@@ -83,3 +83,4 @@ Update 83: 2026-03-02T23:00:37 - chore(ui): create wagmi provider configuration
 Update 84: 2026-03-02T23:49:40 - style(tests): update tsconfig to target ES2020
 Update 85: 2026-03-02T23:50:08 - refactor(contracts): build dashboard my-campaigns tab
 Update 86: 2026-03-02T23:51:12 - fix(frontend): add loading skeletons during tx confirm
+Update 87: 2026-03-02T23:55:20 - refactor(frontend): implement withdraw funds test cases
