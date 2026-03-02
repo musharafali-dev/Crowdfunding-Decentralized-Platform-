@@ -80,3 +80,4 @@ Update 80: 2026-03-02T21:49:00 - chore(contracts): configure Sepolia network in 
 Update 81: 2026-03-02T22:05:07 - chore(tests): fix type errors for campaignsRaw mapping
 Update 82: 2026-03-02T22:32:26 - fix(ipfs): add double refund prevention tests
 Update 83: 2026-03-02T23:00:37 - chore(ui): create wagmi provider configuration
+Update 84: 2026-03-02T23:49:40 - style(tests): update tsconfig to target ES2020
