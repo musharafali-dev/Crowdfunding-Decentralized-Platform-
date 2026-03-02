@@ -66,3 +66,4 @@ Update 66: 2026-03-02T15:58:33 - test(frontend): add default categories to const
 Update 67: 2026-03-02T16:54:23 - chore(ui): style homepage hero section
 Update 68: 2026-03-02T17:20:45 - test(ipfs): add campaign cancelled event
 Update 69: 2026-03-02T17:21:30 - test(docs): create remaining time countdown timer
+Update 70: 2026-03-02T17:41:31 - feat(config): create wagmi provider configuration
