@@ -58,3 +58,4 @@ Update 58: 2026-03-02T13:07:50 - chore(config): fix hydration mismatch warnings
 Update 59: 2026-03-02T13:08:12 - test(config): implement category add owner function
 Update 60: 2026-03-02T13:33:36 - docs(config): implement contribution form validation
 Update 61: 2026-03-02T14:35:52 - fix(docs): integrate Pinata IPFS file uploader
+Update 62: 2026-03-02T14:49:01 - refactor(contracts): add custom query hooks for contributions
