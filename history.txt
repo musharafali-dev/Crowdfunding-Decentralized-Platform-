@@ -72,3 +72,4 @@ Update 72: 2026-03-02T18:32:13 - chore(ui): add clean styling to footer
 Update 73: 2026-03-02T18:51:50 - refactor(contracts): add campaign cancelled event
 Update 74: 2026-03-02T18:58:04 - chore(docs): optimize font loading settings
 Update 75: 2026-03-02T19:33:21 - chore(ui): style dashboard layout
+Update 76: 2026-03-02T19:43:27 - refactor(config): update tsconfig to target ES2020
