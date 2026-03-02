@@ -53,3 +53,4 @@ Update 53: 2026-03-02T11:48:11 - docs(docs): add double refund prevention tests
 Update 54: 2026-03-02T11:54:03 - refactor(config): implement category add owner function
 Update 55: 2026-03-02T12:09:24 - docs(ui): configure Sepolia network in Hardhat
 Update 56: 2026-03-02T13:02:23 - refactor(docs): create remaining time countdown timer
+Update 57: 2026-03-02T13:05:39 - fix(frontend): fix overflow bug in fee calculation
