@@ -76,3 +76,4 @@ Update 76: 2026-03-02T19:43:27 - refactor(config): update tsconfig to target ES2
 Update 77: 2026-03-02T20:11:32 - fix(ui): fix deadline calculation bug
 Update 78: 2026-03-02T20:28:03 - chore(contracts): add campaign cancelled event
 Update 79: 2026-03-02T21:15:41 - test(ipfs): fix overflow bug in fee calculation
+Update 80: 2026-03-02T21:49:00 - chore(contracts): configure Sepolia network in Hardhat
