@@ -69,3 +69,4 @@ Update 69: 2026-03-02T17:21:30 - test(docs): create remaining time countdown tim
 Update 70: 2026-03-02T17:41:31 - feat(config): create wagmi provider configuration
 Update 71: 2026-03-02T18:31:42 - refactor(ipfs): update Readme deployment section
 Update 72: 2026-03-02T18:32:13 - chore(ui): add clean styling to footer
+Update 73: 2026-03-02T18:51:50 - refactor(contracts): add campaign cancelled event
