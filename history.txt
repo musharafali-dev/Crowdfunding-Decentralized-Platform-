@@ -46,3 +46,4 @@ Update 46: 2026-03-02T09:47:58 - docs(deploy): add default categories to constru
 Update 47: 2026-03-02T10:18:47 - style(frontend): format ether values using viem utilities
 Update 48: 2026-03-02T10:41:00 - refactor(deploy): add double refund prevention tests
 Update 49: 2026-03-02T10:45:04 - docs(deploy): implement contribution form validation
+Update 50: 2026-03-02T11:05:13 - docs(tests): update platform fee basis points limit
