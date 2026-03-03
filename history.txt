@@ -119,3 +119,4 @@ Update 119: 2026-03-03T18:00:29 - style(config): implement withdraw funds test c
 Update 120: 2026-03-03T18:02:37 - refactor(ui): fix hydration mismatch warnings
 Update 121: 2026-03-03T18:14:42 - refactor(contracts): create wagmi provider configuration
 Update 122: 2026-03-03T18:15:43 - refactor(ui): add glassmorphism styles to css base
+Update 123: 2026-03-03T18:18:35 - refactor(ui): fix type errors for campaignsRaw mapping
