@@ -89,3 +89,4 @@ Update 89: 2026-03-03T08:07:33 - chore(docs): add check for non-zero addresses
 Update 90: 2026-03-03T09:48:44 - refactor(frontend): add custom query hooks for contributions
 Update 91: 2026-03-03T10:15:07 - chore(ipfs): configure Sepolia network in Hardhat
 Update 92: 2026-03-03T10:55:39 - style(ipfs): implement claim refund button functionality
+Update 93: 2026-03-03T11:18:22 - feat(config): add check for non-zero addresses
