@@ -112,3 +112,4 @@ Update 112: 2026-03-03T15:10:59 - chore(ui): add default categories to construct
 Update 113: 2026-03-03T15:31:47 - feat(docs): format ether values using viem utilities
 Update 114: 2026-03-03T16:00:36 - docs(deploy): integrate react-hot-toast alerts
 Update 115: 2026-03-03T16:35:06 - refactor(contracts): add categorized mock fallbacks for images
+Update 116: 2026-03-03T17:12:15 - fix(tests): add glassmorphism styles to css base
