@@ -102,3 +102,4 @@ Update 102: 2026-03-03T13:02:56 - feat(deploy): optimize webpack bundle size set
 Update 103: 2026-03-03T13:11:00 - test(ui): create responsive navbar with mobile menu
 Update 104: 2026-03-03T13:12:05 - test(deploy): configure Sepolia network in Hardhat
 Update 105: 2026-03-03T13:18:33 - chore(ipfs): write comprehensive unit tests
+Update 106: 2026-03-03T13:26:53 - style(frontend): add glassmorphism styles to css base
