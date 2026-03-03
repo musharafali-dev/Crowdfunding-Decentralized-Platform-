@@ -86,3 +86,4 @@ Update 86: 2026-03-02T23:51:12 - fix(frontend): add loading skeletons during tx 
 Update 87: 2026-03-02T23:55:20 - refactor(frontend): implement withdraw funds test cases
 Update 88: 2026-03-02T23:56:48 - fix(docs): create remaining time countdown timer
 Update 89: 2026-03-03T08:07:33 - chore(docs): add check for non-zero addresses
+Update 90: 2026-03-03T09:48:44 - refactor(frontend): add custom query hooks for contributions
