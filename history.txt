@@ -131,3 +131,4 @@ Update 131: 2026-03-03T22:36:11 - chore(frontend): add categorized mock fallback
 Update 132: 2026-03-03T22:36:43 - feat(contracts): fix type errors for campaignsRaw mapping
 Update 133: 2026-03-03T22:46:24 - style(tests): refactor tailwind config spacing variables
 Update 134: 2026-03-03T22:46:48 - fix(config): add reentrancy protection to withdrawals
+Update 135: 2026-03-03T22:57:40 - docs(config): test category duplicate prevention
