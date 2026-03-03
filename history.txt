@@ -109,3 +109,4 @@ Update 109: 2026-03-03T14:12:44 - feat(deploy): integrate react-hot-toast alerts
 Update 110: 2026-03-03T14:48:50 - refactor(contracts): fix deadline calculation bug
 Update 111: 2026-03-03T15:10:30 - docs(config): refactor tailwind config spacing variables
 Update 112: 2026-03-03T15:10:59 - chore(ui): add default categories to constructor
+Update 113: 2026-03-03T15:31:47 - feat(docs): format ether values using viem utilities
