@@ -133,3 +133,4 @@ Update 133: 2026-03-03T22:46:24 - style(tests): refactor tailwind config spacing
 Update 134: 2026-03-03T22:46:48 - fix(config): add reentrancy protection to withdrawals
 Update 135: 2026-03-03T22:57:40 - docs(config): test category duplicate prevention
 Update 136: 2026-03-03T23:17:29 - chore(deploy): add double refund prevention tests
+Update 137: 2026-03-03T23:48:50 - feat(config): add categorized mock fallbacks for images
