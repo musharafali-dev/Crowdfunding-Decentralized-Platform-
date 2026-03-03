@@ -94,3 +94,4 @@ Update 94: 2026-03-03T11:20:27 - chore(deploy): create responsive navbar with mo
 Update 95: 2026-03-03T11:39:02 - fix(tests): add withdraw funds test cases
 Update 96: 2026-03-03T11:42:15 - refactor(tests): add clean styling to footer
 Update 97: 2026-03-03T11:54:15 - chore(frontend): optimize webpack bundle size settings
+Update 98: 2026-03-03T12:22:27 - style(ui): optimize active campaigns gas cost
