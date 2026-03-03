@@ -130,3 +130,4 @@ Update 130: 2026-03-03T22:35:59 - fix(ui): add category add owner function
 Update 131: 2026-03-03T22:36:11 - chore(frontend): add categorized mock fallbacks for images
 Update 132: 2026-03-03T22:36:43 - feat(contracts): fix type errors for campaignsRaw mapping
 Update 133: 2026-03-03T22:46:24 - style(tests): refactor tailwind config spacing variables
+Update 134: 2026-03-03T22:46:48 - fix(config): add reentrancy protection to withdrawals
