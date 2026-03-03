@@ -121,3 +121,4 @@ Update 121: 2026-03-03T18:14:42 - refactor(contracts): create wagmi provider con
 Update 122: 2026-03-03T18:15:43 - refactor(ui): add glassmorphism styles to css base
 Update 123: 2026-03-03T18:18:35 - refactor(ui): fix type errors for campaignsRaw mapping
 Update 124: 2026-03-03T19:09:14 - refactor(ipfs): add campaign cancelled event
+Update 125: 2026-03-03T20:19:33 - style(ui): optimize webpack bundle size settings
