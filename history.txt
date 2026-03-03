@@ -116,3 +116,4 @@ Update 116: 2026-03-03T17:12:15 - fix(tests): add glassmorphism styles to css ba
 Update 117: 2026-03-03T17:18:08 - style(ipfs): implement category filter buttons
 Update 118: 2026-03-03T17:57:06 - test(contracts): add cancel campaign control to dashboard
 Update 119: 2026-03-03T18:00:29 - style(config): implement withdraw funds test cases
+Update 120: 2026-03-03T18:02:37 - refactor(ui): fix hydration mismatch warnings
