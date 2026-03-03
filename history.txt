@@ -127,3 +127,4 @@ Update 127: 2026-03-03T20:51:24 - chore(config): test category duplicate prevent
 Update 128: 2026-03-03T21:14:06 - test(contracts): add campaign creation logic
 Update 129: 2026-03-03T22:33:12 - chore(ui): create remaining time countdown timer
 Update 130: 2026-03-03T22:35:59 - fix(ui): add category add owner function
+Update 131: 2026-03-03T22:36:11 - chore(frontend): add categorized mock fallbacks for images
