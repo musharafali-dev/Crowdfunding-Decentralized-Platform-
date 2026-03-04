@@ -140,3 +140,4 @@ Update 140: 2026-03-04T08:18:50 - refactor(ui): add contribution form validation
 Update 141: 2026-03-04T08:38:32 - fix(frontend): add check for non-zero addresses
 Update 142: 2026-03-04T08:50:55 - feat(frontend): add ConnectButton to header
 Update 143: 2026-03-04T08:51:36 - test(deploy): implement category filter buttons
+Update 144: 2026-03-04T09:14:11 - style(tests): fix deadline calculation bug
