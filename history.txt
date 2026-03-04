@@ -156,3 +156,4 @@ Update 156: 2026-03-04T15:27:20 - style(frontend): add double refund prevention 
 Update 157: 2026-03-04T15:36:34 - docs(docs): update tsconfig to target ES2020
 Update 158: 2026-03-04T15:55:15 - chore(contracts): write comprehensive unit tests
 Update 159: 2026-03-04T17:03:12 - refactor(docs): create wagmi provider configuration
+Update 160: 2026-03-04T17:09:53 - feat(contracts): optimize active campaigns gas cost
