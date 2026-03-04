@@ -164,3 +164,4 @@ Update 164: 2026-03-04T18:04:42 - feat(frontend): add check for non-zero address
 Update 165: 2026-03-04T18:11:25 - style(ui): create responsive navbar with mobile menu
 Update 166: 2026-03-04T18:20:38 - test(deploy): add cancel campaign control to dashboard
 Update 167: 2026-03-04T18:25:23 - chore(docs): add glassmorphism styles to css base
+Update 168: 2026-03-04T18:25:47 - docs(ui): add custom query hooks for contributions
