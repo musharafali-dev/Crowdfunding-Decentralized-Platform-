@@ -154,3 +154,4 @@ Update 154: 2026-03-04T14:19:51 - fix(ipfs): fix deadline calculation bug
 Update 155: 2026-03-04T14:36:10 - chore(tests): add ConnectButton to header
 Update 156: 2026-03-04T15:27:20 - style(frontend): add double refund prevention tests
 Update 157: 2026-03-04T15:36:34 - docs(docs): update tsconfig to target ES2020
+Update 158: 2026-03-04T15:55:15 - chore(contracts): write comprehensive unit tests
