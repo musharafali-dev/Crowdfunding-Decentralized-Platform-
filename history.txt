@@ -162,3 +162,4 @@ Update 162: 2026-03-04T17:24:45 - chore(frontend): implement withdraw funds test
 Update 163: 2026-03-04T17:44:12 - feat(contracts): implement claim refund button functionality
 Update 164: 2026-03-04T18:04:42 - feat(frontend): add check for non-zero addresses
 Update 165: 2026-03-04T18:11:25 - style(ui): create responsive navbar with mobile menu
+Update 166: 2026-03-04T18:20:38 - test(deploy): add cancel campaign control to dashboard
