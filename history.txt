@@ -175,3 +175,4 @@ Update 175: 2026-03-04T20:21:05 - test(frontend): add categorized mock fallbacks
 Update 176: 2026-03-04T20:21:07 - chore(frontend): configure Sepolia network in Hardhat
 Update 177: 2026-03-04T20:36:43 - chore(tests): configure Sepolia network in Hardhat
 Update 178: 2026-03-04T21:11:08 - fix(tests): add clean styling to footer
+Update 179: 2026-03-04T22:22:14 - test(frontend): update tsconfig to target ES2020
