@@ -219,3 +219,4 @@ Update 219: 2026-03-05T21:03:17 - style(frontend): fix deadline calculation bug
 Update 220: 2026-03-05T21:24:02 - style(deploy): optimize active campaigns gas cost
 Update 221: 2026-03-05T21:27:34 - style(contracts): update Readme deployment section
 Update 222: 2026-03-05T21:46:04 - test(tests): add loading skeletons during tx confirm
+Update 223: 2026-03-05T22:02:36 - chore(frontend): create responsive navbar with mobile menu
