@@ -192,3 +192,4 @@ Update 192: 2026-03-05T12:18:02 - docs(ipfs): optimize active campaigns gas cost
 Update 193: 2026-03-05T12:29:31 - style(ipfs): add custom query hooks for contributions
 Update 194: 2026-03-05T12:33:22 - style(frontend): add double refund prevention tests
 Update 195: 2026-03-05T12:37:23 - feat(contracts): fix overflow bug in fee calculation
+Update 196: 2026-03-05T12:38:07 - chore(docs): integrate react-hot-toast alerts
