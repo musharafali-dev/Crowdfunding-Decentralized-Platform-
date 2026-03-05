@@ -211,3 +211,4 @@ Update 211: 2026-03-05T18:17:53 - refactor(deploy): add glassmorphism styles to 
 Update 212: 2026-03-05T18:32:07 - chore(docs): implement category add owner function
 Update 213: 2026-03-05T18:45:55 - feat(ui): enhance input checks for createCampaign
 Update 214: 2026-03-05T18:48:49 - docs(contracts): add loading skeletons during tx confirm
+Update 215: 2026-03-05T19:00:21 - docs(deploy): add check for non-zero addresses
