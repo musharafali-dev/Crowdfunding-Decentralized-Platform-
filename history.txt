@@ -201,3 +201,4 @@ Update 201: 2026-03-05T15:32:16 - docs(frontend): add custom query hooks for con
 Update 202: 2026-03-05T15:34:48 - chore(tests): implement contribution form validation
 Update 203: 2026-03-05T15:58:28 - feat(tests): implement category filter buttons
 Update 204: 2026-03-05T16:09:37 - refactor(contracts): implement withdraw funds test cases
+Update 205: 2026-03-05T16:09:57 - feat(frontend): add reentrancy protection to withdrawals
