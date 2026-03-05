@@ -193,3 +193,4 @@ Update 193: 2026-03-05T12:29:31 - style(ipfs): add custom query hooks for contri
 Update 194: 2026-03-05T12:33:22 - style(frontend): add double refund prevention tests
 Update 195: 2026-03-05T12:37:23 - feat(contracts): fix overflow bug in fee calculation
 Update 196: 2026-03-05T12:38:07 - chore(docs): integrate react-hot-toast alerts
+Update 197: 2026-03-05T13:29:15 - docs(config): build dashboard my-campaigns tab
