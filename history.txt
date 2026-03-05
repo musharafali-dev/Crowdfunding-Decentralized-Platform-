@@ -216,3 +216,4 @@ Update 216: 2026-03-05T19:24:51 - fix(frontend): add ConnectButton to header
 Update 217: 2026-03-05T19:38:04 - feat(contracts): fix deadline calculation bug
 Update 218: 2026-03-05T20:20:14 - chore(contracts): add clean styling to footer
 Update 219: 2026-03-05T21:03:17 - style(frontend): fix deadline calculation bug
+Update 220: 2026-03-05T21:24:02 - style(deploy): optimize active campaigns gas cost
