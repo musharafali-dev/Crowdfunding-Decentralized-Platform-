@@ -202,3 +202,4 @@ Update 202: 2026-03-05T15:34:48 - chore(tests): implement contribution form vali
 Update 203: 2026-03-05T15:58:28 - feat(tests): implement category filter buttons
 Update 204: 2026-03-05T16:09:37 - refactor(contracts): implement withdraw funds test cases
 Update 205: 2026-03-05T16:09:57 - feat(frontend): add reentrancy protection to withdrawals
+Update 206: 2026-03-05T17:10:01 - style(ui): fix overflow bug in fee calculation
