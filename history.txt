@@ -189,3 +189,4 @@ Update 189: 2026-03-05T10:44:20 - chore(docs): update Readme deployment section
 Update 190: 2026-03-05T10:54:04 - chore(tests): test category duplicate prevention
 Update 191: 2026-03-05T11:11:56 - feat(config): style homepage hero section
 Update 192: 2026-03-05T12:18:02 - docs(ipfs): optimize active campaigns gas cost
+Update 193: 2026-03-05T12:29:31 - style(ipfs): add custom query hooks for contributions
