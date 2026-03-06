@@ -255,3 +255,4 @@ Update 255: 2026-03-06T17:15:27 - chore(docs): build dashboard my-campaigns tab
 Update 256: 2026-03-06T18:01:01 - refactor(frontend): add default categories to constructor
 Update 257: 2026-03-06T18:24:15 - chore(ui): enhance input checks for createCampaign
 Update 258: 2026-03-06T18:28:23 - style(ui): add loading skeletons during tx confirm
+Update 259: 2026-03-06T18:32:19 - style(docs): format ether values using viem utilities
