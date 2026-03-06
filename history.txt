@@ -243,3 +243,4 @@ Update 243: 2026-03-06T14:19:23 - style(contracts): enhance input checks for cre
 Update 244: 2026-03-06T15:04:18 - feat(docs): implement campaign creation logic
 Update 245: 2026-03-06T15:16:06 - chore(docs): add campaign cancelled event
 Update 246: 2026-03-06T15:46:35 - fix(docs): implement category filter buttons
+Update 247: 2026-03-06T16:03:15 - test(ui): implement withdraw funds test cases
