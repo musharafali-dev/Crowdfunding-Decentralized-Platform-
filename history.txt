@@ -250,3 +250,4 @@ Update 250: 2026-03-06T16:22:14 - fix(config): add loading skeletons during tx c
 Update 251: 2026-03-06T16:25:19 - feat(tests): fix hydration mismatch warnings
 Update 252: 2026-03-06T16:25:52 - fix(contracts): create wagmi provider configuration
 Update 253: 2026-03-06T16:54:49 - style(deploy): format ether values using viem utilities
+Update 254: 2026-03-06T16:59:23 - docs(docs): add glassmorphism styles to css base
