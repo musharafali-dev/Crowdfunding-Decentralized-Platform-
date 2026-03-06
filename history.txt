@@ -253,3 +253,4 @@ Update 253: 2026-03-06T16:54:49 - style(deploy): format ether values using viem 
 Update 254: 2026-03-06T16:59:23 - docs(docs): add glassmorphism styles to css base
 Update 255: 2026-03-06T17:15:27 - chore(docs): build dashboard my-campaigns tab
 Update 256: 2026-03-06T18:01:01 - refactor(frontend): add default categories to constructor
+Update 257: 2026-03-06T18:24:15 - chore(ui): enhance input checks for createCampaign
