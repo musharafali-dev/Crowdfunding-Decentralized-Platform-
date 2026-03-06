@@ -233,3 +233,4 @@ Update 233: 2026-03-06T11:15:10 - docs(config): integrate react-hot-toast alerts
 Update 234: 2026-03-06T11:38:33 - feat(ipfs): implement campaign details progress bar
 Update 235: 2026-03-06T11:59:25 - style(docs): add loading skeletons during tx confirm
 Update 236: 2026-03-06T12:29:19 - style(frontend): add loading skeletons during tx confirm
+Update 237: 2026-03-06T12:55:48 - style(deploy): enhance input checks for createCampaign
