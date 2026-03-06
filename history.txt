@@ -231,3 +231,4 @@ Update 231: 2026-03-06T10:00:07 - refactor(tests): create responsive navbar with
 Update 232: 2026-03-06T10:41:27 - fix(contracts): implement campaign details progress bar
 Update 233: 2026-03-06T11:15:10 - docs(config): integrate react-hot-toast alerts
 Update 234: 2026-03-06T11:38:33 - feat(ipfs): implement campaign details progress bar
+Update 235: 2026-03-06T11:59:25 - style(docs): add loading skeletons during tx confirm
