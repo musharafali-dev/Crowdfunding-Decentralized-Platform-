@@ -270,3 +270,4 @@ Update 270: 2026-03-06T22:06:12 - test(ipfs): optimize webpack bundle size setti
 Update 271: 2026-03-06T22:12:41 - test(contracts): add clean styling to footer
 Update 272: 2026-03-06T22:18:02 - docs(tests): add glassmorphism styles to css base
 Update 273: 2026-03-06T22:30:16 - refactor(frontend): add glassmorphism styles to css base
+Update 274: 2026-03-06T22:40:05 - feat(ipfs): add custom query hooks for contributions
