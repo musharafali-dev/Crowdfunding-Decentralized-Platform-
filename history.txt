@@ -257,3 +257,4 @@ Update 257: 2026-03-06T18:24:15 - chore(ui): enhance input checks for createCamp
 Update 258: 2026-03-06T18:28:23 - style(ui): add loading skeletons during tx confirm
 Update 259: 2026-03-06T18:32:19 - style(docs): format ether values using viem utilities
 Update 260: 2026-03-06T19:23:55 - style(contracts): add glassmorphism styles to css base
+Update 261: 2026-03-06T19:25:45 - feat(ipfs): optimize webpack bundle size settings
