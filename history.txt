@@ -242,3 +242,4 @@ Update 242: 2026-03-06T14:12:06 - chore(contracts): fix deadline calculation bug
 Update 243: 2026-03-06T14:19:23 - style(contracts): enhance input checks for createCampaign
 Update 244: 2026-03-06T15:04:18 - feat(docs): implement campaign creation logic
 Update 245: 2026-03-06T15:16:06 - chore(docs): add campaign cancelled event
+Update 246: 2026-03-06T15:46:35 - fix(docs): implement category filter buttons
