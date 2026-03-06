@@ -247,3 +247,4 @@ Update 247: 2026-03-06T16:03:15 - test(ui): implement withdraw funds test cases
 Update 248: 2026-03-06T16:03:54 - feat(docs): refactor tailwind config spacing variables
 Update 249: 2026-03-06T16:15:45 - fix(ipfs): add ConnectButton to header
 Update 250: 2026-03-06T16:22:14 - fix(config): add loading skeletons during tx confirm
+Update 251: 2026-03-06T16:25:19 - feat(tests): fix hydration mismatch warnings
