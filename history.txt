@@ -238,3 +238,4 @@ Update 238: 2026-03-06T13:13:26 - test(frontend): write comprehensive unit tests
 Update 239: 2026-03-06T13:53:40 - feat(ui): add glassmorphism styles to css base
 Update 240: 2026-03-06T13:56:59 - test(ipfs): style homepage hero section
 Update 241: 2026-03-06T14:09:13 - refactor(frontend): style homepage hero section
+Update 242: 2026-03-06T14:12:06 - chore(contracts): fix deadline calculation bug
