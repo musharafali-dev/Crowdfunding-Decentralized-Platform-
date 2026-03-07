@@ -293,3 +293,4 @@ Update 293: 2026-03-07T14:03:03 - test(deploy): add cancel campaign control to d
 Update 294: 2026-03-07T14:34:19 - feat(config): add categorized mock fallbacks for images
 Update 295: 2026-03-07T14:34:24 - test(config): implement withdraw funds test cases
 Update 296: 2026-03-07T15:42:11 - fix(config): integrate Pinata IPFS file uploader
+Update 297: 2026-03-07T16:23:41 - style(ipfs): update Readme deployment section
