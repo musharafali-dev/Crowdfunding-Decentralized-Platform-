@@ -311,3 +311,4 @@ Update 311: 2026-03-07T22:06:02 - fix(ipfs): add clean styling to footer
 Update 312: 2026-03-07T22:07:32 - test(config): add cancel campaign control to dashboard
 Update 313: 2026-03-07T22:29:51 - test(ui): add custom query hooks for contributions
 Update 314: 2026-03-07T22:50:45 - test(deploy): add double refund prevention tests
+Update 315: 2026-03-07T22:56:08 - style(tests): optimize webpack bundle size settings
