@@ -284,3 +284,4 @@ Update 284: 2026-03-07T11:19:01 - fix(contracts): add campaign cancelled event
 Update 285: 2026-03-07T11:55:23 - chore(ui): implement withdraw funds test cases
 Update 286: 2026-03-07T12:03:57 - docs(docs): fix overflow bug in fee calculation
 Update 287: 2026-03-07T12:16:03 - fix(contracts): add categorized mock fallbacks for images
+Update 288: 2026-03-07T12:22:49 - style(ui): enhance input checks for createCampaign
