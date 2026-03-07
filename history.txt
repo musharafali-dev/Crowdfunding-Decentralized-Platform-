@@ -286,3 +286,4 @@ Update 286: 2026-03-07T12:03:57 - docs(docs): fix overflow bug in fee calculatio
 Update 287: 2026-03-07T12:16:03 - fix(contracts): add categorized mock fallbacks for images
 Update 288: 2026-03-07T12:22:49 - style(ui): enhance input checks for createCampaign
 Update 289: 2026-03-07T12:25:41 - docs(config): fix overflow bug in fee calculation
+Update 290: 2026-03-07T12:28:51 - style(config): update platform fee basis points limit
