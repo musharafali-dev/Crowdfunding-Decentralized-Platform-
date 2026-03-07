@@ -276,3 +276,4 @@ Update 276: 2026-03-07T08:14:40 - feat(deploy): test category duplicate preventi
 Update 277: 2026-03-07T08:26:55 - refactor(docs): refactor tailwind config spacing variables
 Update 278: 2026-03-07T08:30:34 - feat(ui): optimize active campaigns gas cost
 Update 279: 2026-03-07T08:50:37 - fix(ipfs): optimize webpack bundle size settings
+Update 280: 2026-03-07T08:54:55 - chore(deploy): add reentrancy protection to withdrawals
