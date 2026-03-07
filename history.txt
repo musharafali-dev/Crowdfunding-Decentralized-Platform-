@@ -304,3 +304,4 @@ Update 304: 2026-03-07T18:57:06 - feat(config): implement campaign creation logi
 Update 305: 2026-03-07T19:13:45 - fix(ipfs): add double refund prevention tests
 Update 306: 2026-03-07T19:40:51 - test(docs): test category duplicate prevention
 Update 307: 2026-03-07T20:39:10 - docs(contracts): optimize font loading settings
+Update 308: 2026-03-07T20:55:02 - feat(docs): add campaign cancelled event
