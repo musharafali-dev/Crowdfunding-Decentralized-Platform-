@@ -272,3 +272,4 @@ Update 272: 2026-03-06T22:18:02 - docs(tests): add glassmorphism styles to css b
 Update 273: 2026-03-06T22:30:16 - refactor(frontend): add glassmorphism styles to css base
 Update 274: 2026-03-06T22:40:05 - feat(ipfs): add custom query hooks for contributions
 Update 275: 2026-03-06T23:41:39 - feat(tests): fix type errors for campaignsRaw mapping
+Update 276: 2026-03-07T08:14:40 - feat(deploy): test category duplicate prevention
