@@ -302,3 +302,4 @@ Update 302: 2026-03-07T17:30:08 - fix(ui): add check for non-zero addresses
 Update 303: 2026-03-07T17:45:11 - chore(config): add glassmorphism styles to css base
 Update 304: 2026-03-07T18:57:06 - feat(config): implement campaign creation logic
 Update 305: 2026-03-07T19:13:45 - fix(ipfs): add double refund prevention tests
+Update 306: 2026-03-07T19:40:51 - test(docs): test category duplicate prevention
