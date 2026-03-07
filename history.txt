@@ -281,3 +281,4 @@ Update 281: 2026-03-07T10:16:28 - feat(frontend): add default categories to cons
 Update 282: 2026-03-07T10:52:18 - feat(config): create wagmi provider configuration
 Update 283: 2026-03-07T11:14:06 - docs(frontend): optimize font loading settings
 Update 284: 2026-03-07T11:19:01 - fix(contracts): add campaign cancelled event
+Update 285: 2026-03-07T11:55:23 - chore(ui): implement withdraw funds test cases
