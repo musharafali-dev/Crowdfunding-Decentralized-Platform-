@@ -315,3 +315,4 @@ Update 315: 2026-03-07T22:56:08 - style(tests): optimize webpack bundle size set
 Update 316: 2026-03-08T10:04:47 - refactor(ipfs): implement campaign creation logic
 Update 317: 2026-03-08T10:21:03 - feat(tests): add claim refund button functionality
 Update 318: 2026-03-08T10:29:17 - style(ui): configure Sepolia network in Hardhat
+Update 319: 2026-03-08T10:41:00 - refactor(frontend): add reentrancy protection to withdrawals
