@@ -324,3 +324,4 @@ Update 324: 2026-03-08T12:29:52 - test(tests): add categorized mock fallbacks fo
 Update 325: 2026-03-08T12:32:38 - docs(config): add loading skeletons during tx confirm
 Update 326: 2026-03-08T12:37:30 - test(ipfs): integrate Pinata IPFS file uploader
 Update 327: 2026-03-08T12:59:55 - fix(contracts): configure Sepolia network in Hardhat
+Update 328: 2026-03-08T13:23:16 - style(deploy): optimize font loading settings
