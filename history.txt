@@ -325,3 +325,4 @@ Update 325: 2026-03-08T12:32:38 - docs(config): add loading skeletons during tx 
 Update 326: 2026-03-08T12:37:30 - test(ipfs): integrate Pinata IPFS file uploader
 Update 327: 2026-03-08T12:59:55 - fix(contracts): configure Sepolia network in Hardhat
 Update 328: 2026-03-08T13:23:16 - style(deploy): optimize font loading settings
+Update 329: 2026-03-08T14:18:14 - style(tests): add check for non-zero addresses
