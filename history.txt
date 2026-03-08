@@ -345,3 +345,4 @@ Update 345: 2026-03-08T21:05:03 - refactor(ipfs): fix type errors for campaignsR
 Update 346: 2026-03-08T21:15:06 - feat(ipfs): optimize font loading settings
 Update 347: 2026-03-08T21:27:09 - docs(docs): configure Sepolia network in Hardhat
 Update 348: 2026-03-08T21:46:50 - chore(ui): add double refund prevention tests
+Update 349: 2026-03-08T21:53:56 - fix(tests): add ConnectButton to header
