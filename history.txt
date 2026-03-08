@@ -349,3 +349,4 @@ Update 349: 2026-03-08T21:53:56 - fix(tests): add ConnectButton to header
 Update 350: 2026-03-08T22:22:12 - feat(docs): implement category filter buttons
 Update 351: 2026-03-08T22:22:22 - feat(frontend): format ether values using viem utilities
 Update 352: 2026-03-08T22:29:40 - fix(config): refactor tailwind config spacing variables
+Update 353: 2026-03-08T22:39:31 - docs(contracts): implement withdraw funds test cases
