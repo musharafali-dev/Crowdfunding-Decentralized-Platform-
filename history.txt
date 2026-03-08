@@ -320,3 +320,4 @@ Update 320: 2026-03-08T11:05:33 - test(frontend): test category duplicate preven
 Update 321: 2026-03-08T11:08:48 - refactor(frontend): update tsconfig to target ES2020
 Update 322: 2026-03-08T11:27:32 - test(docs): integrate react-hot-toast alerts
 Update 323: 2026-03-08T11:34:08 - fix(ipfs): fix overflow bug in fee calculation
+Update 324: 2026-03-08T12:29:52 - test(tests): add categorized mock fallbacks for images
