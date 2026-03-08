@@ -321,3 +321,4 @@ Update 321: 2026-03-08T11:08:48 - refactor(frontend): update tsconfig to target 
 Update 322: 2026-03-08T11:27:32 - test(docs): integrate react-hot-toast alerts
 Update 323: 2026-03-08T11:34:08 - fix(ipfs): fix overflow bug in fee calculation
 Update 324: 2026-03-08T12:29:52 - test(tests): add categorized mock fallbacks for images
+Update 325: 2026-03-08T12:32:38 - docs(config): add loading skeletons during tx confirm
