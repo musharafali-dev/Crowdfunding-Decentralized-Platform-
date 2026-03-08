@@ -336,3 +336,4 @@ Update 336: 2026-03-08T17:24:09 - refactor(deploy): add category filter buttons
 Update 337: 2026-03-08T17:33:42 - fix(frontend): add campaign creation logic
 Update 338: 2026-03-08T18:17:19 - test(frontend): style dashboard layout
 Update 339: 2026-03-08T18:20:57 - fix(ui): add reentrancy protection to withdrawals
+Update 340: 2026-03-08T18:33:08 - docs(ipfs): update platform fee basis points limit
