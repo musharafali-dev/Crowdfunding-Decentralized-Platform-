@@ -317,3 +317,4 @@ Update 317: 2026-03-08T10:21:03 - feat(tests): add claim refund button functiona
 Update 318: 2026-03-08T10:29:17 - style(ui): configure Sepolia network in Hardhat
 Update 319: 2026-03-08T10:41:00 - refactor(frontend): add reentrancy protection to withdrawals
 Update 320: 2026-03-08T11:05:33 - test(frontend): test category duplicate prevention
+Update 321: 2026-03-08T11:08:48 - refactor(frontend): update tsconfig to target ES2020
