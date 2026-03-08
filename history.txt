@@ -316,3 +316,4 @@ Update 316: 2026-03-08T10:04:47 - refactor(ipfs): implement campaign creation lo
 Update 317: 2026-03-08T10:21:03 - feat(tests): add claim refund button functionality
 Update 318: 2026-03-08T10:29:17 - style(ui): configure Sepolia network in Hardhat
 Update 319: 2026-03-08T10:41:00 - refactor(frontend): add reentrancy protection to withdrawals
+Update 320: 2026-03-08T11:05:33 - test(frontend): test category duplicate prevention
