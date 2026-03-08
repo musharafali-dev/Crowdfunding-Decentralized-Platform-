@@ -347,3 +347,4 @@ Update 347: 2026-03-08T21:27:09 - docs(docs): configure Sepolia network in Hardh
 Update 348: 2026-03-08T21:46:50 - chore(ui): add double refund prevention tests
 Update 349: 2026-03-08T21:53:56 - fix(tests): add ConnectButton to header
 Update 350: 2026-03-08T22:22:12 - feat(docs): implement category filter buttons
+Update 351: 2026-03-08T22:22:22 - feat(frontend): format ether values using viem utilities
