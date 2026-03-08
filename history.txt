@@ -343,3 +343,4 @@ Update 343: 2026-03-08T20:23:33 - refactor(deploy): add glassmorphism styles to 
 Update 344: 2026-03-08T20:24:31 - fix(ipfs): integrate Pinata IPFS file uploader
 Update 345: 2026-03-08T21:05:03 - refactor(ipfs): fix type errors for campaignsRaw mapping
 Update 346: 2026-03-08T21:15:06 - feat(ipfs): optimize font loading settings
+Update 347: 2026-03-08T21:27:09 - docs(docs): configure Sepolia network in Hardhat
