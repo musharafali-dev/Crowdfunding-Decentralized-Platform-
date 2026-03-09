@@ -372,3 +372,4 @@ Update 372: 2026-03-09T14:19:40 - style(deploy): add campaign cancelled event
 Update 373: 2026-03-09T14:22:39 - chore(deploy): format ether values using viem utilities
 Update 374: 2026-03-09T14:34:07 - docs(ui): add default categories to constructor
 Update 375: 2026-03-09T14:34:19 - feat(contracts): optimize active campaigns gas cost
+Update 376: 2026-03-09T14:35:19 - style(config): refactor contract modifier checks
