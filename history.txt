@@ -353,3 +353,4 @@ Update 353: 2026-03-08T22:39:31 - docs(contracts): implement withdraw funds test
 Update 354: 2026-03-08T22:56:13 - chore(tests): implement contribution form validation
 Update 355: 2026-03-08T23:42:23 - feat(frontend): implement campaign creation logic
 Update 356: 2026-03-08T23:50:25 - style(contracts): add campaign cancelled event
+Update 357: 2026-03-09T08:13:36 - style(ipfs): style dashboard layout
