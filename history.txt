@@ -360,3 +360,4 @@ Update 360: 2026-03-09T08:51:17 - style(config): add campaign cancelled event
 Update 361: 2026-03-09T09:06:20 - fix(config): implement claim refund button functionality
 Update 362: 2026-03-09T09:18:36 - feat(contracts): add glassmorphism styles to css base
 Update 363: 2026-03-09T10:05:17 - style(config): add double refund prevention tests
+Update 364: 2026-03-09T10:40:04 - style(docs): format ether values using viem utilities
