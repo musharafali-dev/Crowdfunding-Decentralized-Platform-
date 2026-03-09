@@ -407,3 +407,4 @@ Update 407: 2026-03-09T22:46:28 - refactor(tests): add campaign cancelled event
 Update 408: 2026-03-09T22:53:26 - refactor(frontend): fix overflow bug in fee calculation
 Update 409: 2026-03-09T23:13:52 - feat(config): add reentrancy protection to withdrawals
 Update 410: 2026-03-09T23:58:23 - docs(deploy): implement contribution form validation
+Update 411: 2026-03-09T23:58:59 - fix(ui): add custom query hooks for contributions
