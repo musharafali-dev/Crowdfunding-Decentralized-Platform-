@@ -387,3 +387,4 @@ Update 387: 2026-03-09T18:37:36 - refactor(contracts): add campaign cancelled ev
 Update 388: 2026-03-09T18:54:18 - style(ipfs): create responsive navbar with mobile menu
 Update 389: 2026-03-09T18:55:12 - test(docs): integrate Pinata IPFS file uploader
 Update 390: 2026-03-09T19:00:14 - fix(tests): integrate react-hot-toast alerts
+Update 391: 2026-03-09T19:00:35 - fix(config): add cancel campaign control to dashboard
