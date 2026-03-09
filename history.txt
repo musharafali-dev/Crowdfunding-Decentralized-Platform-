@@ -394,3 +394,4 @@ Update 394: 2026-03-09T19:27:19 - refactor(ipfs): style dashboard layout
 Update 395: 2026-03-09T19:29:23 - style(tests): add double refund prevention tests
 Update 396: 2026-03-09T19:32:25 - test(contracts): add glassmorphism styles to css base
 Update 397: 2026-03-09T19:53:27 - docs(tests): fix hydration mismatch warnings
+Update 398: 2026-03-09T20:10:31 - style(ipfs): create responsive navbar with mobile menu
