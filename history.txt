@@ -385,3 +385,4 @@ Update 385: 2026-03-09T18:14:28 - style(tests): add reentrancy protection to wit
 Update 386: 2026-03-09T18:25:04 - docs(ui): add ConnectButton to header
 Update 387: 2026-03-09T18:37:36 - refactor(contracts): add campaign cancelled event
 Update 388: 2026-03-09T18:54:18 - style(ipfs): create responsive navbar with mobile menu
+Update 389: 2026-03-09T18:55:12 - test(docs): integrate Pinata IPFS file uploader
