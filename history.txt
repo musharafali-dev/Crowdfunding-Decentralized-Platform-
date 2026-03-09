@@ -405,3 +405,4 @@ Update 405: 2026-03-09T22:10:01 - chore(config): add check for non-zero addresse
 Update 406: 2026-03-09T22:10:45 - docs(tests): style dashboard layout
 Update 407: 2026-03-09T22:46:28 - refactor(tests): add campaign cancelled event
 Update 408: 2026-03-09T22:53:26 - refactor(frontend): fix overflow bug in fee calculation
+Update 409: 2026-03-09T23:13:52 - feat(config): add reentrancy protection to withdrawals
