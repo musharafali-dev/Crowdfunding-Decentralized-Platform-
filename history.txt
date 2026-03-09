@@ -379,3 +379,4 @@ Update 379: 2026-03-09T14:58:56 - test(frontend): add custom query hooks for con
 Update 380: 2026-03-09T16:41:38 - feat(config): add category add owner function
 Update 381: 2026-03-09T17:02:32 - fix(frontend): integrate Pinata IPFS file uploader
 Update 382: 2026-03-09T17:32:03 - feat(frontend): fix type errors for campaignsRaw mapping
+Update 383: 2026-03-09T17:43:52 - refactor(frontend): add ConnectButton to header
