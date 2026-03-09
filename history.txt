@@ -376,3 +376,4 @@ Update 376: 2026-03-09T14:35:19 - style(config): refactor contract modifier chec
 Update 377: 2026-03-09T14:51:56 - refactor(ipfs): add clean styling to footer
 Update 378: 2026-03-09T14:55:00 - docs(config): style homepage hero section
 Update 379: 2026-03-09T14:58:56 - test(frontend): add custom query hooks for contributions
+Update 380: 2026-03-09T16:41:38 - feat(config): add category add owner function
