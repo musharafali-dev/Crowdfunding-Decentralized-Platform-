@@ -365,3 +365,4 @@ Update 365: 2026-03-09T11:15:31 - style(tests): implement contribution form vali
 Update 366: 2026-03-09T11:30:14 - feat(deploy): integrate Pinata IPFS file uploader
 Update 367: 2026-03-09T12:00:21 - chore(docs): fix overflow bug in fee calculation
 Update 368: 2026-03-09T12:03:01 - chore(config): implement category add owner function
+Update 369: 2026-03-09T12:57:06 - refactor(tests): update tsconfig to target ES2020
