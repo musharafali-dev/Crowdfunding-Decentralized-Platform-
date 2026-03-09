@@ -373,3 +373,4 @@ Update 373: 2026-03-09T14:22:39 - chore(deploy): format ether values using viem 
 Update 374: 2026-03-09T14:34:07 - docs(ui): add default categories to constructor
 Update 375: 2026-03-09T14:34:19 - feat(contracts): optimize active campaigns gas cost
 Update 376: 2026-03-09T14:35:19 - style(config): refactor contract modifier checks
+Update 377: 2026-03-09T14:51:56 - refactor(ipfs): add clean styling to footer
