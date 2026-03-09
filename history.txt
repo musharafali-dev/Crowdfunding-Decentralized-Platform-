@@ -392,3 +392,4 @@ Update 392: 2026-03-09T19:08:49 - test(docs): add loading skeletons during tx co
 Update 393: 2026-03-09T19:22:49 - docs(contracts): add clean styling to footer
 Update 394: 2026-03-09T19:27:19 - refactor(ipfs): style dashboard layout
 Update 395: 2026-03-09T19:29:23 - style(tests): add double refund prevention tests
+Update 396: 2026-03-09T19:32:25 - test(contracts): add glassmorphism styles to css base
