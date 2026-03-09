@@ -356,3 +356,4 @@ Update 356: 2026-03-08T23:50:25 - style(contracts): add campaign cancelled event
 Update 357: 2026-03-09T08:13:36 - style(ipfs): style dashboard layout
 Update 358: 2026-03-09T08:18:44 - chore(ui): create remaining time countdown timer
 Update 359: 2026-03-09T08:24:34 - refactor(frontend): style homepage hero section
+Update 360: 2026-03-09T08:51:17 - style(config): add campaign cancelled event
