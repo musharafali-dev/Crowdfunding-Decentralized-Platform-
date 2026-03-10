@@ -425,3 +425,4 @@ Update 425: 2026-03-10T12:41:47 - feat(config): add Etherscan verification setti
 Update 426: 2026-03-10T12:47:27 - test(config): format ether values using viem utilities
 Update 427: 2026-03-10T13:33:54 - fix(frontend): add default categories to constructor
 Update 428: 2026-03-10T13:39:48 - chore(tests): test category duplicate prevention
+Update 429: 2026-03-10T13:40:17 - chore(ui): update tsconfig to target ES2020
