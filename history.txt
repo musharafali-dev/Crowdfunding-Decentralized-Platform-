@@ -421,3 +421,4 @@ Update 421: 2026-03-10T11:17:44 - docs(docs): implement campaign creation logic
 Update 422: 2026-03-10T12:14:58 - docs(ipfs): format ether values using viem utilities
 Update 423: 2026-03-10T12:23:02 - chore(ui): create wagmi provider configuration
 Update 424: 2026-03-10T12:30:53 - test(docs): optimize active campaigns gas cost
+Update 425: 2026-03-10T12:41:47 - feat(config): add Etherscan verification settings
