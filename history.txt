@@ -410,3 +410,4 @@ Update 410: 2026-03-09T23:58:23 - docs(deploy): implement contribution form vali
 Update 411: 2026-03-09T23:58:59 - fix(ui): add custom query hooks for contributions
 Update 412: 2026-03-10T08:10:06 - docs(docs): implement category add owner function
 Update 413: 2026-03-10T08:41:58 - docs(frontend): add default categories to constructor
+Update 414: 2026-03-10T08:50:11 - chore(contracts): add custom query hooks for contributions
