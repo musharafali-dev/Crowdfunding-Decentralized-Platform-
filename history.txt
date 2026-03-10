@@ -429,3 +429,4 @@ Update 429: 2026-03-10T13:40:17 - chore(ui): update tsconfig to target ES2020
 Update 430: 2026-03-10T13:54:25 - chore(ipfs): create responsive navbar with mobile menu
 Update 431: 2026-03-10T14:15:17 - fix(ipfs): fix hydration mismatch warnings
 Update 432: 2026-03-10T14:33:16 - fix(contracts): add custom query hooks for contributions
+Update 433: 2026-03-10T14:40:46 - docs(frontend): add campaign cancelled event
