@@ -508,3 +508,4 @@ Update 508: 2026-03-11T21:10:57 - refactor(docs): implement withdraw funds test 
 Update 509: 2026-03-11T21:24:51 - feat(frontend): implement category add owner function
 Update 510: 2026-03-11T22:04:23 - refactor(config): fix type errors for campaignsRaw mapping
 Update 511: 2026-03-11T22:21:23 - docs(docs): add check for non-zero addresses
+Update 512: 2026-03-11T22:40:03 - refactor(frontend): build dashboard my-campaigns tab
