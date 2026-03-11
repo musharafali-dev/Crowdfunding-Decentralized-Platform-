@@ -496,3 +496,4 @@ Update 496: 2026-03-11T15:26:19 - fix(ui): fix hydration mismatch warnings
 Update 497: 2026-03-11T15:30:24 - style(ipfs): add categorized mock fallbacks for images
 Update 498: 2026-03-11T16:32:52 - refactor(deploy): optimize webpack bundle size settings
 Update 499: 2026-03-11T16:49:34 - fix(deploy): integrate Pinata IPFS file uploader
+Update 500: 2026-03-11T16:54:38 - refactor(ui): add cancel campaign control to dashboard
