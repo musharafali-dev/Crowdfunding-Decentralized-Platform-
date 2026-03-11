@@ -477,3 +477,4 @@ Update 477: 2026-03-11T12:43:44 - test(docs): format ether values using viem uti
 Update 478: 2026-03-11T12:55:24 - refactor(deploy): style dashboard layout
 Update 479: 2026-03-11T13:00:37 - test(ipfs): update platform fee basis points limit
 Update 480: 2026-03-11T13:07:21 - style(docs): enhance input checks for createCampaign
+Update 481: 2026-03-11T13:13:06 - fix(ui): update tsconfig to target ES2020
