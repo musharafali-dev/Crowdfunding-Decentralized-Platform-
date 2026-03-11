@@ -506,3 +506,4 @@ Update 506: 2026-03-11T19:11:07 - test(tests): add category add owner function
 Update 507: 2026-03-11T20:18:47 - fix(tests): integrate Pinata IPFS file uploader
 Update 508: 2026-03-11T21:10:57 - refactor(docs): implement withdraw funds test cases
 Update 509: 2026-03-11T21:24:51 - feat(frontend): implement category add owner function
+Update 510: 2026-03-11T22:04:23 - refactor(config): fix type errors for campaignsRaw mapping
