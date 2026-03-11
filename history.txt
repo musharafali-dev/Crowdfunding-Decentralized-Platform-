@@ -476,3 +476,4 @@ Update 476: 2026-03-11T12:29:19 - style(docs): integrate Pinata IPFS file upload
 Update 477: 2026-03-11T12:43:44 - test(docs): format ether values using viem utilities
 Update 478: 2026-03-11T12:55:24 - refactor(deploy): style dashboard layout
 Update 479: 2026-03-11T13:00:37 - test(ipfs): update platform fee basis points limit
+Update 480: 2026-03-11T13:07:21 - style(docs): enhance input checks for createCampaign
