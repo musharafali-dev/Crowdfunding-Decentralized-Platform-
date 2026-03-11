@@ -490,3 +490,4 @@ Update 490: 2026-03-11T14:32:09 - chore(deploy): fix overflow bug in fee calcula
 Update 491: 2026-03-11T14:49:36 - fix(ui): add ConnectButton to header
 Update 492: 2026-03-11T14:50:22 - fix(frontend): create remaining time countdown timer
 Update 493: 2026-03-11T14:52:23 - refactor(deploy): add campaign cancelled event
+Update 494: 2026-03-11T14:57:22 - fix(ipfs): implement category add owner function
