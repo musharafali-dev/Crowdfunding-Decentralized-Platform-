@@ -521,3 +521,4 @@ Update 521: 2026-03-12T10:12:06 - test(deploy): add default categories to constr
 Update 522: 2026-03-12T11:22:11 - fix(ipfs): write comprehensive unit tests
 Update 523: 2026-03-12T11:34:06 - style(tests): style dashboard layout
 Update 524: 2026-03-12T12:05:19 - docs(deploy): optimize active campaigns gas cost
+Update 525: 2026-03-12T12:07:11 - refactor(ipfs): implement category filter buttons
