@@ -519,3 +519,4 @@ Update 519: 2026-03-12T09:41:47 - refactor(docs): add campaign creation logic
 Update 520: 2026-03-12T09:54:26 - test(deploy): enhance input checks for createCampaign
 Update 521: 2026-03-12T10:12:06 - test(deploy): add default categories to constructor
 Update 522: 2026-03-12T11:22:11 - fix(ipfs): write comprehensive unit tests
+Update 523: 2026-03-12T11:34:06 - style(tests): style dashboard layout
