@@ -550,3 +550,4 @@ Update 550: 2026-03-12T21:08:44 - fix(frontend): fix deadline calculation bug
 Update 551: 2026-03-12T21:11:22 - fix(ui): update Readme deployment section
 Update 552: 2026-03-12T21:37:13 - feat(docs): create remaining time countdown timer
 Update 553: 2026-03-12T22:13:23 - feat(tests): add cancel campaign control to dashboard
+Update 554: 2026-03-12T23:22:26 - chore(docs): fix deadline calculation bug
