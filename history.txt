@@ -529,3 +529,4 @@ Update 529: 2026-03-12T14:43:00 - refactor(config): integrate react-hot-toast al
 Update 530: 2026-03-12T15:05:11 - refactor(ipfs): implement claim refund button functionality
 Update 531: 2026-03-12T15:39:30 - chore(docs): add categorized mock fallbacks for images
 Update 532: 2026-03-12T15:46:27 - refactor(ui): integrate react-hot-toast alerts
+Update 533: 2026-03-12T15:51:02 - test(ipfs): add default categories to constructor
