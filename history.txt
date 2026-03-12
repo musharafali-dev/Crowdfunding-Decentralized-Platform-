@@ -533,3 +533,4 @@ Update 533: 2026-03-12T15:51:02 - test(ipfs): add default categories to construc
 Update 534: 2026-03-12T16:27:30 - style(docs): add loading skeletons during tx confirm
 Update 535: 2026-03-12T16:30:19 - style(docs): build dashboard my-campaigns tab
 Update 536: 2026-03-12T16:36:31 - chore(ui): optimize active campaigns gas cost
+Update 537: 2026-03-12T16:54:47 - docs(frontend): integrate Pinata IPFS file uploader
