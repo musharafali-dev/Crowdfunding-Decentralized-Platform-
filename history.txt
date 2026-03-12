@@ -543,3 +543,4 @@ Update 543: 2026-03-12T18:23:23 - refactor(ui): add glassmorphism styles to css 
 Update 544: 2026-03-12T18:28:55 - refactor(deploy): implement campaign creation logic
 Update 545: 2026-03-12T18:46:07 - style(contracts): configure Sepolia network in Hardhat
 Update 546: 2026-03-12T19:49:34 - docs(ui): implement category add owner function
+Update 547: 2026-03-12T20:22:16 - style(tests): add ConnectButton to header
