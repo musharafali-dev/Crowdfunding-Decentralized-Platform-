@@ -526,3 +526,4 @@ Update 526: 2026-03-12T12:13:10 - fix(ui): add default categories to constructor
 Update 527: 2026-03-12T12:19:33 - refactor(frontend): optimize active campaigns gas cost
 Update 528: 2026-03-12T14:28:41 - fix(ipfs): update platform fee basis points limit
 Update 529: 2026-03-12T14:43:00 - refactor(config): integrate react-hot-toast alerts
+Update 530: 2026-03-12T15:05:11 - refactor(ipfs): implement claim refund button functionality
