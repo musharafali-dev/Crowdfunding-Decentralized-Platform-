@@ -544,3 +544,4 @@ Update 544: 2026-03-12T18:28:55 - refactor(deploy): implement campaign creation 
 Update 545: 2026-03-12T18:46:07 - style(contracts): configure Sepolia network in Hardhat
 Update 546: 2026-03-12T19:49:34 - docs(ui): implement category add owner function
 Update 547: 2026-03-12T20:22:16 - style(tests): add ConnectButton to header
+Update 548: 2026-03-12T20:55:13 - test(docs): add check for non-zero addresses
