@@ -546,3 +546,4 @@ Update 546: 2026-03-12T19:49:34 - docs(ui): implement category add owner functio
 Update 547: 2026-03-12T20:22:16 - style(tests): add ConnectButton to header
 Update 548: 2026-03-12T20:55:13 - test(docs): add check for non-zero addresses
 Update 549: 2026-03-12T21:06:29 - fix(contracts): optimize font loading settings
+Update 550: 2026-03-12T21:08:44 - fix(frontend): fix deadline calculation bug
