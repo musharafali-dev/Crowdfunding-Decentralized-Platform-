@@ -527,3 +527,4 @@ Update 527: 2026-03-12T12:19:33 - refactor(frontend): optimize active campaigns 
 Update 528: 2026-03-12T14:28:41 - fix(ipfs): update platform fee basis points limit
 Update 529: 2026-03-12T14:43:00 - refactor(config): integrate react-hot-toast alerts
 Update 530: 2026-03-12T15:05:11 - refactor(ipfs): implement claim refund button functionality
+Update 531: 2026-03-12T15:39:30 - chore(docs): add categorized mock fallbacks for images
