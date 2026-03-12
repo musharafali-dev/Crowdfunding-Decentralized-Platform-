@@ -523,3 +523,4 @@ Update 523: 2026-03-12T11:34:06 - style(tests): style dashboard layout
 Update 524: 2026-03-12T12:05:19 - docs(deploy): optimize active campaigns gas cost
 Update 525: 2026-03-12T12:07:11 - refactor(ipfs): implement category filter buttons
 Update 526: 2026-03-12T12:13:10 - fix(ui): add default categories to constructor
+Update 527: 2026-03-12T12:19:33 - refactor(frontend): optimize active campaigns gas cost
