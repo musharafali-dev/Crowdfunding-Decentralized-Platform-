@@ -572,3 +572,4 @@ Update 572: 2026-03-13T12:19:37 - feat(frontend): optimize active campaigns gas 
 Update 573: 2026-03-13T12:39:21 - fix(docs): optimize active campaigns gas cost
 Update 574: 2026-03-13T13:16:37 - test(docs): add glassmorphism styles to css base
 Update 575: 2026-03-13T13:21:55 - chore(contracts): add default categories to constructor
+Update 576: 2026-03-13T13:23:06 - chore(frontend): refactor tailwind config spacing variables
