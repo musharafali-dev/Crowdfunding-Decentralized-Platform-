@@ -553,3 +553,4 @@ Update 553: 2026-03-12T22:13:23 - feat(tests): add cancel campaign control to da
 Update 554: 2026-03-12T23:22:26 - chore(docs): fix deadline calculation bug
 Update 555: 2026-03-13T08:13:19 - refactor(contracts): fix overflow bug in fee calculation
 Update 556: 2026-03-13T08:21:47 - refactor(frontend): refactor tailwind config spacing variables
+Update 557: 2026-03-13T08:32:24 - feat(ipfs): add campaign cancelled event
