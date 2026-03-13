@@ -557,3 +557,4 @@ Update 557: 2026-03-13T08:32:24 - feat(ipfs): add campaign cancelled event
 Update 558: 2026-03-13T08:39:16 - docs(ui): test category duplicate prevention
 Update 559: 2026-03-13T08:40:46 - refactor(ui): add double refund prevention tests
 Update 560: 2026-03-13T08:55:15 - chore(contracts): configure Sepolia network in Hardhat
+Update 561: 2026-03-13T09:25:43 - test(tests): enhance input checks for createCampaign
