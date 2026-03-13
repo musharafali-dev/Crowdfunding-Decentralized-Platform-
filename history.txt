@@ -580,3 +580,4 @@ Update 580: 2026-03-13T14:33:10 - style(config): add glassmorphism styles to css
 Update 581: 2026-03-13T14:42:58 - docs(tests): add Etherscan verification settings
 Update 582: 2026-03-13T14:58:05 - test(ui): update tsconfig to target ES2020
 Update 583: 2026-03-13T15:30:19 - style(config): optimize active campaigns gas cost
+Update 584: 2026-03-13T15:40:41 - style(docs): optimize font loading settings
