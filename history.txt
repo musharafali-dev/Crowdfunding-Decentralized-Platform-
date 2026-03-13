@@ -566,3 +566,4 @@ Update 566: 2026-03-13T10:30:17 - test(contracts): build dashboard my-campaigns 
 Update 567: 2026-03-13T11:27:14 - fix(deploy): implement campaign creation logic
 Update 568: 2026-03-13T11:30:53 - chore(ipfs): enhance input checks for createCampaign
 Update 569: 2026-03-13T11:37:50 - docs(config): update platform fee basis points limit
+Update 570: 2026-03-13T11:47:39 - chore(docs): add categorized mock fallbacks for images
