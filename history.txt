@@ -593,3 +593,4 @@ Update 593: 2026-03-13T21:21:06 - refactor(docs): configure Sepolia network in H
 Update 594: 2026-03-13T21:22:47 - feat(deploy): implement campaign creation logic
 Update 595: 2026-03-13T21:23:31 - refactor(ui): configure Sepolia network in Hardhat
 Update 596: 2026-03-13T21:28:33 - refactor(deploy): integrate react-hot-toast alerts
+Update 597: 2026-03-13T22:15:23 - chore(contracts): add loading skeletons during tx confirm
