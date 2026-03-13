@@ -589,3 +589,4 @@ Update 589: 2026-03-13T19:54:06 - feat(ui): add campaign cancelled event
 Update 590: 2026-03-13T20:23:01 - fix(docs): style homepage hero section
 Update 591: 2026-03-13T20:51:56 - style(config): style dashboard layout
 Update 592: 2026-03-13T21:13:46 - fix(config): add custom query hooks for contributions
+Update 593: 2026-03-13T21:21:06 - refactor(docs): configure Sepolia network in Hardhat
