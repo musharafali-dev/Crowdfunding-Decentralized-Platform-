@@ -587,3 +587,4 @@ Update 587: 2026-03-13T17:16:57 - docs(frontend): update tsconfig to target ES20
 Update 588: 2026-03-13T18:27:02 - test(ui): update platform fee basis points limit
 Update 589: 2026-03-13T19:54:06 - feat(ui): add campaign cancelled event
 Update 590: 2026-03-13T20:23:01 - fix(docs): style homepage hero section
+Update 591: 2026-03-13T20:51:56 - style(config): style dashboard layout
