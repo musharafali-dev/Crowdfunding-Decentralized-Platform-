@@ -555,3 +555,4 @@ Update 555: 2026-03-13T08:13:19 - refactor(contracts): fix overflow bug in fee c
 Update 556: 2026-03-13T08:21:47 - refactor(frontend): refactor tailwind config spacing variables
 Update 557: 2026-03-13T08:32:24 - feat(ipfs): add campaign cancelled event
 Update 558: 2026-03-13T08:39:16 - docs(ui): test category duplicate prevention
+Update 559: 2026-03-13T08:40:46 - refactor(ui): add double refund prevention tests
