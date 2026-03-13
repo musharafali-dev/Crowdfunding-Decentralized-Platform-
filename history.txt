@@ -560,3 +560,4 @@ Update 560: 2026-03-13T08:55:15 - chore(contracts): configure Sepolia network in
 Update 561: 2026-03-13T09:25:43 - test(tests): enhance input checks for createCampaign
 Update 562: 2026-03-13T10:00:07 - test(docs): add loading skeletons during tx confirm
 Update 563: 2026-03-13T10:05:49 - fix(tests): implement category add owner function
+Update 564: 2026-03-13T10:21:15 - test(ui): configure Sepolia network in Hardhat
