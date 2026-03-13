@@ -569,3 +569,4 @@ Update 569: 2026-03-13T11:37:50 - docs(config): update platform fee basis points
 Update 570: 2026-03-13T11:47:39 - chore(docs): add categorized mock fallbacks for images
 Update 571: 2026-03-13T11:48:39 - docs(deploy): optimize webpack bundle size settings
 Update 572: 2026-03-13T12:19:37 - feat(frontend): optimize active campaigns gas cost
+Update 573: 2026-03-13T12:39:21 - fix(docs): optimize active campaigns gas cost
