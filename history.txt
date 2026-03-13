@@ -581,3 +581,4 @@ Update 581: 2026-03-13T14:42:58 - docs(tests): add Etherscan verification settin
 Update 582: 2026-03-13T14:58:05 - test(ui): update tsconfig to target ES2020
 Update 583: 2026-03-13T15:30:19 - style(config): optimize active campaigns gas cost
 Update 584: 2026-03-13T15:40:41 - style(docs): optimize font loading settings
+Update 585: 2026-03-13T16:03:36 - chore(ipfs): add double refund prevention tests
