@@ -559,3 +559,4 @@ Update 559: 2026-03-13T08:40:46 - refactor(ui): add double refund prevention tes
 Update 560: 2026-03-13T08:55:15 - chore(contracts): configure Sepolia network in Hardhat
 Update 561: 2026-03-13T09:25:43 - test(tests): enhance input checks for createCampaign
 Update 562: 2026-03-13T10:00:07 - test(docs): add loading skeletons during tx confirm
+Update 563: 2026-03-13T10:05:49 - fix(tests): implement category add owner function
