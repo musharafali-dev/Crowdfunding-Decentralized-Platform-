@@ -595,3 +595,4 @@ Update 595: 2026-03-13T21:23:31 - refactor(ui): configure Sepolia network in Har
 Update 596: 2026-03-13T21:28:33 - refactor(deploy): integrate react-hot-toast alerts
 Update 597: 2026-03-13T22:15:23 - chore(contracts): add loading skeletons during tx confirm
 Update 598: 2026-03-13T22:28:08 - test(ui): style dashboard layout
+Update 599: 2026-03-13T23:01:04 - feat(docs): add double refund prevention tests
