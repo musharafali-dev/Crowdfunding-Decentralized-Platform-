@@ -562,3 +562,4 @@ Update 562: 2026-03-13T10:00:07 - test(docs): add loading skeletons during tx co
 Update 563: 2026-03-13T10:05:49 - fix(tests): implement category add owner function
 Update 564: 2026-03-13T10:21:15 - test(ui): configure Sepolia network in Hardhat
 Update 565: 2026-03-13T10:25:40 - feat(deploy): implement contribution form validation
+Update 566: 2026-03-13T10:30:17 - test(contracts): build dashboard my-campaigns tab
