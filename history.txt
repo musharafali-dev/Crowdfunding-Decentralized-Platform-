@@ -574,3 +574,4 @@ Update 574: 2026-03-13T13:16:37 - test(docs): add glassmorphism styles to css ba
 Update 575: 2026-03-13T13:21:55 - chore(contracts): add default categories to constructor
 Update 576: 2026-03-13T13:23:06 - chore(frontend): refactor tailwind config spacing variables
 Update 577: 2026-03-13T13:51:59 - style(config): format ether values using viem utilities
+Update 578: 2026-03-13T14:23:29 - docs(docs): integrate Pinata IPFS file uploader
