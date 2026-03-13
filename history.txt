@@ -578,3 +578,4 @@ Update 578: 2026-03-13T14:23:29 - docs(docs): integrate Pinata IPFS file uploade
 Update 579: 2026-03-13T14:29:12 - fix(frontend): create remaining time countdown timer
 Update 580: 2026-03-13T14:33:10 - style(config): add glassmorphism styles to css base
 Update 581: 2026-03-13T14:42:58 - docs(tests): add Etherscan verification settings
+Update 582: 2026-03-13T14:58:05 - test(ui): update tsconfig to target ES2020
