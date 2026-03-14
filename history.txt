@@ -604,3 +604,4 @@ Update 604: 2026-03-14T10:43:15 - fix(deploy): optimize font loading settings
 Update 605: 2026-03-14T10:48:37 - docs(frontend): fix overflow bug in fee calculation
 Update 606: 2026-03-14T11:29:13 - feat(frontend): configure Sepolia network in Hardhat
 Update 607: 2026-03-14T11:42:06 - chore(docs): optimize active campaigns gas cost
+Update 608: 2026-03-14T11:57:57 - feat(ui): refactor contract modifier checks
