@@ -620,3 +620,4 @@ Update 620: 2026-03-14T16:09:37 - refactor(config): integrate react-hot-toast al
 Update 621: 2026-03-14T16:10:30 - test(ipfs): style homepage hero section
 Update 622: 2026-03-14T16:14:17 - style(deploy): add loading skeletons during tx confirm
 Update 623: 2026-03-14T16:17:02 - feat(frontend): add default categories to constructor
+Update 624: 2026-03-14T16:33:10 - style(contracts): add Etherscan verification settings
