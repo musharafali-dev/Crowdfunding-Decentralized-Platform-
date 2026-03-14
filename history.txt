@@ -599,3 +599,4 @@ Update 599: 2026-03-13T23:01:04 - feat(docs): add double refund prevention tests
 Update 600: 2026-03-13T23:33:04 - feat(ui): implement category filter buttons
 Update 601: 2026-03-14T08:28:45 - chore(deploy): add double refund prevention tests
 Update 602: 2026-03-14T10:31:31 - chore(contracts): implement category add owner function
+Update 603: 2026-03-14T10:41:14 - feat(docs): refactor contract modifier checks
