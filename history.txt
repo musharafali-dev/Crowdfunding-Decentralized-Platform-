@@ -602,3 +602,4 @@ Update 602: 2026-03-14T10:31:31 - chore(contracts): implement category add owner
 Update 603: 2026-03-14T10:41:14 - feat(docs): refactor contract modifier checks
 Update 604: 2026-03-14T10:43:15 - fix(deploy): optimize font loading settings
 Update 605: 2026-03-14T10:48:37 - docs(frontend): fix overflow bug in fee calculation
+Update 606: 2026-03-14T11:29:13 - feat(frontend): configure Sepolia network in Hardhat
