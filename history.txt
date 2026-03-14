@@ -601,3 +601,4 @@ Update 601: 2026-03-14T08:28:45 - chore(deploy): add double refund prevention te
 Update 602: 2026-03-14T10:31:31 - chore(contracts): implement category add owner function
 Update 603: 2026-03-14T10:41:14 - feat(docs): refactor contract modifier checks
 Update 604: 2026-03-14T10:43:15 - fix(deploy): optimize font loading settings
+Update 605: 2026-03-14T10:48:37 - docs(frontend): fix overflow bug in fee calculation
