@@ -630,3 +630,4 @@ Update 630: 2026-03-14T17:26:20 - chore(docs): implement claim refund button fun
 Update 631: 2026-03-14T17:33:41 - fix(config): add loading skeletons during tx confirm
 Update 632: 2026-03-14T17:40:35 - chore(deploy): add campaign cancelled event
 Update 633: 2026-03-14T18:45:19 - chore(config): build dashboard my-campaigns tab
+Update 634: 2026-03-14T18:51:06 - style(docs): build dashboard my-campaigns tab
