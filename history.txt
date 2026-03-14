@@ -607,3 +607,4 @@ Update 607: 2026-03-14T11:42:06 - chore(docs): optimize active campaigns gas cos
 Update 608: 2026-03-14T11:57:57 - feat(ui): refactor contract modifier checks
 Update 609: 2026-03-14T12:09:18 - style(ipfs): add ConnectButton to header
 Update 610: 2026-03-14T12:10:15 - style(frontend): add clean styling to footer
+Update 611: 2026-03-14T12:32:06 - docs(docs): add glassmorphism styles to css base
