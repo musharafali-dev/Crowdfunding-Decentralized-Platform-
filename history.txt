@@ -633,3 +633,4 @@ Update 633: 2026-03-14T18:45:19 - chore(config): build dashboard my-campaigns ta
 Update 634: 2026-03-14T18:51:06 - style(docs): build dashboard my-campaigns tab
 Update 635: 2026-03-14T18:53:52 - feat(contracts): add check for non-zero addresses
 Update 636: 2026-03-14T18:59:55 - refactor(ui): integrate react-hot-toast alerts
+Update 637: 2026-03-14T19:14:39 - style(config): fix overflow bug in fee calculation
