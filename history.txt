@@ -670,3 +670,4 @@ Update 670: 2026-03-15T17:55:18 - style(docs): implement contribution form valid
 Update 671: 2026-03-15T18:00:37 - style(deploy): fix overflow bug in fee calculation
 Update 672: 2026-03-15T18:10:35 - fix(ipfs): integrate react-hot-toast alerts
 Update 673: 2026-03-15T18:34:52 - docs(deploy): fix overflow bug in fee calculation
+Update 674: 2026-03-15T19:23:29 - refactor(ui): add check for non-zero addresses
