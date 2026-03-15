@@ -657,3 +657,4 @@ Update 657: 2026-03-15T11:57:47 - test(deploy): implement withdraw funds test ca
 Update 658: 2026-03-15T13:05:44 - style(ui): add double refund prevention tests
 Update 659: 2026-03-15T14:08:03 - chore(config): add ConnectButton to header
 Update 660: 2026-03-15T14:22:57 - fix(deploy): add campaign cancelled event
+Update 661: 2026-03-15T14:34:51 - feat(frontend): create responsive navbar with mobile menu
