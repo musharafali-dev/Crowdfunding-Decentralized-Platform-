@@ -656,3 +656,4 @@ Update 656: 2026-03-15T11:15:51 - test(docs): test category duplicate prevention
 Update 657: 2026-03-15T11:57:47 - test(deploy): implement withdraw funds test cases
 Update 658: 2026-03-15T13:05:44 - style(ui): add double refund prevention tests
 Update 659: 2026-03-15T14:08:03 - chore(config): add ConnectButton to header
+Update 660: 2026-03-15T14:22:57 - fix(deploy): add campaign cancelled event
