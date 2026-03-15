@@ -645,3 +645,4 @@ Update 645: 2026-03-14T23:23:40 - docs(docs): add cancel campaign control to das
 Update 646: 2026-03-14T23:28:19 - refactor(deploy): fix hydration mismatch warnings
 Update 647: 2026-03-15T08:23:29 - refactor(ipfs): configure Sepolia network in Hardhat
 Update 648: 2026-03-15T08:40:49 - test(tests): refactor contract modifier checks
+Update 649: 2026-03-15T08:46:17 - refactor(docs): add clean styling to footer
