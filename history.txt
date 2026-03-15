@@ -661,3 +661,4 @@ Update 661: 2026-03-15T14:34:51 - feat(frontend): create responsive navbar with 
 Update 662: 2026-03-15T14:34:52 - refactor(contracts): create remaining time countdown timer
 Update 663: 2026-03-15T15:00:49 - style(ui): create remaining time countdown timer
 Update 664: 2026-03-15T15:16:40 - test(tests): optimize webpack bundle size settings
+Update 665: 2026-03-15T15:27:38 - feat(docs): format ether values using viem utilities
