@@ -677,3 +677,4 @@ Update 677: 2026-03-15T21:17:05 - chore(docs): implement withdraw funds test cas
 Update 678: 2026-03-15T21:31:42 - refactor(frontend): add contribution form validation
 Update 679: 2026-03-15T21:57:44 - docs(frontend): optimize webpack bundle size settings
 Update 680: 2026-03-15T22:18:59 - test(docs): create remaining time countdown timer
+Update 681: 2026-03-15T23:25:45 - style(deploy): format ether values using viem utilities
