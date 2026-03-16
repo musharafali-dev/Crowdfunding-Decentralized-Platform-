@@ -711,3 +711,4 @@ Update 711: 2026-03-16T19:02:16 - feat(ipfs): create remaining time countdown ti
 Update 712: 2026-03-16T19:36:09 - refactor(contracts): add Etherscan verification settings
 Update 713: 2026-03-16T20:18:40 - fix(ui): fix type errors for campaignsRaw mapping
 Update 714: 2026-03-16T20:28:40 - refactor(deploy): fix hydration mismatch warnings
+Update 715: 2026-03-16T20:37:27 - feat(config): style dashboard layout
