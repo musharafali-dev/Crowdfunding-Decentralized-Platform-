@@ -708,3 +708,4 @@ Update 708: 2026-03-16T18:18:26 - style(ui): add double refund prevention tests
 Update 709: 2026-03-16T18:29:36 - fix(docs): style dashboard layout
 Update 710: 2026-03-16T18:53:48 - docs(frontend): integrate Pinata IPFS file uploader
 Update 711: 2026-03-16T19:02:16 - feat(ipfs): create remaining time countdown timer
+Update 712: 2026-03-16T19:36:09 - refactor(contracts): add Etherscan verification settings
