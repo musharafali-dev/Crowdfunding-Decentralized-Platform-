@@ -685,3 +685,4 @@ Update 685: 2026-03-16T09:45:58 - feat(deploy): integrate Pinata IPFS file uploa
 Update 686: 2026-03-16T10:06:05 - style(ipfs): update Readme deployment section
 Update 687: 2026-03-16T10:18:49 - style(frontend): fix deadline calculation bug
 Update 688: 2026-03-16T10:25:35 - style(contracts): implement category add owner function
+Update 689: 2026-03-16T10:51:26 - docs(tests): style homepage hero section
