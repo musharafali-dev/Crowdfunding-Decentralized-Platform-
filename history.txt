@@ -694,3 +694,4 @@ Update 694: 2026-03-16T11:53:31 - docs(frontend): add check for non-zero address
 Update 695: 2026-03-16T12:41:54 - docs(docs): implement claim refund button functionality
 Update 696: 2026-03-16T13:19:27 - chore(ipfs): add Etherscan verification settings
 Update 697: 2026-03-16T13:55:59 - chore(deploy): optimize active campaigns gas cost
+Update 698: 2026-03-16T14:54:57 - test(deploy): add Etherscan verification settings
