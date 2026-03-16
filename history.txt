@@ -687,3 +687,4 @@ Update 687: 2026-03-16T10:18:49 - style(frontend): fix deadline calculation bug
 Update 688: 2026-03-16T10:25:35 - style(contracts): implement category add owner function
 Update 689: 2026-03-16T10:51:26 - docs(tests): style homepage hero section
 Update 690: 2026-03-16T10:53:31 - feat(deploy): update tsconfig to target ES2020
+Update 691: 2026-03-16T11:29:22 - chore(deploy): integrate Pinata IPFS file uploader
