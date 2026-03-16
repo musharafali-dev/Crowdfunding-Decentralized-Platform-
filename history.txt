@@ -700,3 +700,4 @@ Update 700: 2026-03-16T15:00:15 - feat(docs): update Readme deployment section
 Update 701: 2026-03-16T15:04:28 - fix(ui): implement category add owner function
 Update 702: 2026-03-16T15:31:08 - docs(contracts): format ether values using viem utilities
 Update 703: 2026-03-16T15:31:29 - style(ui): add glassmorphism styles to css base
+Update 704: 2026-03-16T15:52:30 - chore(config): integrate react-hot-toast alerts
