@@ -691,3 +691,4 @@ Update 691: 2026-03-16T11:29:22 - chore(deploy): integrate Pinata IPFS file uplo
 Update 692: 2026-03-16T11:38:09 - test(contracts): add categorized mock fallbacks for images
 Update 693: 2026-03-16T11:53:09 - fix(docs): style homepage hero section
 Update 694: 2026-03-16T11:53:31 - docs(frontend): add check for non-zero addresses
+Update 695: 2026-03-16T12:41:54 - docs(docs): implement claim refund button functionality
