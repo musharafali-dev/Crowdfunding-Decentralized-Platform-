@@ -713,3 +713,4 @@ Update 713: 2026-03-16T20:18:40 - fix(ui): fix type errors for campaignsRaw mapp
 Update 714: 2026-03-16T20:28:40 - refactor(deploy): fix hydration mismatch warnings
 Update 715: 2026-03-16T20:37:27 - feat(config): style dashboard layout
 Update 716: 2026-03-16T20:40:54 - feat(deploy): implement campaign creation logic
+Update 717: 2026-03-16T21:41:01 - feat(contracts): update platform fee basis points limit
