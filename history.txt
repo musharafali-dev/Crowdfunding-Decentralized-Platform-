@@ -693,3 +693,4 @@ Update 693: 2026-03-16T11:53:09 - fix(docs): style homepage hero section
 Update 694: 2026-03-16T11:53:31 - docs(frontend): add check for non-zero addresses
 Update 695: 2026-03-16T12:41:54 - docs(docs): implement claim refund button functionality
 Update 696: 2026-03-16T13:19:27 - chore(ipfs): add Etherscan verification settings
+Update 697: 2026-03-16T13:55:59 - chore(deploy): optimize active campaigns gas cost
