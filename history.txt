@@ -706,3 +706,4 @@ Update 706: 2026-03-16T17:41:14 - feat(contracts): style homepage hero section
 Update 707: 2026-03-16T18:12:06 - docs(tests): fix hydration mismatch warnings
 Update 708: 2026-03-16T18:18:26 - style(ui): add double refund prevention tests
 Update 709: 2026-03-16T18:29:36 - fix(docs): style dashboard layout
+Update 710: 2026-03-16T18:53:48 - docs(frontend): integrate Pinata IPFS file uploader
