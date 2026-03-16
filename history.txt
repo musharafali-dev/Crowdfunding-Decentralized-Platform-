@@ -716,3 +716,4 @@ Update 716: 2026-03-16T20:40:54 - feat(deploy): implement campaign creation logi
 Update 717: 2026-03-16T21:41:01 - feat(contracts): update platform fee basis points limit
 Update 718: 2026-03-16T21:41:39 - refactor(ui): configure Sepolia network in Hardhat
 Update 719: 2026-03-16T21:53:52 - style(docs): add campaign cancelled event
+Update 720: 2026-03-16T21:58:27 - style(ipfs): add ConnectButton to header
