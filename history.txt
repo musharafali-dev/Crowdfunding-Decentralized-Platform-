@@ -721,3 +721,4 @@ Update 721: 2026-03-16T22:11:31 - style(tests): add clean styling to footer
 Update 722: 2026-03-16T22:33:11 - test(ui): add glassmorphism styles to css base
 Update 723: 2026-03-16T22:41:22 - style(frontend): fix type errors for campaignsRaw mapping
 Update 724: 2026-03-16T22:51:25 - style(config): fix type errors for campaignsRaw mapping
+Update 725: 2026-03-16T23:32:42 - fix(docs): update Readme deployment section
