@@ -715,3 +715,4 @@ Update 715: 2026-03-16T20:37:27 - feat(config): style dashboard layout
 Update 716: 2026-03-16T20:40:54 - feat(deploy): implement campaign creation logic
 Update 717: 2026-03-16T21:41:01 - feat(contracts): update platform fee basis points limit
 Update 718: 2026-03-16T21:41:39 - refactor(ui): configure Sepolia network in Hardhat
+Update 719: 2026-03-16T21:53:52 - style(docs): add campaign cancelled event
