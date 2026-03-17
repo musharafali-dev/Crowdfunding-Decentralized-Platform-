@@ -742,3 +742,4 @@ Update 742: 2026-03-17T15:07:55 - style(frontend): configure Sepolia network in 
 Update 743: 2026-03-17T16:25:23 - style(docs): add clean styling to footer
 Update 744: 2026-03-17T17:01:03 - feat(config): style dashboard layout
 Update 745: 2026-03-17T17:46:45 - chore(ipfs): optimize webpack bundle size settings
+Update 746: 2026-03-17T18:08:03 - docs(ipfs): add loading skeletons during tx confirm
