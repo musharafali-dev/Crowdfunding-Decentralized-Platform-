@@ -745,3 +745,4 @@ Update 745: 2026-03-17T17:46:45 - chore(ipfs): optimize webpack bundle size sett
 Update 746: 2026-03-17T18:08:03 - docs(ipfs): add loading skeletons during tx confirm
 Update 747: 2026-03-17T19:19:58 - refactor(frontend): add category filter buttons
 Update 748: 2026-03-17T19:52:17 - test(ui): update platform fee basis points limit
+Update 749: 2026-03-17T20:06:55 - docs(ipfs): enhance input checks for createCampaign
