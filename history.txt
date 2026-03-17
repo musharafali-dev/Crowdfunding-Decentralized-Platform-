@@ -747,3 +747,4 @@ Update 747: 2026-03-17T19:19:58 - refactor(frontend): add category filter button
 Update 748: 2026-03-17T19:52:17 - test(ui): update platform fee basis points limit
 Update 749: 2026-03-17T20:06:55 - docs(ipfs): enhance input checks for createCampaign
 Update 750: 2026-03-17T21:45:00 - style(ui): implement campaign details progress bar
+Update 751: 2026-03-17T21:54:23 - chore(frontend): add custom query hooks for contributions
