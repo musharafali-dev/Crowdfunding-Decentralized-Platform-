@@ -732,3 +732,4 @@ Update 732: 2026-03-17T10:13:49 - chore(frontend): fix hydration mismatch warnin
 Update 733: 2026-03-17T10:21:59 - fix(ui): implement withdraw funds test cases
 Update 734: 2026-03-17T11:29:35 - refactor(frontend): optimize font loading settings
 Update 735: 2026-03-17T11:59:52 - docs(ipfs): add campaign creation logic
+Update 736: 2026-03-17T12:49:27 - style(deploy): add loading skeletons during tx confirm
