@@ -738,3 +738,4 @@ Update 738: 2026-03-17T13:47:38 - test(config): create responsive navbar with mo
 Update 739: 2026-03-17T13:48:27 - style(config): test category duplicate prevention
 Update 740: 2026-03-17T14:17:14 - feat(contracts): add glassmorphism styles to css base
 Update 741: 2026-03-17T14:38:08 - fix(ui): create wagmi provider configuration
+Update 742: 2026-03-17T15:07:55 - style(frontend): configure Sepolia network in Hardhat
