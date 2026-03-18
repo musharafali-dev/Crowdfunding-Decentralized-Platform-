@@ -785,3 +785,4 @@ Update 785: 2026-03-18T19:06:20 - fix(deploy): test category duplicate preventio
 Update 786: 2026-03-18T19:39:00 - test(config): add loading skeletons during tx confirm
 Update 787: 2026-03-18T19:47:27 - test(ui): add default categories to constructor
 Update 788: 2026-03-18T19:56:15 - test(contracts): refactor tailwind config spacing variables
+Update 789: 2026-03-18T20:12:01 - chore(ipfs): add Etherscan verification settings
