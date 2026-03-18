@@ -771,3 +771,4 @@ Update 771: 2026-03-18T15:13:03 - test(config): add ConnectButton to header
 Update 772: 2026-03-18T15:17:20 - test(ui): add default categories to constructor
 Update 773: 2026-03-18T15:43:12 - feat(config): style dashboard layout
 Update 774: 2026-03-18T15:50:44 - test(config): add check for non-zero addresses
+Update 775: 2026-03-18T15:52:48 - chore(config): implement category add owner function
