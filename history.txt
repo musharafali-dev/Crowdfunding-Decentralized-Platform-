@@ -762,3 +762,4 @@ Update 762: 2026-03-18T11:32:42 - test(contracts): build dashboard my-campaigns 
 Update 763: 2026-03-18T13:01:49 - test(ui): add double refund prevention tests
 Update 764: 2026-03-18T13:11:10 - refactor(contracts): fix deadline calculation bug
 Update 765: 2026-03-18T13:12:08 - chore(ui): add clean styling to footer
+Update 766: 2026-03-18T13:32:52 - fix(ui): add custom query hooks for contributions
