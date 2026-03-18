@@ -765,3 +765,4 @@ Update 765: 2026-03-18T13:12:08 - chore(ui): add clean styling to footer
 Update 766: 2026-03-18T13:32:52 - fix(ui): add custom query hooks for contributions
 Update 767: 2026-03-18T14:01:57 - test(ui): add reentrancy protection to withdrawals
 Update 768: 2026-03-18T14:09:52 - style(frontend): add glassmorphism styles to css base
+Update 769: 2026-03-18T14:24:45 - refactor(contracts): implement category add owner function
