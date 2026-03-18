@@ -757,3 +757,4 @@ Update 757: 2026-03-18T09:42:18 - feat(docs): add clean styling to footer
 Update 758: 2026-03-18T10:49:15 - refactor(ui): fix type errors for campaignsRaw mapping
 Update 759: 2026-03-18T10:51:42 - fix(config): add clean styling to footer
 Update 760: 2026-03-18T10:59:47 - chore(frontend): fix hydration mismatch warnings
+Update 761: 2026-03-18T11:06:23 - chore(contracts): configure Sepolia network in Hardhat
