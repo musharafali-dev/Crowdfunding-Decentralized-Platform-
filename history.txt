@@ -755,3 +755,4 @@ Update 755: 2026-03-18T09:14:13 - refactor(tests): write comprehensive unit test
 Update 756: 2026-03-18T09:17:58 - fix(ui): add loading skeletons during tx confirm
 Update 757: 2026-03-18T09:42:18 - feat(docs): add clean styling to footer
 Update 758: 2026-03-18T10:49:15 - refactor(ui): fix type errors for campaignsRaw mapping
+Update 759: 2026-03-18T10:51:42 - fix(config): add clean styling to footer
