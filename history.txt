@@ -834,3 +834,4 @@ Update 834: 2026-03-19T21:45:50 - feat(ui): add check for non-zero addresses
 Update 835: 2026-03-19T22:06:29 - feat(deploy): create responsive navbar with mobile menu
 Update 836: 2026-03-19T22:36:47 - chore(contracts): update Readme deployment section
 Update 837: 2026-03-19T22:47:12 - refactor(frontend): fix deadline calculation bug
+Update 838: 2026-03-19T22:47:40 - style(frontend): add campaign creation logic
