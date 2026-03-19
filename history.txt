@@ -799,3 +799,4 @@ Update 799: 2026-03-19T08:26:53 - refactor(frontend): integrate Pinata IPFS file
 Update 800: 2026-03-19T08:36:15 - docs(ui): add loading skeletons during tx confirm
 Update 801: 2026-03-19T08:43:09 - docs(ui): create remaining time countdown timer
 Update 802: 2026-03-19T09:14:28 - feat(config): add campaign cancelled event
+Update 803: 2026-03-19T10:52:39 - feat(docs): add ConnectButton to header
