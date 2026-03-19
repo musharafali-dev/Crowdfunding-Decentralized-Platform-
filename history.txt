@@ -796,3 +796,4 @@ Update 796: 2026-03-18T23:45:11 - chore(frontend): implement campaign creation l
 Update 797: 2026-03-19T08:00:22 - feat(docs): fix hydration mismatch warnings
 Update 798: 2026-03-19T08:13:07 - refactor(deploy): add campaign cancelled event
 Update 799: 2026-03-19T08:26:53 - refactor(frontend): integrate Pinata IPFS file uploader
+Update 800: 2026-03-19T08:36:15 - docs(ui): add loading skeletons during tx confirm
