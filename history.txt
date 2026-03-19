@@ -820,3 +820,4 @@ Update 820: 2026-03-19T18:15:12 - test(tests): implement campaign details progre
 Update 821: 2026-03-19T18:22:43 - fix(tests): create responsive navbar with mobile menu
 Update 822: 2026-03-19T18:45:51 - chore(docs): implement campaign creation logic
 Update 823: 2026-03-19T18:53:15 - test(docs): create responsive navbar with mobile menu
+Update 824: 2026-03-19T19:10:21 - chore(ui): fix deadline calculation bug
