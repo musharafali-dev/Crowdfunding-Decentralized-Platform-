@@ -829,3 +829,4 @@ Update 829: 2026-03-19T20:40:03 - refactor(ui): enhance input checks for createC
 Update 830: 2026-03-19T20:43:04 - feat(config): fix hydration mismatch warnings
 Update 831: 2026-03-19T20:45:48 - docs(ipfs): create wagmi provider configuration
 Update 832: 2026-03-19T21:18:09 - test(tests): fix overflow bug in fee calculation
+Update 833: 2026-03-19T21:33:02 - test(contracts): fix type errors for campaignsRaw mapping
