@@ -831,3 +831,4 @@ Update 831: 2026-03-19T20:45:48 - docs(ipfs): create wagmi provider configuratio
 Update 832: 2026-03-19T21:18:09 - test(tests): fix overflow bug in fee calculation
 Update 833: 2026-03-19T21:33:02 - test(contracts): fix type errors for campaignsRaw mapping
 Update 834: 2026-03-19T21:45:50 - feat(ui): add check for non-zero addresses
+Update 835: 2026-03-19T22:06:29 - feat(deploy): create responsive navbar with mobile menu
