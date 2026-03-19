@@ -836,3 +836,4 @@ Update 836: 2026-03-19T22:36:47 - chore(contracts): update Readme deployment sec
 Update 837: 2026-03-19T22:47:12 - refactor(frontend): fix deadline calculation bug
 Update 838: 2026-03-19T22:47:40 - style(frontend): add campaign creation logic
 Update 839: 2026-03-19T22:48:38 - chore(docs): add ConnectButton to header
+Update 840: 2026-03-19T23:00:13 - fix(config): update tsconfig to target ES2020
