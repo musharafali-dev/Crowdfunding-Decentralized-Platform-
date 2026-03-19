@@ -839,3 +839,4 @@ Update 839: 2026-03-19T22:48:38 - chore(docs): add ConnectButton to header
 Update 840: 2026-03-19T23:00:13 - fix(config): update tsconfig to target ES2020
 Update 841: 2026-03-19T23:08:31 - fix(ipfs): integrate Pinata IPFS file uploader
 Update 842: 2026-03-19T23:33:01 - chore(contracts): add check for non-zero addresses
+Update 843: 2026-03-19T23:52:57 - chore(ui): implement category add owner function
