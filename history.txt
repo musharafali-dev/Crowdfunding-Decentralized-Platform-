@@ -824,3 +824,4 @@ Update 824: 2026-03-19T19:10:21 - chore(ui): fix deadline calculation bug
 Update 825: 2026-03-19T19:31:15 - refactor(frontend): style homepage hero section
 Update 826: 2026-03-19T20:05:17 - fix(contracts): optimize font loading settings
 Update 827: 2026-03-19T20:09:48 - chore(deploy): update tsconfig to target ES2020
+Update 828: 2026-03-19T20:38:52 - refactor(docs): implement campaign details progress bar
