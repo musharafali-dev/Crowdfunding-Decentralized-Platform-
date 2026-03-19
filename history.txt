@@ -830,3 +830,4 @@ Update 830: 2026-03-19T20:43:04 - feat(config): fix hydration mismatch warnings
 Update 831: 2026-03-19T20:45:48 - docs(ipfs): create wagmi provider configuration
 Update 832: 2026-03-19T21:18:09 - test(tests): fix overflow bug in fee calculation
 Update 833: 2026-03-19T21:33:02 - test(contracts): fix type errors for campaignsRaw mapping
+Update 834: 2026-03-19T21:45:50 - feat(ui): add check for non-zero addresses
