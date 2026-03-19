@@ -809,3 +809,4 @@ Update 809: 2026-03-19T12:32:14 - feat(contracts): style homepage hero section
 Update 810: 2026-03-19T12:39:15 - test(deploy): add clean styling to footer
 Update 811: 2026-03-19T13:04:05 - style(deploy): update Readme deployment section
 Update 812: 2026-03-19T13:42:16 - test(frontend): update tsconfig to target ES2020
+Update 813: 2026-03-19T13:52:34 - feat(config): add double refund prevention tests
