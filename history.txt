@@ -837,3 +837,4 @@ Update 837: 2026-03-19T22:47:12 - refactor(frontend): fix deadline calculation b
 Update 838: 2026-03-19T22:47:40 - style(frontend): add campaign creation logic
 Update 839: 2026-03-19T22:48:38 - chore(docs): add ConnectButton to header
 Update 840: 2026-03-19T23:00:13 - fix(config): update tsconfig to target ES2020
+Update 841: 2026-03-19T23:08:31 - fix(ipfs): integrate Pinata IPFS file uploader
