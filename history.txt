@@ -856,3 +856,4 @@ Update 856: 2026-03-20T12:38:45 - style(config): implement claim refund button f
 Update 857: 2026-03-20T12:44:28 - chore(deploy): fix deadline calculation bug
 Update 858: 2026-03-20T13:37:36 - test(deploy): implement claim refund button functionality
 Update 859: 2026-03-20T13:57:05 - chore(ipfs): create responsive navbar with mobile menu
+Update 860: 2026-03-20T14:20:56 - feat(ui): format ether values using viem utilities
