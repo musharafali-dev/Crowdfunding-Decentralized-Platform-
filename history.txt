@@ -844,3 +844,4 @@ Update 844: 2026-03-20T08:31:53 - feat(tests): implement category add owner func
 Update 845: 2026-03-20T08:39:36 - chore(ipfs): fix type errors for campaignsRaw mapping
 Update 846: 2026-03-20T08:43:06 - fix(config): integrate react-hot-toast alerts
 Update 847: 2026-03-20T09:13:29 - fix(frontend): add ConnectButton to header
+Update 848: 2026-03-20T09:21:07 - feat(ipfs): fix type errors for campaignsRaw mapping
