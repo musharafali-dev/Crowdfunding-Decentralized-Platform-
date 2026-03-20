@@ -885,3 +885,4 @@ Update 885: 2026-03-20T19:19:03 - feat(ipfs): integrate Pinata IPFS file uploade
 Update 886: 2026-03-20T19:37:41 - style(tests): test category duplicate prevention
 Update 887: 2026-03-20T19:40:01 - refactor(frontend): enhance input checks for createCampaign
 Update 888: 2026-03-20T20:25:20 - style(ipfs): add loading skeletons during tx confirm
+Update 889: 2026-03-20T20:49:54 - fix(ipfs): add campaign details progress bar
