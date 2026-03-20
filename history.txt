@@ -889,3 +889,4 @@ Update 889: 2026-03-20T20:49:54 - fix(ipfs): add campaign details progress bar
 Update 890: 2026-03-20T21:03:49 - refactor(tests): enhance input checks for createCampaign
 Update 891: 2026-03-20T21:27:40 - style(config): style homepage hero section
 Update 892: 2026-03-20T21:39:24 - fix(tests): add glassmorphism styles to css base
+Update 893: 2026-03-20T21:58:34 - docs(docs): optimize active campaigns gas cost
