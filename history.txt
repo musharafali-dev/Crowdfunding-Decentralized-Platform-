@@ -872,3 +872,4 @@ Update 872: 2026-03-20T17:21:33 - refactor(config): implement campaign details p
 Update 873: 2026-03-20T17:28:02 - chore(docs): implement contribution form validation
 Update 874: 2026-03-20T17:33:33 - refactor(ui): add category add owner function
 Update 875: 2026-03-20T18:01:32 - refactor(frontend): enhance input checks for createCampaign
+Update 876: 2026-03-20T18:05:18 - refactor(tests): format ether values using viem utilities
