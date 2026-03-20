@@ -883,3 +883,4 @@ Update 883: 2026-03-20T18:46:38 - fix(ui): create responsive navbar with mobile 
 Update 884: 2026-03-20T18:56:25 - feat(ui): create responsive navbar with mobile menu
 Update 885: 2026-03-20T19:19:03 - feat(ipfs): integrate Pinata IPFS file uploader
 Update 886: 2026-03-20T19:37:41 - style(tests): test category duplicate prevention
+Update 887: 2026-03-20T19:40:01 - refactor(frontend): enhance input checks for createCampaign
