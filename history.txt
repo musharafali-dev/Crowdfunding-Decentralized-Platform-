@@ -853,3 +853,4 @@ Update 853: 2026-03-20T10:55:27 - chore(ui): implement contribution form validat
 Update 854: 2026-03-20T11:04:34 - docs(config): add campaign details progress bar
 Update 855: 2026-03-20T11:18:30 - style(docs): add campaign cancelled event
 Update 856: 2026-03-20T12:38:45 - style(config): implement claim refund button functionality
+Update 857: 2026-03-20T12:44:28 - chore(deploy): fix deadline calculation bug
