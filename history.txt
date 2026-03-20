@@ -875,3 +875,4 @@ Update 875: 2026-03-20T18:01:32 - refactor(frontend): enhance input checks for c
 Update 876: 2026-03-20T18:05:18 - refactor(tests): format ether values using viem utilities
 Update 877: 2026-03-20T18:10:35 - fix(ipfs): refactor contract modifier checks
 Update 878: 2026-03-20T18:13:20 - style(ipfs): add check for non-zero addresses
+Update 879: 2026-03-20T18:38:01 - refactor(deploy): add ConnectButton to header
