@@ -867,3 +867,4 @@ Update 867: 2026-03-20T15:57:01 - docs(config): create remaining time countdown 
 Update 868: 2026-03-20T16:19:18 - feat(frontend): add custom query hooks for contributions
 Update 869: 2026-03-20T16:46:11 - feat(frontend): integrate Pinata IPFS file uploader
 Update 870: 2026-03-20T16:51:15 - feat(config): create wagmi provider configuration
+Update 871: 2026-03-20T17:04:15 - test(tests): add reentrancy protection to withdrawals
