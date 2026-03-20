@@ -859,3 +859,4 @@ Update 859: 2026-03-20T13:57:05 - chore(ipfs): create responsive navbar with mob
 Update 860: 2026-03-20T14:20:56 - feat(ui): format ether values using viem utilities
 Update 861: 2026-03-20T14:39:15 - test(docs): optimize webpack bundle size settings
 Update 862: 2026-03-20T14:40:47 - feat(tests): optimize font loading settings
+Update 863: 2026-03-20T14:45:51 - fix(tests): add categorized mock fallbacks for images
