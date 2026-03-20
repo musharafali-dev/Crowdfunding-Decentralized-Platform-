@@ -842,3 +842,4 @@ Update 842: 2026-03-19T23:33:01 - chore(contracts): add check for non-zero addre
 Update 843: 2026-03-19T23:52:57 - chore(ui): implement category add owner function
 Update 844: 2026-03-20T08:31:53 - feat(tests): implement category add owner function
 Update 845: 2026-03-20T08:39:36 - chore(ipfs): fix type errors for campaignsRaw mapping
+Update 846: 2026-03-20T08:43:06 - fix(config): integrate react-hot-toast alerts
