@@ -865,3 +865,4 @@ Update 865: 2026-03-20T15:28:26 - chore(config): update Readme deployment sectio
 Update 866: 2026-03-20T15:38:52 - feat(contracts): implement claim refund button functionality
 Update 867: 2026-03-20T15:57:01 - docs(config): create remaining time countdown timer
 Update 868: 2026-03-20T16:19:18 - feat(frontend): add custom query hooks for contributions
+Update 869: 2026-03-20T16:46:11 - feat(frontend): integrate Pinata IPFS file uploader
