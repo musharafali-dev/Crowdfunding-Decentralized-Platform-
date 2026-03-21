@@ -905,3 +905,4 @@ Update 905: 2026-03-20T23:50:17 - style(docs): style dashboard layout
 Update 906: 2026-03-21T08:02:54 - feat(config): add loading skeletons during tx confirm
 Update 907: 2026-03-21T09:32:50 - feat(deploy): add default categories to constructor
 Update 908: 2026-03-21T09:48:54 - refactor(deploy): add clean styling to footer
+Update 909: 2026-03-21T09:54:02 - docs(config): optimize font loading settings
