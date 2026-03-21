@@ -924,3 +924,4 @@ Update 924: 2026-03-21T14:54:52 - style(config): add category filter buttons
 Update 925: 2026-03-21T15:02:46 - fix(tests): add check for non-zero addresses
 Update 926: 2026-03-21T15:57:35 - refactor(contracts): add Etherscan verification settings
 Update 927: 2026-03-21T16:20:31 - style(deploy): fix hydration mismatch warnings
+Update 928: 2026-03-21T17:03:28 - feat(frontend): refactor contract modifier checks
