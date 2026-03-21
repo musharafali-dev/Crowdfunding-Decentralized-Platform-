@@ -949,3 +949,4 @@ Update 949: 2026-03-21T22:25:38 - style(docs): create remaining time countdown t
 Update 950: 2026-03-21T22:57:08 - style(frontend): fix type errors for campaignsRaw mapping
 Update 951: 2026-03-21T23:16:10 - refactor(tests): configure Sepolia network in Hardhat
 Update 952: 2026-03-21T23:37:02 - feat(frontend): add custom query hooks for contributions
+Update 953: 2026-03-21T23:52:39 - chore(ipfs): add category filter buttons
