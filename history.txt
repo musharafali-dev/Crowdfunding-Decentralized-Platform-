@@ -938,3 +938,4 @@ Update 938: 2026-03-21T19:52:53 - refactor(contracts): implement campaign detail
 Update 939: 2026-03-21T19:53:46 - feat(deploy): build dashboard my-campaigns tab
 Update 940: 2026-03-21T20:09:33 - style(ui): create wagmi provider configuration
 Update 941: 2026-03-21T21:17:15 - feat(deploy): configure Sepolia network in Hardhat
+Update 942: 2026-03-21T21:22:06 - refactor(config): add check for non-zero addresses
