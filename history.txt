@@ -941,3 +941,4 @@ Update 941: 2026-03-21T21:17:15 - feat(deploy): configure Sepolia network in Har
 Update 942: 2026-03-21T21:22:06 - refactor(config): add check for non-zero addresses
 Update 943: 2026-03-21T21:32:41 - feat(contracts): add glassmorphism styles to css base
 Update 944: 2026-03-21T22:05:35 - docs(ui): style dashboard layout
+Update 945: 2026-03-21T22:07:02 - refactor(frontend): style homepage hero section
