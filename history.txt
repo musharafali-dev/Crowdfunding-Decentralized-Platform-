@@ -919,3 +919,4 @@ Update 919: 2026-03-21T12:11:27 - feat(deploy): add reentrancy protection to wit
 Update 920: 2026-03-21T13:56:56 - test(contracts): update Readme deployment section
 Update 921: 2026-03-21T14:03:37 - feat(contracts): test category duplicate prevention
 Update 922: 2026-03-21T14:29:30 - refactor(tests): fix deadline calculation bug
+Update 923: 2026-03-21T14:33:18 - test(docs): add campaign cancelled event
