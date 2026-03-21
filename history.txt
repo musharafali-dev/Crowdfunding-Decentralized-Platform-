@@ -921,3 +921,4 @@ Update 921: 2026-03-21T14:03:37 - feat(contracts): test category duplicate preve
 Update 922: 2026-03-21T14:29:30 - refactor(tests): fix deadline calculation bug
 Update 923: 2026-03-21T14:33:18 - test(docs): add campaign cancelled event
 Update 924: 2026-03-21T14:54:52 - style(config): add category filter buttons
+Update 925: 2026-03-21T15:02:46 - fix(tests): add check for non-zero addresses
