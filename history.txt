@@ -951,3 +951,4 @@ Update 951: 2026-03-21T23:16:10 - refactor(tests): configure Sepolia network in 
 Update 952: 2026-03-21T23:37:02 - feat(frontend): add custom query hooks for contributions
 Update 953: 2026-03-21T23:52:39 - chore(ipfs): add category filter buttons
 Update 954: 2026-03-22T08:13:39 - chore(deploy): integrate react-hot-toast alerts
+Update 955: 2026-03-22T08:23:35 - fix(frontend): add campaign cancelled event
