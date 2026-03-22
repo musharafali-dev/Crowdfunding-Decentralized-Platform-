@@ -960,3 +960,4 @@ Update 960: 2026-03-22T09:09:07 - fix(deploy): implement withdraw funds test cas
 Update 961: 2026-03-22T09:12:23 - refactor(contracts): enhance input checks for createCampaign
 Update 962: 2026-03-22T10:48:09 - feat(ui): style dashboard layout
 Update 963: 2026-03-22T11:28:00 - chore(ui): add ConnectButton to header
+Update 964: 2026-03-22T11:51:36 - refactor(contracts): fix hydration mismatch warnings
