@@ -963,3 +963,4 @@ Update 963: 2026-03-22T11:28:00 - chore(ui): add ConnectButton to header
 Update 964: 2026-03-22T11:51:36 - refactor(contracts): fix hydration mismatch warnings
 Update 965: 2026-03-22T11:55:52 - style(config): create responsive navbar with mobile menu
 Update 966: 2026-03-22T12:12:20 - feat(config): add loading skeletons during tx confirm
+Update 967: 2026-03-22T12:24:09 - style(config): add cancel campaign control to dashboard
