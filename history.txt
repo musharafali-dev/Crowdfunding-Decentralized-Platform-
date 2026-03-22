@@ -981,3 +981,4 @@ Update 981: 2026-03-22T15:34:57 - fix(deploy): add double refund prevention test
 Update 982: 2026-03-22T15:41:38 - feat(docs): add loading skeletons during tx confirm
 Update 983: 2026-03-22T15:51:12 - refactor(contracts): implement withdraw funds test cases
 Update 984: 2026-03-22T16:09:02 - style(contracts): add categorized mock fallbacks for images
+Update 985: 2026-03-22T16:14:54 - test(contracts): add ConnectButton to header
