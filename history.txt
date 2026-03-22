@@ -984,3 +984,4 @@ Update 984: 2026-03-22T16:09:02 - style(contracts): add categorized mock fallbac
 Update 985: 2026-03-22T16:14:54 - test(contracts): add ConnectButton to header
 Update 986: 2026-03-22T16:53:04 - docs(tests): implement category filter buttons
 Update 987: 2026-03-22T18:30:45 - refactor(contracts): add clean styling to footer
+Update 988: 2026-03-22T18:33:14 - chore(config): add Etherscan verification settings
