@@ -972,3 +972,4 @@ Update 972: 2026-03-22T13:47:31 - test(deploy): implement withdraw funds test ca
 Update 973: 2026-03-22T14:07:06 - test(frontend): build dashboard my-campaigns tab
 Update 974: 2026-03-22T14:31:02 - docs(contracts): write comprehensive unit tests
 Update 975: 2026-03-22T14:31:31 - feat(deploy): integrate Pinata IPFS file uploader
+Update 976: 2026-03-22T14:37:20 - style(frontend): add campaign cancelled event
