@@ -953,3 +953,4 @@ Update 953: 2026-03-21T23:52:39 - chore(ipfs): add category filter buttons
 Update 954: 2026-03-22T08:13:39 - chore(deploy): integrate react-hot-toast alerts
 Update 955: 2026-03-22T08:23:35 - fix(frontend): add campaign cancelled event
 Update 956: 2026-03-22T08:29:27 - test(ipfs): style dashboard layout
+Update 957: 2026-03-22T08:34:57 - feat(ui): add glassmorphism styles to css base
