@@ -957,3 +957,4 @@ Update 957: 2026-03-22T08:34:57 - feat(ui): add glassmorphism styles to css base
 Update 958: 2026-03-22T08:38:10 - style(config): create remaining time countdown timer
 Update 959: 2026-03-22T08:51:35 - docs(contracts): add reentrancy protection to withdrawals
 Update 960: 2026-03-22T09:09:07 - fix(deploy): implement withdraw funds test cases
+Update 961: 2026-03-22T09:12:23 - refactor(contracts): enhance input checks for createCampaign
