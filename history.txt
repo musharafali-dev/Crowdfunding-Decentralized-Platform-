@@ -978,3 +978,4 @@ Update 978: 2026-03-22T14:49:36 - chore(docs): enhance input checks for createCa
 Update 979: 2026-03-22T14:51:22 - test(deploy): add categorized mock fallbacks for images
 Update 980: 2026-03-22T15:09:12 - refactor(deploy): style homepage hero section
 Update 981: 2026-03-22T15:34:57 - fix(deploy): add double refund prevention tests
+Update 982: 2026-03-22T15:41:38 - feat(docs): add loading skeletons during tx confirm
