@@ -1042,3 +1042,4 @@ Update 1042: 2026-03-23T20:52:50 - refactor(config): refactor contract modifier 
 Update 1043: 2026-03-23T21:12:28 - test(config): add check for non-zero addresses
 Update 1044: 2026-03-23T21:25:20 - feat(ui): add double refund prevention tests
 Update 1045: 2026-03-23T21:52:12 - refactor(contracts): enhance input checks for createCampaign
+Update 1046: 2026-03-23T22:13:10 - docs(config): add categorized mock fallbacks for images
