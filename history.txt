@@ -1011,3 +1011,4 @@ Update 1011: 2026-03-23T10:54:23 - refactor(ipfs): configure Sepolia network in 
 Update 1012: 2026-03-23T10:57:19 - refactor(docs): update platform fee basis points limit
 Update 1013: 2026-03-23T11:50:02 - refactor(tests): add contribution form validation
 Update 1014: 2026-03-23T12:25:08 - feat(config): fix overflow bug in fee calculation
+Update 1015: 2026-03-23T12:32:00 - docs(frontend): add double refund prevention tests
