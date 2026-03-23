@@ -1004,3 +1004,4 @@ Update 1004: 2026-03-23T08:25:16 - chore(deploy): add clean styling to footer
 Update 1005: 2026-03-23T08:47:42 - feat(docs): implement campaign creation logic
 Update 1006: 2026-03-23T08:48:09 - chore(docs): optimize webpack bundle size settings
 Update 1007: 2026-03-23T09:33:41 - feat(deploy): add campaign cancelled event
+Update 1008: 2026-03-23T10:24:21 - test(ui): add categorized mock fallbacks for images
