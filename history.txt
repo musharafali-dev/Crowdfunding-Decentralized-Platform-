@@ -1020,3 +1020,4 @@ Update 1020: 2026-03-23T13:16:01 - style(contracts): implement category add owne
 Update 1021: 2026-03-23T13:32:47 - test(contracts): enhance input checks for createCampaign
 Update 1022: 2026-03-23T13:52:29 - style(contracts): implement campaign creation logic
 Update 1023: 2026-03-23T14:01:31 - refactor(config): add glassmorphism styles to css base
+Update 1024: 2026-03-23T14:15:21 - feat(ipfs): add custom query hooks for contributions
