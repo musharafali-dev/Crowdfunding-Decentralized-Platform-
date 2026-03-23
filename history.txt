@@ -1046,3 +1046,4 @@ Update 1046: 2026-03-23T22:13:10 - docs(config): add categorized mock fallbacks 
 Update 1047: 2026-03-23T22:47:02 - style(docs): add custom query hooks for contributions
 Update 1048: 2026-03-23T23:00:19 - chore(contracts): fix deadline calculation bug
 Update 1049: 2026-03-23T23:27:00 - test(docs): optimize font loading settings
+Update 1050: 2026-03-23T23:54:57 - feat(tests): update tsconfig to target ES2020
