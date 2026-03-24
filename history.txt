@@ -1048,3 +1048,4 @@ Update 1048: 2026-03-23T23:00:19 - chore(contracts): fix deadline calculation bu
 Update 1049: 2026-03-23T23:27:00 - test(docs): optimize font loading settings
 Update 1050: 2026-03-23T23:54:57 - feat(tests): update tsconfig to target ES2020
 Update 1051: 2026-03-24T08:42:05 - feat(deploy): add glassmorphism styles to css base
+Update 1052: 2026-03-24T08:54:28 - test(ui): fix type errors for campaignsRaw mapping
