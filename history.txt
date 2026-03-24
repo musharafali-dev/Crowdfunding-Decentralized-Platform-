@@ -1086,3 +1086,4 @@ Update 1086: 2026-03-24T20:01:00 - feat(ipfs): integrate react-hot-toast alerts
 Update 1087: 2026-03-24T20:24:19 - refactor(config): fix overflow bug in fee calculation
 Update 1088: 2026-03-24T20:25:54 - feat(docs): add loading skeletons during tx confirm
 Update 1089: 2026-03-24T20:29:59 - test(docs): add ConnectButton to header
+Update 1090: 2026-03-24T20:51:55 - docs(deploy): optimize font loading settings
