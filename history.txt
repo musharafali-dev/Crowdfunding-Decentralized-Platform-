@@ -1071,3 +1071,4 @@ Update 1071: 2026-03-24T16:15:56 - refactor(contracts): refactor tailwind config
 Update 1072: 2026-03-24T16:25:13 - refactor(deploy): add ConnectButton to header
 Update 1073: 2026-03-24T16:53:59 - test(ui): fix overflow bug in fee calculation
 Update 1074: 2026-03-24T16:59:33 - style(ipfs): test category duplicate prevention
+Update 1075: 2026-03-24T17:08:26 - docs(ui): integrate react-hot-toast alerts
