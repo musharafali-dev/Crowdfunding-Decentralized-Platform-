@@ -1088,3 +1088,4 @@ Update 1088: 2026-03-24T20:25:54 - feat(docs): add loading skeletons during tx c
 Update 1089: 2026-03-24T20:29:59 - test(docs): add ConnectButton to header
 Update 1090: 2026-03-24T20:51:55 - docs(deploy): optimize font loading settings
 Update 1091: 2026-03-24T21:34:46 - docs(frontend): add cancel campaign control to dashboard
+Update 1092: 2026-03-24T21:36:45 - fix(frontend): add campaign creation logic
