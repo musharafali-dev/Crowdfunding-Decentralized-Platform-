@@ -1082,3 +1082,4 @@ Update 1082: 2026-03-24T19:00:00 - style(ui): refactor tailwind config spacing v
 Update 1083: 2026-03-24T19:02:58 - style(docs): optimize active campaigns gas cost
 Update 1084: 2026-03-24T19:20:49 - test(contracts): add cancel campaign control to dashboard
 Update 1085: 2026-03-24T19:33:54 - fix(frontend): add double refund prevention tests
+Update 1086: 2026-03-24T20:01:00 - feat(ipfs): integrate react-hot-toast alerts
