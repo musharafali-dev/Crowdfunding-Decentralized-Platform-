@@ -1083,3 +1083,4 @@ Update 1083: 2026-03-24T19:02:58 - style(docs): optimize active campaigns gas co
 Update 1084: 2026-03-24T19:20:49 - test(contracts): add cancel campaign control to dashboard
 Update 1085: 2026-03-24T19:33:54 - fix(frontend): add double refund prevention tests
 Update 1086: 2026-03-24T20:01:00 - feat(ipfs): integrate react-hot-toast alerts
+Update 1087: 2026-03-24T20:24:19 - refactor(config): fix overflow bug in fee calculation
