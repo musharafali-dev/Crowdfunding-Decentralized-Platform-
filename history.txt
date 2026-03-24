@@ -1055,3 +1055,4 @@ Update 1055: 2026-03-24T10:22:39 - test(contracts): style homepage hero section
 Update 1056: 2026-03-24T10:57:11 - docs(contracts): integrate Pinata IPFS file uploader
 Update 1057: 2026-03-24T11:24:30 - test(ipfs): configure Sepolia network in Hardhat
 Update 1058: 2026-03-24T12:04:42 - test(frontend): add campaign creation logic
+Update 1059: 2026-03-24T12:16:58 - fix(docs): add double refund prevention tests
