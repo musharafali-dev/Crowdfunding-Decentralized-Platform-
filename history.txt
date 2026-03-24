@@ -1076,3 +1076,4 @@ Update 1076: 2026-03-24T17:15:27 - test(docs): optimize active campaigns gas cos
 Update 1077: 2026-03-24T17:47:49 - test(tests): add custom query hooks for contributions
 Update 1078: 2026-03-24T17:49:05 - style(docs): add clean styling to footer
 Update 1079: 2026-03-24T18:17:39 - docs(ipfs): fix deadline calculation bug
+Update 1080: 2026-03-24T18:47:49 - test(docs): add cancel campaign control to dashboard
