@@ -1093,3 +1093,4 @@ Update 1093: 2026-03-24T22:28:23 - style(tests): add clean styling to footer
 Update 1094: 2026-03-24T22:54:46 - refactor(frontend): update platform fee basis points limit
 Update 1095: 2026-03-24T23:03:53 - refactor(ipfs): add withdraw funds test cases
 Update 1096: 2026-03-25T08:52:09 - refactor(docs): update platform fee basis points limit
+Update 1097: 2026-03-25T10:07:16 - style(contracts): optimize webpack bundle size settings
