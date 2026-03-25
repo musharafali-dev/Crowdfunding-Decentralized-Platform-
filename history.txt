@@ -1124,3 +1124,4 @@ Update 1124: 2026-03-25T18:33:14 - feat(ui): integrate Pinata IPFS file uploader
 Update 1125: 2026-03-25T19:06:35 - refactor(ipfs): implement category filter buttons
 Update 1126: 2026-03-25T19:15:50 - feat(tests): format ether values using viem utilities
 Update 1127: 2026-03-25T19:27:53 - style(deploy): format ether values using viem utilities
+Update 1128: 2026-03-25T20:33:51 - fix(contracts): add check for non-zero addresses
