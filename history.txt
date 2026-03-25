@@ -1121,3 +1121,4 @@ Update 1121: 2026-03-25T16:04:22 - test(config): add withdraw funds test cases
 Update 1122: 2026-03-25T17:54:54 - feat(config): write comprehensive unit tests
 Update 1123: 2026-03-25T18:15:35 - chore(ipfs): add default categories to constructor
 Update 1124: 2026-03-25T18:33:14 - feat(ui): integrate Pinata IPFS file uploader
+Update 1125: 2026-03-25T19:06:35 - refactor(ipfs): implement category filter buttons
