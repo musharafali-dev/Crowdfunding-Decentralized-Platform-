@@ -1111,3 +1111,4 @@ Update 1111: 2026-03-25T12:31:13 - style(deploy): fix overflow bug in fee calcul
 Update 1112: 2026-03-25T12:37:31 - refactor(contracts): add loading skeletons during tx confirm
 Update 1113: 2026-03-25T12:39:56 - test(tests): add ConnectButton to header
 Update 1114: 2026-03-25T14:24:18 - chore(ui): integrate Pinata IPFS file uploader
+Update 1115: 2026-03-25T14:29:43 - docs(ipfs): update Readme deployment section
