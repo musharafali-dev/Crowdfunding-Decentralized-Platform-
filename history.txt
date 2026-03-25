@@ -1107,3 +1107,4 @@ Update 1107: 2026-03-25T12:12:23 - feat(deploy): implement campaign details prog
 Update 1108: 2026-03-25T12:14:49 - feat(ipfs): implement withdraw funds test cases
 Update 1109: 2026-03-25T12:28:52 - chore(frontend): integrate react-hot-toast alerts
 Update 1110: 2026-03-25T12:29:14 - docs(config): add categorized mock fallbacks for images
+Update 1111: 2026-03-25T12:31:13 - style(deploy): fix overflow bug in fee calculation
