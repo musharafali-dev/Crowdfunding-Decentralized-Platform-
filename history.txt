@@ -1125,3 +1125,4 @@ Update 1125: 2026-03-25T19:06:35 - refactor(ipfs): implement category filter but
 Update 1126: 2026-03-25T19:15:50 - feat(tests): format ether values using viem utilities
 Update 1127: 2026-03-25T19:27:53 - style(deploy): format ether values using viem utilities
 Update 1128: 2026-03-25T20:33:51 - fix(contracts): add check for non-zero addresses
+Update 1129: 2026-03-25T20:43:44 - feat(tests): fix overflow bug in fee calculation
