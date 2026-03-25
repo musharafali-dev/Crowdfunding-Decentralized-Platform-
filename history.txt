@@ -1097,3 +1097,4 @@ Update 1097: 2026-03-25T10:07:16 - style(contracts): optimize webpack bundle siz
 Update 1098: 2026-03-25T10:24:21 - refactor(contracts): implement campaign details progress bar
 Update 1099: 2026-03-25T10:24:22 - chore(ipfs): fix overflow bug in fee calculation
 Update 1100: 2026-03-25T10:39:05 - test(tests): fix hydration mismatch warnings
+Update 1101: 2026-03-25T10:46:34 - refactor(ui): add campaign cancelled event
