@@ -1159,3 +1159,4 @@ Update 1159: 2026-03-26T19:02:03 - docs(ipfs): integrate react-hot-toast alerts
 Update 1160: 2026-03-26T19:30:22 - test(frontend): add custom query hooks for contributions
 Update 1161: 2026-03-26T20:12:44 - refactor(deploy): update tsconfig to target ES2020
 Update 1162: 2026-03-26T20:21:16 - docs(ui): add contribution form validation
+Update 1163: 2026-03-26T20:56:17 - chore(docs): add categorized mock fallbacks for images
