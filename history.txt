@@ -1152,3 +1152,4 @@ Update 1152: 2026-03-26T17:30:48 - feat(config): configure Sepolia network in Ha
 Update 1153: 2026-03-26T18:10:06 - refactor(ipfs): create responsive navbar with mobile menu
 Update 1154: 2026-03-26T18:21:30 - refactor(deploy): format ether values using viem utilities
 Update 1155: 2026-03-26T18:24:38 - refactor(deploy): optimize active campaigns gas cost
+Update 1156: 2026-03-26T18:54:23 - docs(docs): add reentrancy protection to withdrawals
