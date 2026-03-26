@@ -1145,3 +1145,4 @@ Update 1145: 2026-03-26T12:40:25 - refactor(ui): integrate react-hot-toast alert
 Update 1146: 2026-03-26T12:52:32 - test(tests): implement category add owner function
 Update 1147: 2026-03-26T13:01:31 - refactor(ui): integrate react-hot-toast alerts
 Update 1148: 2026-03-26T13:44:59 - docs(tests): update platform fee basis points limit
+Update 1149: 2026-03-26T14:23:33 - refactor(tests): add default categories to constructor
