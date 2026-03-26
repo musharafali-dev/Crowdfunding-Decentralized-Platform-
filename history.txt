@@ -1150,3 +1150,4 @@ Update 1150: 2026-03-26T15:25:12 - chore(contracts): build dashboard my-campaign
 Update 1151: 2026-03-26T16:10:35 - fix(tests): implement claim refund button functionality
 Update 1152: 2026-03-26T17:30:48 - feat(config): configure Sepolia network in Hardhat
 Update 1153: 2026-03-26T18:10:06 - refactor(ipfs): create responsive navbar with mobile menu
+Update 1154: 2026-03-26T18:21:30 - refactor(deploy): format ether values using viem utilities
