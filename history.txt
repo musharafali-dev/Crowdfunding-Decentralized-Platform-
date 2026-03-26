@@ -1136,3 +1136,4 @@ Update 1136: 2026-03-26T08:26:10 - docs(ipfs): create responsive navbar with mob
 Update 1137: 2026-03-26T08:54:50 - docs(config): implement contribution form validation
 Update 1138: 2026-03-26T09:27:52 - test(contracts): refactor contract modifier checks
 Update 1139: 2026-03-26T09:33:20 - docs(contracts): fix deadline calculation bug
+Update 1140: 2026-03-26T11:17:36 - style(frontend): fix deadline calculation bug
