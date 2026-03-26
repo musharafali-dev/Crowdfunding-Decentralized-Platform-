@@ -1138,3 +1138,4 @@ Update 1138: 2026-03-26T09:27:52 - test(contracts): refactor contract modifier c
 Update 1139: 2026-03-26T09:33:20 - docs(contracts): fix deadline calculation bug
 Update 1140: 2026-03-26T11:17:36 - style(frontend): fix deadline calculation bug
 Update 1141: 2026-03-26T11:28:36 - style(tests): enhance input checks for createCampaign
+Update 1142: 2026-03-26T11:58:08 - feat(deploy): optimize active campaigns gas cost
