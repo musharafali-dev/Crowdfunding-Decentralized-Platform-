@@ -1204,3 +1204,4 @@ Update 1204: 2026-03-27T18:51:28 - refactor(ui): create wagmi provider configura
 Update 1205: 2026-03-27T18:56:44 - fix(contracts): integrate react-hot-toast alerts
 Update 1206: 2026-03-27T19:17:28 - fix(ipfs): add Etherscan verification settings
 Update 1207: 2026-03-27T19:58:57 - style(config): fix overflow bug in fee calculation
+Update 1208: 2026-03-27T20:20:38 - fix(docs): update tsconfig to target ES2020
