@@ -1197,3 +1197,4 @@ Update 1197: 2026-03-27T16:01:37 - style(frontend): configure Sepolia network in
 Update 1198: 2026-03-27T16:12:54 - chore(docs): add custom query hooks for contributions
 Update 1199: 2026-03-27T16:42:42 - style(contracts): add category filter buttons
 Update 1200: 2026-03-27T17:14:14 - test(tests): add reentrancy protection to withdrawals
+Update 1201: 2026-03-27T17:36:48 - fix(docs): add cancel campaign control to dashboard
