@@ -1208,3 +1208,4 @@ Update 1208: 2026-03-27T20:20:38 - fix(docs): update tsconfig to target ES2020
 Update 1209: 2026-03-27T20:21:29 - docs(deploy): update Readme deployment section
 Update 1210: 2026-03-27T20:24:22 - chore(docs): refactor tailwind config spacing variables
 Update 1211: 2026-03-27T20:35:28 - style(frontend): configure Sepolia network in Hardhat
+Update 1212: 2026-03-27T21:53:14 - refactor(frontend): add Etherscan verification settings
