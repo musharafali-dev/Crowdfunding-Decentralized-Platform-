@@ -1174,3 +1174,4 @@ Update 1174: 2026-03-27T08:31:50 - chore(docs): add glassmorphism styles to css 
 Update 1175: 2026-03-27T08:59:18 - style(frontend): format ether values using viem utilities
 Update 1176: 2026-03-27T09:17:52 - refactor(contracts): add check for non-zero addresses
 Update 1177: 2026-03-27T09:20:03 - refactor(ipfs): add default categories to constructor
+Update 1178: 2026-03-27T09:21:13 - feat(contracts): update Readme deployment section
