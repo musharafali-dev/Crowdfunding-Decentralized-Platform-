@@ -1179,3 +1179,4 @@ Update 1179: 2026-03-27T09:47:57 - feat(tests): add campaign cancelled event
 Update 1180: 2026-03-27T09:51:35 - fix(deploy): test category duplicate prevention
 Update 1181: 2026-03-27T10:00:27 - fix(ui): implement category add owner function
 Update 1182: 2026-03-27T10:11:55 - fix(contracts): implement contribution form validation
+Update 1183: 2026-03-27T10:49:43 - docs(deploy): format ether values using viem utilities
