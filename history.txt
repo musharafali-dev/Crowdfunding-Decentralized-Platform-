@@ -1193,3 +1193,4 @@ Update 1193: 2026-03-27T14:41:38 - fix(deploy): add double refund prevention tes
 Update 1194: 2026-03-27T15:07:16 - feat(deploy): update tsconfig to target ES2020
 Update 1195: 2026-03-27T15:28:23 - chore(tests): add custom query hooks for contributions
 Update 1196: 2026-03-27T15:51:04 - chore(ipfs): create responsive navbar with mobile menu
+Update 1197: 2026-03-27T16:01:37 - style(frontend): configure Sepolia network in Hardhat
