@@ -1182,3 +1182,4 @@ Update 1182: 2026-03-27T10:11:55 - fix(contracts): implement contribution form v
 Update 1183: 2026-03-27T10:49:43 - docs(deploy): format ether values using viem utilities
 Update 1184: 2026-03-27T11:30:15 - refactor(deploy): fix type errors for campaignsRaw mapping
 Update 1185: 2026-03-27T11:35:01 - style(deploy): implement claim refund button functionality
+Update 1186: 2026-03-27T11:36:22 - chore(deploy): add ConnectButton to header
