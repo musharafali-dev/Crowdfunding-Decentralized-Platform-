@@ -1194,3 +1194,4 @@ Update 1194: 2026-03-27T15:07:16 - feat(deploy): update tsconfig to target ES202
 Update 1195: 2026-03-27T15:28:23 - chore(tests): add custom query hooks for contributions
 Update 1196: 2026-03-27T15:51:04 - chore(ipfs): create responsive navbar with mobile menu
 Update 1197: 2026-03-27T16:01:37 - style(frontend): configure Sepolia network in Hardhat
+Update 1198: 2026-03-27T16:12:54 - chore(docs): add custom query hooks for contributions
