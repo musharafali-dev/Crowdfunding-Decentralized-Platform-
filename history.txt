@@ -1185,3 +1185,4 @@ Update 1185: 2026-03-27T11:35:01 - style(deploy): implement claim refund button 
 Update 1186: 2026-03-27T11:36:22 - chore(deploy): add ConnectButton to header
 Update 1187: 2026-03-27T12:42:25 - fix(deploy): add loading skeletons during tx confirm
 Update 1188: 2026-03-27T13:07:43 - chore(frontend): format ether values using viem utilities
+Update 1189: 2026-03-27T13:29:06 - style(ipfs): add categorized mock fallbacks for images
