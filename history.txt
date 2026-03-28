@@ -1253,3 +1253,4 @@ Update 1253: 2026-03-28T20:22:12 - style(docs): fix type errors for campaignsRaw
 Update 1254: 2026-03-28T20:25:17 - fix(ipfs): add cancel campaign control to dashboard
 Update 1255: 2026-03-28T20:49:45 - style(config): update platform fee basis points limit
 Update 1256: 2026-03-28T21:05:55 - chore(contracts): integrate react-hot-toast alerts
+Update 1257: 2026-03-28T21:09:29 - docs(ipfs): fix deadline calculation bug
