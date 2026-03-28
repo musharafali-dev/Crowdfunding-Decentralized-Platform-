@@ -1230,3 +1230,4 @@ Update 1230: 2026-03-28T12:16:40 - chore(docs): optimize font loading settings
 Update 1231: 2026-03-28T13:03:22 - chore(contracts): enhance input checks for createCampaign
 Update 1232: 2026-03-28T13:36:43 - refactor(deploy): test category duplicate prevention
 Update 1233: 2026-03-28T13:50:14 - style(config): fix type errors for campaignsRaw mapping
+Update 1234: 2026-03-28T14:06:13 - refactor(ui): style homepage hero section
