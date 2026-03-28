@@ -1239,3 +1239,4 @@ Update 1239: 2026-03-28T15:03:47 - docs(config): update platform fee basis point
 Update 1240: 2026-03-28T15:14:57 - feat(ui): implement category filter buttons
 Update 1241: 2026-03-28T15:31:27 - refactor(tests): implement withdraw funds test cases
 Update 1242: 2026-03-28T16:09:07 - chore(ipfs): format ether values using viem utilities
+Update 1243: 2026-03-28T16:37:50 - feat(config): add default categories to constructor
