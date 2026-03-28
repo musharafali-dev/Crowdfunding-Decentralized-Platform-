@@ -1257,3 +1257,4 @@ Update 1257: 2026-03-28T21:09:29 - docs(ipfs): fix deadline calculation bug
 Update 1258: 2026-03-28T21:41:21 - chore(tests): implement campaign creation logic
 Update 1259: 2026-03-28T22:04:32 - chore(ui): refactor contract modifier checks
 Update 1260: 2026-03-28T22:27:46 - docs(config): implement category add owner function
+Update 1261: 2026-03-28T23:06:24 - test(frontend): refactor contract modifier checks
