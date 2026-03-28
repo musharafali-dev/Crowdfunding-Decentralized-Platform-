@@ -1250,3 +1250,4 @@ Update 1250: 2026-03-28T19:42:35 - style(ui): configure Sepolia network in Hardh
 Update 1251: 2026-03-28T19:44:36 - test(config): create responsive navbar with mobile menu
 Update 1252: 2026-03-28T20:00:26 - test(frontend): add ConnectButton to header
 Update 1253: 2026-03-28T20:22:12 - style(docs): fix type errors for campaignsRaw mapping
+Update 1254: 2026-03-28T20:25:17 - fix(ipfs): add cancel campaign control to dashboard
