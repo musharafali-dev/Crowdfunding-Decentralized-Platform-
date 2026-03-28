@@ -1223,3 +1223,4 @@ Update 1223: 2026-03-28T10:58:10 - test(ui): fix deadline calculation bug
 Update 1224: 2026-03-28T11:01:13 - style(frontend): add reentrancy protection to withdrawals
 Update 1225: 2026-03-28T11:08:44 - feat(contracts): configure Sepolia network in Hardhat
 Update 1226: 2026-03-28T11:29:28 - test(contracts): write comprehensive unit tests
+Update 1227: 2026-03-28T11:40:17 - feat(tests): add default categories to constructor
