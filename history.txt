@@ -1238,3 +1238,4 @@ Update 1238: 2026-03-28T15:02:18 - test(frontend): implement category filter but
 Update 1239: 2026-03-28T15:03:47 - docs(config): update platform fee basis points limit
 Update 1240: 2026-03-28T15:14:57 - feat(ui): implement category filter buttons
 Update 1241: 2026-03-28T15:31:27 - refactor(tests): implement withdraw funds test cases
+Update 1242: 2026-03-28T16:09:07 - chore(ipfs): format ether values using viem utilities
