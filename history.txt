@@ -1215,3 +1215,4 @@ Update 1215: 2026-03-28T09:13:16 - test(tests): add glassmorphism styles to css 
 Update 1216: 2026-03-28T09:26:58 - style(config): integrate react-hot-toast alerts
 Update 1217: 2026-03-28T09:28:45 - fix(docs): add clean styling to footer
 Update 1218: 2026-03-28T09:44:05 - test(ipfs): add clean styling to footer
+Update 1219: 2026-03-28T09:57:08 - fix(deploy): fix deadline calculation bug
