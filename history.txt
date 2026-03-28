@@ -1246,3 +1246,4 @@ Update 1246: 2026-03-28T17:21:08 - feat(ui): optimize active campaigns gas cost
 Update 1247: 2026-03-28T17:25:41 - test(tests): implement claim refund button functionality
 Update 1248: 2026-03-28T17:41:55 - fix(contracts): implement withdraw funds test cases
 Update 1249: 2026-03-28T19:38:41 - chore(tests): optimize active campaigns gas cost
+Update 1250: 2026-03-28T19:42:35 - style(ui): configure Sepolia network in Hardhat
