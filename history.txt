@@ -1248,3 +1248,4 @@ Update 1248: 2026-03-28T17:41:55 - fix(contracts): implement withdraw funds test
 Update 1249: 2026-03-28T19:38:41 - chore(tests): optimize active campaigns gas cost
 Update 1250: 2026-03-28T19:42:35 - style(ui): configure Sepolia network in Hardhat
 Update 1251: 2026-03-28T19:44:36 - test(config): create responsive navbar with mobile menu
+Update 1252: 2026-03-28T20:00:26 - test(frontend): add ConnectButton to header
