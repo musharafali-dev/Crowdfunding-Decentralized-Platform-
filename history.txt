@@ -1211,3 +1211,4 @@ Update 1211: 2026-03-27T20:35:28 - style(frontend): configure Sepolia network in
 Update 1212: 2026-03-27T21:53:14 - refactor(frontend): add Etherscan verification settings
 Update 1213: 2026-03-27T21:53:39 - docs(ui): create responsive navbar with mobile menu
 Update 1214: 2026-03-28T09:13:14 - chore(deploy): implement campaign creation logic
+Update 1215: 2026-03-28T09:13:16 - test(tests): add glassmorphism styles to css base
