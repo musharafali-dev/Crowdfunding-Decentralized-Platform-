@@ -1242,3 +1242,4 @@ Update 1242: 2026-03-28T16:09:07 - chore(ipfs): format ether values using viem u
 Update 1243: 2026-03-28T16:37:50 - feat(config): add default categories to constructor
 Update 1244: 2026-03-28T17:08:20 - chore(tests): create responsive navbar with mobile menu
 Update 1245: 2026-03-28T17:17:18 - docs(ui): fix deadline calculation bug
+Update 1246: 2026-03-28T17:21:08 - feat(ui): optimize active campaigns gas cost
