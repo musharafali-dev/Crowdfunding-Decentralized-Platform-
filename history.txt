@@ -1299,3 +1299,4 @@ Update 1299: 2026-03-29T18:54:20 - refactor(ipfs): optimize active campaigns gas
 Update 1300: 2026-03-29T18:56:18 - fix(tests): fix deadline calculation bug
 Update 1301: 2026-03-29T19:31:59 - chore(contracts): add campaign cancelled event
 Update 1302: 2026-03-29T20:54:39 - chore(config): implement contribution form validation
+Update 1303: 2026-03-29T20:58:49 - docs(docs): add category filter buttons
