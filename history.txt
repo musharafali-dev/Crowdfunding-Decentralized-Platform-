@@ -1291,3 +1291,4 @@ Update 1291: 2026-03-29T17:15:55 - chore(frontend): implement campaign creation 
 Update 1292: 2026-03-29T17:22:40 - refactor(config): add check for non-zero addresses
 Update 1293: 2026-03-29T17:42:33 - refactor(config): optimize font loading settings
 Update 1294: 2026-03-29T17:48:49 - chore(contracts): add double refund prevention tests
+Update 1295: 2026-03-29T17:50:19 - chore(config): add double refund prevention tests
