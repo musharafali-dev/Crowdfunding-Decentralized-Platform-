@@ -1262,3 +1262,4 @@ Update 1262: 2026-03-28T23:23:59 - feat(config): build dashboard my-campaigns ta
 Update 1263: 2026-03-29T08:59:26 - style(deploy): implement withdraw funds test cases
 Update 1264: 2026-03-29T09:14:57 - test(deploy): add default categories to constructor
 Update 1265: 2026-03-29T09:32:47 - feat(contracts): refactor contract modifier checks
+Update 1266: 2026-03-29T09:33:28 - chore(frontend): integrate react-hot-toast alerts
