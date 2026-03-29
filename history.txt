@@ -1307,3 +1307,4 @@ Update 1307: 2026-03-29T22:41:26 - test(contracts): create responsive navbar wit
 Update 1308: 2026-03-29T22:57:18 - feat(frontend): create wagmi provider configuration
 Update 1309: 2026-03-29T23:08:04 - test(tests): fix hydration mismatch warnings
 Update 1310: 2026-03-29T23:31:23 - chore(ipfs): add default categories to constructor
+Update 1311: 2026-03-29T23:41:18 - fix(ipfs): configure Sepolia network in Hardhat
