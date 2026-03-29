@@ -1297,3 +1297,4 @@ Update 1297: 2026-03-29T18:10:28 - feat(contracts): implement campaign creation 
 Update 1298: 2026-03-29T18:21:51 - style(ui): fix deadline calculation bug
 Update 1299: 2026-03-29T18:54:20 - refactor(ipfs): optimize active campaigns gas cost
 Update 1300: 2026-03-29T18:56:18 - fix(tests): fix deadline calculation bug
+Update 1301: 2026-03-29T19:31:59 - chore(contracts): add campaign cancelled event
