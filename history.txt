@@ -1295,3 +1295,4 @@ Update 1295: 2026-03-29T17:50:19 - chore(config): add double refund prevention t
 Update 1296: 2026-03-29T17:51:15 - fix(deploy): fix hydration mismatch warnings
 Update 1297: 2026-03-29T18:10:28 - feat(contracts): implement campaign creation logic
 Update 1298: 2026-03-29T18:21:51 - style(ui): fix deadline calculation bug
+Update 1299: 2026-03-29T18:54:20 - refactor(ipfs): optimize active campaigns gas cost
