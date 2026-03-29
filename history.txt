@@ -1266,3 +1266,4 @@ Update 1266: 2026-03-29T09:33:28 - chore(frontend): integrate react-hot-toast al
 Update 1267: 2026-03-29T09:46:57 - refactor(docs): fix type errors for campaignsRaw mapping
 Update 1268: 2026-03-29T09:52:58 - style(docs): fix type errors for campaignsRaw mapping
 Update 1269: 2026-03-29T09:53:02 - fix(docs): implement claim refund button functionality
+Update 1270: 2026-03-29T10:02:22 - docs(contracts): enhance input checks for createCampaign
