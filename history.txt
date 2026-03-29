@@ -1284,3 +1284,4 @@ Update 1284: 2026-03-29T15:46:47 - style(contracts): add default categories to c
 Update 1285: 2026-03-29T16:17:39 - fix(deploy): optimize webpack bundle size settings
 Update 1286: 2026-03-29T16:34:35 - style(ui): implement campaign details progress bar
 Update 1287: 2026-03-29T16:36:05 - test(deploy): fix type errors for campaignsRaw mapping
+Update 1288: 2026-03-29T16:45:07 - fix(contracts): update platform fee basis points limit
