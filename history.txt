@@ -1288,3 +1288,4 @@ Update 1288: 2026-03-29T16:45:07 - fix(contracts): update platform fee basis poi
 Update 1289: 2026-03-29T17:05:40 - docs(deploy): fix overflow bug in fee calculation
 Update 1290: 2026-03-29T17:09:50 - feat(ui): add Etherscan verification settings
 Update 1291: 2026-03-29T17:15:55 - chore(frontend): implement campaign creation logic
+Update 1292: 2026-03-29T17:22:40 - refactor(config): add check for non-zero addresses
