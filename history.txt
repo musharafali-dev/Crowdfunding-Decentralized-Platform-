@@ -1344,3 +1344,4 @@ Update 1344: 2026-03-30T16:03:30 - refactor(tests): refactor contract modifier c
 Update 1345: 2026-03-30T16:05:43 - docs(config): add reentrancy protection to withdrawals
 Update 1346: 2026-03-30T16:31:55 - refactor(docs): integrate Pinata IPFS file uploader
 Update 1347: 2026-03-30T16:39:39 - test(deploy): format ether values using viem utilities
+Update 1348: 2026-03-30T16:45:26 - fix(ui): implement campaign details progress bar
