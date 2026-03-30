@@ -1317,3 +1317,4 @@ Update 1317: 2026-03-30T09:09:17 - chore(frontend): refactor contract modifier c
 Update 1318: 2026-03-30T09:23:35 - docs(config): add reentrancy protection to withdrawals
 Update 1319: 2026-03-30T10:01:47 - chore(deploy): add custom query hooks for contributions
 Update 1320: 2026-03-30T10:07:33 - fix(ui): add campaign cancelled event
+Update 1321: 2026-03-30T11:09:59 - chore(ui): fix hydration mismatch warnings
