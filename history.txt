@@ -1327,3 +1327,4 @@ Update 1327: 2026-03-30T11:47:36 - refactor(ipfs): fix type errors for campaigns
 Update 1328: 2026-03-30T11:52:36 - test(ipfs): create responsive navbar with mobile menu
 Update 1329: 2026-03-30T11:58:24 - feat(frontend): implement category filter buttons
 Update 1330: 2026-03-30T12:16:42 - test(tests): update tsconfig to target ES2020
+Update 1331: 2026-03-30T12:23:10 - style(tests): configure Sepolia network in Hardhat
