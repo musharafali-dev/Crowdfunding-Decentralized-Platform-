@@ -1323,3 +1323,4 @@ Update 1323: 2026-03-30T11:20:34 - fix(contracts): implement withdraw funds test
 Update 1324: 2026-03-30T11:31:53 - docs(config): implement campaign creation logic
 Update 1325: 2026-03-30T11:39:01 - docs(docs): implement campaign details progress bar
 Update 1326: 2026-03-30T11:40:15 - feat(tests): add Etherscan verification settings
+Update 1327: 2026-03-30T11:47:36 - refactor(ipfs): fix type errors for campaignsRaw mapping
