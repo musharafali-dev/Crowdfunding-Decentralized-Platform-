@@ -1348,3 +1348,4 @@ Update 1348: 2026-03-30T16:45:26 - fix(ui): implement campaign details progress 
 Update 1349: 2026-03-30T17:29:41 - docs(frontend): fix type errors for campaignsRaw mapping
 Update 1350: 2026-03-30T18:25:48 - feat(config): implement claim refund button functionality
 Update 1351: 2026-03-30T19:23:02 - refactor(deploy): add categorized mock fallbacks for images
+Update 1352: 2026-03-30T19:43:59 - chore(frontend): format ether values using viem utilities
