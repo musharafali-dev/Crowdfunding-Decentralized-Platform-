@@ -1331,3 +1331,4 @@ Update 1331: 2026-03-30T12:23:10 - style(tests): configure Sepolia network in Ha
 Update 1332: 2026-03-30T12:28:31 - docs(contracts): add reentrancy protection to withdrawals
 Update 1333: 2026-03-30T13:17:54 - fix(ui): fix hydration mismatch warnings
 Update 1334: 2026-03-30T13:49:18 - test(deploy): add loading skeletons during tx confirm
+Update 1335: 2026-03-30T13:52:22 - test(ipfs): add ConnectButton to header
