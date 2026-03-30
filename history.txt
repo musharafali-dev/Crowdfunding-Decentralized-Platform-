@@ -1321,3 +1321,4 @@ Update 1321: 2026-03-30T11:09:59 - chore(ui): fix hydration mismatch warnings
 Update 1322: 2026-03-30T11:15:44 - refactor(tests): fix hydration mismatch warnings
 Update 1323: 2026-03-30T11:20:34 - fix(contracts): implement withdraw funds test cases
 Update 1324: 2026-03-30T11:31:53 - docs(config): implement campaign creation logic
+Update 1325: 2026-03-30T11:39:01 - docs(docs): implement campaign details progress bar
