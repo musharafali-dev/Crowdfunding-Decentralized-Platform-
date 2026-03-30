@@ -1346,3 +1346,4 @@ Update 1346: 2026-03-30T16:31:55 - refactor(docs): integrate Pinata IPFS file up
 Update 1347: 2026-03-30T16:39:39 - test(deploy): format ether values using viem utilities
 Update 1348: 2026-03-30T16:45:26 - fix(ui): implement campaign details progress bar
 Update 1349: 2026-03-30T17:29:41 - docs(frontend): fix type errors for campaignsRaw mapping
+Update 1350: 2026-03-30T18:25:48 - feat(config): implement claim refund button functionality
