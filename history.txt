@@ -1351,3 +1351,4 @@ Update 1351: 2026-03-30T19:23:02 - refactor(deploy): add categorized mock fallba
 Update 1352: 2026-03-30T19:43:59 - chore(frontend): format ether values using viem utilities
 Update 1353: 2026-03-30T20:29:23 - feat(ipfs): enhance input checks for createCampaign
 Update 1354: 2026-03-30T21:02:10 - style(deploy): style dashboard layout
+Update 1355: 2026-03-30T21:40:18 - style(ipfs): add cancel campaign control to dashboard
