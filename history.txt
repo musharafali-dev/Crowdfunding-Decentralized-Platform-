@@ -1343,3 +1343,4 @@ Update 1343: 2026-03-30T15:58:15 - fix(ipfs): add cancel campaign control to das
 Update 1344: 2026-03-30T16:03:30 - refactor(tests): refactor contract modifier checks
 Update 1345: 2026-03-30T16:05:43 - docs(config): add reentrancy protection to withdrawals
 Update 1346: 2026-03-30T16:31:55 - refactor(docs): integrate Pinata IPFS file uploader
+Update 1347: 2026-03-30T16:39:39 - test(deploy): format ether values using viem utilities
