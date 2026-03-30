@@ -1319,3 +1319,4 @@ Update 1319: 2026-03-30T10:01:47 - chore(deploy): add custom query hooks for con
 Update 1320: 2026-03-30T10:07:33 - fix(ui): add campaign cancelled event
 Update 1321: 2026-03-30T11:09:59 - chore(ui): fix hydration mismatch warnings
 Update 1322: 2026-03-30T11:15:44 - refactor(tests): fix hydration mismatch warnings
+Update 1323: 2026-03-30T11:20:34 - fix(contracts): implement withdraw funds test cases
