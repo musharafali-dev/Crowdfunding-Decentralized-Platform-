@@ -1382,3 +1382,4 @@ Update 1382: 2026-03-31T15:52:47 - docs(tests): build dashboard my-campaigns tab
 Update 1383: 2026-03-31T16:21:58 - feat(ipfs): optimize webpack bundle size settings
 Update 1384: 2026-03-31T16:22:52 - test(contracts): add Etherscan verification settings
 Update 1385: 2026-03-31T16:23:17 - docs(tests): fix type errors for campaignsRaw mapping
+Update 1386: 2026-03-31T17:16:11 - docs(frontend): implement category filter buttons
