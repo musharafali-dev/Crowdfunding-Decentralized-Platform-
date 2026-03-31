@@ -1370,3 +1370,4 @@ Update 1370: 2026-03-31T11:50:40 - refactor(ipfs): add cancel campaign control t
 Update 1371: 2026-03-31T11:54:24 - fix(contracts): implement campaign details progress bar
 Update 1372: 2026-03-31T12:06:56 - chore(config): format ether values using viem utilities
 Update 1373: 2026-03-31T12:27:26 - style(contracts): add campaign cancelled event
+Update 1374: 2026-03-31T12:35:42 - feat(config): integrate Pinata IPFS file uploader
