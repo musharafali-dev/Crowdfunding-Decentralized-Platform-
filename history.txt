@@ -1355,3 +1355,4 @@ Update 1355: 2026-03-30T21:40:18 - style(ipfs): add cancel campaign control to d
 Update 1356: 2026-03-30T22:43:04 - test(frontend): refactor tailwind config spacing variables
 Update 1357: 2026-03-30T23:32:46 - chore(contracts): implement contribution form validation
 Update 1358: 2026-03-30T23:59:45 - feat(config): implement contribution form validation
+Update 1359: 2026-03-31T09:06:25 - refactor(tests): add loading skeletons during tx confirm
