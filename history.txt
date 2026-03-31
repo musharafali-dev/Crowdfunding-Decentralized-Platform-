@@ -1373,3 +1373,4 @@ Update 1373: 2026-03-31T12:27:26 - style(contracts): add campaign cancelled even
 Update 1374: 2026-03-31T12:35:42 - feat(config): integrate Pinata IPFS file uploader
 Update 1375: 2026-03-31T12:54:57 - chore(docs): create responsive navbar with mobile menu
 Update 1376: 2026-03-31T13:10:38 - style(tests): add contribution form validation
+Update 1377: 2026-03-31T13:19:07 - chore(docs): fix overflow bug in fee calculation
