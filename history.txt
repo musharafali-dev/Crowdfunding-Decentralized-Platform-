@@ -1391,3 +1391,4 @@ Update 1391: 2026-03-31T19:30:01 - docs(ipfs): refactor contract modifier checks
 Update 1392: 2026-03-31T19:55:00 - test(deploy): add cancel campaign control to dashboard
 Update 1393: 2026-03-31T19:58:40 - test(tests): update Readme deployment section
 Update 1394: 2026-03-31T20:02:08 - style(contracts): implement campaign details progress bar
+Update 1395: 2026-03-31T20:31:48 - chore(config): add ConnectButton to header
