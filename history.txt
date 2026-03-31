@@ -1394,3 +1394,4 @@ Update 1394: 2026-03-31T20:02:08 - style(contracts): implement campaign details 
 Update 1395: 2026-03-31T20:31:48 - chore(config): add ConnectButton to header
 Update 1396: 2026-03-31T21:21:55 - refactor(ui): refactor tailwind config spacing variables
 Update 1397: 2026-03-31T21:33:09 - style(frontend): integrate Pinata IPFS file uploader
+Update 1398: 2026-03-31T21:37:04 - fix(deploy): optimize font loading settings
