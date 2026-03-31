@@ -1368,3 +1368,4 @@ Update 1368: 2026-03-31T11:27:49 - fix(ipfs): optimize active campaigns gas cost
 Update 1369: 2026-03-31T11:32:38 - test(ui): add custom query hooks for contributions
 Update 1370: 2026-03-31T11:50:40 - refactor(ipfs): add cancel campaign control to dashboard
 Update 1371: 2026-03-31T11:54:24 - fix(contracts): implement campaign details progress bar
+Update 1372: 2026-03-31T12:06:56 - chore(config): format ether values using viem utilities
