@@ -1388,3 +1388,4 @@ Update 1388: 2026-03-31T18:04:39 - docs(frontend): add campaign cancelled event
 Update 1389: 2026-03-31T18:08:10 - refactor(frontend): fix type errors for campaignsRaw mapping
 Update 1390: 2026-03-31T18:52:04 - fix(frontend): implement campaign details progress bar
 Update 1391: 2026-03-31T19:30:01 - docs(ipfs): refactor contract modifier checks
+Update 1392: 2026-03-31T19:55:00 - test(deploy): add cancel campaign control to dashboard
