@@ -1357,3 +1357,4 @@ Update 1357: 2026-03-30T23:32:46 - chore(contracts): implement contribution form
 Update 1358: 2026-03-30T23:59:45 - feat(config): implement contribution form validation
 Update 1359: 2026-03-31T09:06:25 - refactor(tests): add loading skeletons during tx confirm
 Update 1360: 2026-03-31T09:09:58 - chore(frontend): update platform fee basis points limit
+Update 1361: 2026-03-31T09:17:20 - feat(docs): build dashboard my-campaigns tab
