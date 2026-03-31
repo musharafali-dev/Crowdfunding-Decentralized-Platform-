@@ -1396,3 +1396,4 @@ Update 1396: 2026-03-31T21:21:55 - refactor(ui): refactor tailwind config spacin
 Update 1397: 2026-03-31T21:33:09 - style(frontend): integrate Pinata IPFS file uploader
 Update 1398: 2026-03-31T21:37:04 - fix(deploy): optimize font loading settings
 Update 1399: 2026-03-31T21:41:40 - fix(ui): add claim refund button functionality
+Update 1400: 2026-03-31T22:57:28 - docs(ui): add ConnectButton to header
