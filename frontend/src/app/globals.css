@@ -1,0 +1,115 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 3.5%; /* #090909 */
+    --foreground: 0 0% 100%; /* #FFFFFF */
+    
+    --card: 0 0% 10.6%; /* #1b1b1b */
+    --card-foreground: 0 0% 100%;
+    
+    --popover: 0 0% 7.8%; /* #141414 */
+    --popover-foreground: 0 0% 100%;
+    
+    --primary: 33 94% 53.7%; /* #F7931A */
+    --primary-foreground: 0 0% 100%;
+    
+    --secondary: 33 100% 50%; /* #FF8C00 */
+    --secondary-foreground: 0 0% 100%;
+    
+    --muted: 0 0% 48.6%; /* #7C7C7C */
+    --muted-foreground: 0 0% 72.2%; /* #B8B8B8 */
+    
+    --accent: 33 94% 53.7%;
+    --accent-foreground: 0 0% 100%;
+    
+    --border: 0 0% 100% / 0.08; /* rgba(255,255,255,0.08) */
+    --input: 0 0% 100% / 0.08;
+    --ring: 33 94% 53.7%;
+    
+    --radius: 20px;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-white/5;
+  }
+  body {
+    @apply bg-[#090909] text-white antialiased selection:bg-[#F7931A] selection:text-white font-sans;
+    background-image: 
+      radial-gradient(at 0% 0%, hsla(33, 90%, 8%, 0.25) 0, transparent 45%), 
+      radial-gradient(at 100% 0%, hsla(25, 90%, 6%, 0.2) 0, transparent 45%),
+      radial-gradient(at 50% 50%, hsla(33, 90%, 3%, 0.15) 0, transparent 65%);
+    background-attachment: fixed;
+  }
+}
+
+/* Premium Surface panels */
+.glass-panel {
+  background: #141414;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.glass-card {
+  background: #1B1B1B;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 
+    0 10px 30px -10px rgba(0, 0, 0, 0.7),
+    inset 0 1px 1px 0 rgba(255, 255, 255, 0.03);
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.glass-card:hover {
+  transform: translateY(-4px);
+  border-color: rgba(247, 147, 26, 0.3);
+  box-shadow: 
+    0 20px 40px -15px rgba(247, 147, 26, 0.08),
+    inset 0 1px 2px 0 rgba(255, 255, 255, 0.05);
+}
+
+/* Beautiful Editorial Gradients */
+.text-gradient {
+  @apply bg-gradient-to-r from-[#F7931A] via-[#FF8C00] to-[#C65A00] bg-clip-text text-transparent;
+}
+
+.text-gradient-gold {
+  @apply bg-gradient-to-r from-amber-200 via-orange-300 to-[#F7931A] bg-clip-text text-transparent;
+}
+
+/* Scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #090909;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(247, 147, 26, 0.15);
+  border-radius: 9999px;
+  border: 2px solid #090909;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(247, 147, 26, 0.4);
+}
+
+/* Form inputs */
+.form-input {
+  @apply w-full bg-[#141414] border border-white/5 rounded-[12px] px-4 py-3.5 text-white placeholder-white/30 focus:outline-none focus:ring-1 focus:ring-[#F7931A]/40 focus:border-[#F7931A] transition-all duration-200;
+}
+
+/* Primary Accent buttons */
+.btn-primary {
+  @apply bg-gradient-to-r from-[#F7931A] to-[#FF8C00] hover:from-[#FF8C00] hover:to-[#C65A00] text-white font-semibold rounded-[12px] shadow-lg shadow-orange-600/10 hover:shadow-orange-600/20 transition-all duration-200;
+}
+
+/* Secondary Accent buttons */
+.btn-secondary {
+  @apply bg-[#141414] hover:bg-[#1B1B1B] border border-[#F7931A]/30 hover:border-[#F7931A]/60 text-white font-semibold rounded-[12px] transition-all duration-200;
+}

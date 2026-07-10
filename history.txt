@@ -1,0 +1,1399 @@
+Update 2: 2026-03-01T10:19:40 - chore(contracts): implement campaign creation logic
+Update 3: 2026-03-01T10:37:37 - refactor(docs): fix type errors for campaignsRaw mapping
+Update 4: 2026-03-01T11:22:01 - style(config): optimize active campaigns gas cost
+Update 5: 2026-03-01T11:35:31 - test(config): add default categories to constructor
+Update 6: 2026-03-01T11:52:58 - docs(frontend): add Etherscan verification settings
+Update 7: 2026-03-01T11:53:55 - refactor(ipfs): style dashboard layout
+Update 8: 2026-03-01T12:09:34 - chore(frontend): fix hydration mismatch warnings
+Update 9: 2026-03-01T12:15:24 - docs(config): optimize font loading settings
+Update 10: 2026-03-01T12:31:51 - test(contracts): add campaign cancelled event
+Update 11: 2026-03-01T12:59:06 - test(ui): create wagmi provider configuration
+Update 12: 2026-03-01T12:59:25 - style(ui): implement withdraw funds test cases
+Update 13: 2026-03-01T13:08:10 - test(ipfs): implement claim refund button functionality
+Update 14: 2026-03-01T13:23:11 - chore(docs): update Readme deployment section
+Update 15: 2026-03-01T14:18:28 - chore(docs): create remaining time countdown timer
+Update 16: 2026-03-01T15:05:01 - docs(deploy): add reentrancy protection to withdrawals
+Update 17: 2026-03-01T15:27:05 - docs(ui): add glassmorphism styles to css base
+Update 18: 2026-03-01T15:39:14 - style(ipfs): update platform fee basis points limit
+Update 19: 2026-03-01T16:01:31 - refactor(deploy): build dashboard my-campaigns tab
+Update 20: 2026-03-01T16:44:57 - fix(frontend): add check for non-zero addresses
+Update 21: 2026-03-01T17:25:53 - style(tests): add campaign creation logic
+Update 22: 2026-03-01T17:37:21 - test(docs): implement campaign creation logic
+Update 23: 2026-03-01T18:06:06 - chore(deploy): implement campaign details progress bar
+Update 24: 2026-03-01T18:13:50 - test(tests): integrate react-hot-toast alerts
+Update 25: 2026-03-01T18:14:25 - docs(docs): format ether values using viem utilities
+Update 26: 2026-03-01T18:59:27 - refactor(ui): add glassmorphism styles to css base
+Update 27: 2026-03-01T19:43:00 - test(tests): add reentrancy protection to withdrawals
+Update 28: 2026-03-01T19:47:12 - feat(ui): build dashboard my-campaigns tab
+Update 29: 2026-03-01T19:55:52 - fix(tests): implement category add owner function
+Update 30: 2026-03-01T21:23:22 - refactor(ui): write comprehensive unit tests
+Update 31: 2026-03-01T21:33:15 - feat(deploy): add campaign creation logic
+Update 32: 2026-03-01T21:38:46 - style(deploy): style dashboard layout
+Update 33: 2026-03-01T22:06:03 - fix(frontend): test category duplicate prevention
+Update 34: 2026-03-01T22:49:24 - chore(deploy): update Readme deployment section
+Update 35: 2026-03-01T23:00:26 - test(tests): implement campaign details progress bar
+Update 36: 2026-03-01T23:08:42 - chore(ui): optimize font loading settings
+Update 37: 2026-03-01T23:10:53 - refactor(docs): create remaining time countdown timer
+Update 38: 2026-03-01T23:31:55 - fix(frontend): style dashboard layout
+Update 39: 2026-03-02T08:03:37 - docs(contracts): add double refund prevention tests
+Update 40: 2026-03-02T08:45:25 - feat(ui): refactor contract modifier checks
+Update 41: 2026-03-02T08:55:40 - fix(ipfs): fix deadline calculation bug
+Update 42: 2026-03-02T08:56:00 - test(tests): add campaign details progress bar
+Update 43: 2026-03-02T09:08:53 - feat(tests): add clean styling to footer
+Update 44: 2026-03-02T09:34:27 - fix(docs): add Etherscan verification settings
+Update 45: 2026-03-02T09:44:05 - docs(ui): test category duplicate prevention
+Update 46: 2026-03-02T09:47:58 - docs(deploy): add default categories to constructor
+Update 47: 2026-03-02T10:18:47 - style(frontend): format ether values using viem utilities
+Update 48: 2026-03-02T10:41:00 - refactor(deploy): add double refund prevention tests
+Update 49: 2026-03-02T10:45:04 - docs(deploy): implement contribution form validation
+Update 50: 2026-03-02T11:05:13 - docs(tests): update platform fee basis points limit
+Update 51: 2026-03-02T11:15:45 - docs(config): create responsive navbar with mobile menu
+Update 52: 2026-03-02T11:16:30 - fix(ipfs): implement campaign details progress bar
+Update 53: 2026-03-02T11:48:11 - docs(docs): add double refund prevention tests
+Update 54: 2026-03-02T11:54:03 - refactor(config): implement category add owner function
+Update 55: 2026-03-02T12:09:24 - docs(ui): configure Sepolia network in Hardhat
+Update 56: 2026-03-02T13:02:23 - refactor(docs): create remaining time countdown timer
+Update 57: 2026-03-02T13:05:39 - fix(frontend): fix overflow bug in fee calculation
+Update 58: 2026-03-02T13:07:50 - chore(config): fix hydration mismatch warnings
+Update 59: 2026-03-02T13:08:12 - test(config): implement category add owner function
+Update 60: 2026-03-02T13:33:36 - docs(config): implement contribution form validation
+Update 61: 2026-03-02T14:35:52 - fix(docs): integrate Pinata IPFS file uploader
+Update 62: 2026-03-02T14:49:01 - refactor(contracts): add custom query hooks for contributions
+Update 63: 2026-03-02T15:06:25 - feat(tests): update Readme deployment section
+Update 64: 2026-03-02T15:34:53 - docs(config): build dashboard my-campaigns tab
+Update 65: 2026-03-02T15:36:41 - refactor(deploy): refactor tailwind config spacing variables
+Update 66: 2026-03-02T15:58:33 - test(frontend): add default categories to constructor
+Update 67: 2026-03-02T16:54:23 - chore(ui): style homepage hero section
+Update 68: 2026-03-02T17:20:45 - test(ipfs): add campaign cancelled event
+Update 69: 2026-03-02T17:21:30 - test(docs): create remaining time countdown timer
+Update 70: 2026-03-02T17:41:31 - feat(config): create wagmi provider configuration
+Update 71: 2026-03-02T18:31:42 - refactor(ipfs): update Readme deployment section
+Update 72: 2026-03-02T18:32:13 - chore(ui): add clean styling to footer
+Update 73: 2026-03-02T18:51:50 - refactor(contracts): add campaign cancelled event
+Update 74: 2026-03-02T18:58:04 - chore(docs): optimize font loading settings
+Update 75: 2026-03-02T19:33:21 - chore(ui): style dashboard layout
+Update 76: 2026-03-02T19:43:27 - refactor(config): update tsconfig to target ES2020
+Update 77: 2026-03-02T20:11:32 - fix(ui): fix deadline calculation bug
+Update 78: 2026-03-02T20:28:03 - chore(contracts): add campaign cancelled event
+Update 79: 2026-03-02T21:15:41 - test(ipfs): fix overflow bug in fee calculation
+Update 80: 2026-03-02T21:49:00 - chore(contracts): configure Sepolia network in Hardhat
+Update 81: 2026-03-02T22:05:07 - chore(tests): fix type errors for campaignsRaw mapping
+Update 82: 2026-03-02T22:32:26 - fix(ipfs): add double refund prevention tests
+Update 83: 2026-03-02T23:00:37 - chore(ui): create wagmi provider configuration
+Update 84: 2026-03-02T23:49:40 - style(tests): update tsconfig to target ES2020
+Update 85: 2026-03-02T23:50:08 - refactor(contracts): build dashboard my-campaigns tab
+Update 86: 2026-03-02T23:51:12 - fix(frontend): add loading skeletons during tx confirm
+Update 87: 2026-03-02T23:55:20 - refactor(frontend): implement withdraw funds test cases
+Update 88: 2026-03-02T23:56:48 - fix(docs): create remaining time countdown timer
+Update 89: 2026-03-03T08:07:33 - chore(docs): add check for non-zero addresses
+Update 90: 2026-03-03T09:48:44 - refactor(frontend): add custom query hooks for contributions
+Update 91: 2026-03-03T10:15:07 - chore(ipfs): configure Sepolia network in Hardhat
+Update 92: 2026-03-03T10:55:39 - style(ipfs): implement claim refund button functionality
+Update 93: 2026-03-03T11:18:22 - feat(config): add check for non-zero addresses
+Update 94: 2026-03-03T11:20:27 - chore(deploy): create responsive navbar with mobile menu
+Update 95: 2026-03-03T11:39:02 - fix(tests): add withdraw funds test cases
+Update 96: 2026-03-03T11:42:15 - refactor(tests): add clean styling to footer
+Update 97: 2026-03-03T11:54:15 - chore(frontend): optimize webpack bundle size settings
+Update 98: 2026-03-03T12:22:27 - style(ui): optimize active campaigns gas cost
+Update 99: 2026-03-03T12:34:17 - docs(tests): style homepage hero section
+Update 100: 2026-03-03T12:45:52 - style(docs): implement claim refund button functionality
+Update 101: 2026-03-03T12:50:10 - refactor(docs): update tsconfig to target ES2020
+Update 102: 2026-03-03T13:02:56 - feat(deploy): optimize webpack bundle size settings
+Update 103: 2026-03-03T13:11:00 - test(ui): create responsive navbar with mobile menu
+Update 104: 2026-03-03T13:12:05 - test(deploy): configure Sepolia network in Hardhat
+Update 105: 2026-03-03T13:18:33 - chore(ipfs): write comprehensive unit tests
+Update 106: 2026-03-03T13:26:53 - style(frontend): add glassmorphism styles to css base
+Update 107: 2026-03-03T14:03:06 - feat(config): build dashboard my-campaigns tab
+Update 108: 2026-03-03T14:07:11 - fix(contracts): add cancel campaign control to dashboard
+Update 109: 2026-03-03T14:12:44 - feat(deploy): integrate react-hot-toast alerts
+Update 110: 2026-03-03T14:48:50 - refactor(contracts): fix deadline calculation bug
+Update 111: 2026-03-03T15:10:30 - docs(config): refactor tailwind config spacing variables
+Update 112: 2026-03-03T15:10:59 - chore(ui): add default categories to constructor
+Update 113: 2026-03-03T15:31:47 - feat(docs): format ether values using viem utilities
+Update 114: 2026-03-03T16:00:36 - docs(deploy): integrate react-hot-toast alerts
+Update 115: 2026-03-03T16:35:06 - refactor(contracts): add categorized mock fallbacks for images
+Update 116: 2026-03-03T17:12:15 - fix(tests): add glassmorphism styles to css base
+Update 117: 2026-03-03T17:18:08 - style(ipfs): implement category filter buttons
+Update 118: 2026-03-03T17:57:06 - test(contracts): add cancel campaign control to dashboard
+Update 119: 2026-03-03T18:00:29 - style(config): implement withdraw funds test cases
+Update 120: 2026-03-03T18:02:37 - refactor(ui): fix hydration mismatch warnings
+Update 121: 2026-03-03T18:14:42 - refactor(contracts): create wagmi provider configuration
+Update 122: 2026-03-03T18:15:43 - refactor(ui): add glassmorphism styles to css base
+Update 123: 2026-03-03T18:18:35 - refactor(ui): fix type errors for campaignsRaw mapping
+Update 124: 2026-03-03T19:09:14 - refactor(ipfs): add campaign cancelled event
+Update 125: 2026-03-03T20:19:33 - style(ui): optimize webpack bundle size settings
+Update 126: 2026-03-03T20:23:06 - feat(deploy): configure Sepolia network in Hardhat
+Update 127: 2026-03-03T20:51:24 - chore(config): test category duplicate prevention
+Update 128: 2026-03-03T21:14:06 - test(contracts): add campaign creation logic
+Update 129: 2026-03-03T22:33:12 - chore(ui): create remaining time countdown timer
+Update 130: 2026-03-03T22:35:59 - fix(ui): add category add owner function
+Update 131: 2026-03-03T22:36:11 - chore(frontend): add categorized mock fallbacks for images
+Update 132: 2026-03-03T22:36:43 - feat(contracts): fix type errors for campaignsRaw mapping
+Update 133: 2026-03-03T22:46:24 - style(tests): refactor tailwind config spacing variables
+Update 134: 2026-03-03T22:46:48 - fix(config): add reentrancy protection to withdrawals
+Update 135: 2026-03-03T22:57:40 - docs(config): test category duplicate prevention
+Update 136: 2026-03-03T23:17:29 - chore(deploy): add double refund prevention tests
+Update 137: 2026-03-03T23:48:50 - feat(config): add categorized mock fallbacks for images
+Update 138: 2026-03-04T08:01:42 - test(frontend): build dashboard my-campaigns tab
+Update 139: 2026-03-04T08:08:05 - test(deploy): implement category filter buttons
+Update 140: 2026-03-04T08:18:50 - refactor(ui): add contribution form validation
+Update 141: 2026-03-04T08:38:32 - fix(frontend): add check for non-zero addresses
+Update 142: 2026-03-04T08:50:55 - feat(frontend): add ConnectButton to header
+Update 143: 2026-03-04T08:51:36 - test(deploy): implement category filter buttons
+Update 144: 2026-03-04T09:14:11 - style(tests): fix deadline calculation bug
+Update 145: 2026-03-04T10:41:05 - refactor(docs): implement campaign creation logic
+Update 146: 2026-03-04T10:44:58 - test(frontend): add clean styling to footer
+Update 147: 2026-03-04T11:48:28 - chore(frontend): create responsive navbar with mobile menu
+Update 148: 2026-03-04T11:52:16 - test(contracts): integrate Pinata IPFS file uploader
+Update 149: 2026-03-04T12:19:03 - test(ipfs): refactor contract modifier checks
+Update 150: 2026-03-04T12:33:32 - feat(deploy): style homepage hero section
+Update 151: 2026-03-04T13:46:05 - fix(ui): style dashboard layout
+Update 152: 2026-03-04T13:50:56 - feat(frontend): add custom query hooks for contributions
+Update 153: 2026-03-04T14:17:38 - feat(config): add glassmorphism styles to css base
+Update 154: 2026-03-04T14:19:51 - fix(ipfs): fix deadline calculation bug
+Update 155: 2026-03-04T14:36:10 - chore(tests): add ConnectButton to header
+Update 156: 2026-03-04T15:27:20 - style(frontend): add double refund prevention tests
+Update 157: 2026-03-04T15:36:34 - docs(docs): update tsconfig to target ES2020
+Update 158: 2026-03-04T15:55:15 - chore(contracts): write comprehensive unit tests
+Update 159: 2026-03-04T17:03:12 - refactor(docs): create wagmi provider configuration
+Update 160: 2026-03-04T17:09:53 - feat(contracts): optimize active campaigns gas cost
+Update 161: 2026-03-04T17:21:55 - docs(contracts): implement contribution form validation
+Update 162: 2026-03-04T17:24:45 - chore(frontend): implement withdraw funds test cases
+Update 163: 2026-03-04T17:44:12 - feat(contracts): implement claim refund button functionality
+Update 164: 2026-03-04T18:04:42 - feat(frontend): add check for non-zero addresses
+Update 165: 2026-03-04T18:11:25 - style(ui): create responsive navbar with mobile menu
+Update 166: 2026-03-04T18:20:38 - test(deploy): add cancel campaign control to dashboard
+Update 167: 2026-03-04T18:25:23 - chore(docs): add glassmorphism styles to css base
+Update 168: 2026-03-04T18:25:47 - docs(ui): add custom query hooks for contributions
+Update 169: 2026-03-04T18:42:02 - style(config): implement contribution form validation
+Update 170: 2026-03-04T18:42:20 - chore(ipfs): integrate Pinata IPFS file uploader
+Update 171: 2026-03-04T19:37:38 - style(deploy): create wagmi provider configuration
+Update 172: 2026-03-04T19:45:23 - chore(ui): implement withdraw funds test cases
+Update 173: 2026-03-04T19:56:16 - style(contracts): add loading skeletons during tx confirm
+Update 174: 2026-03-04T20:01:23 - chore(deploy): test category duplicate prevention
+Update 175: 2026-03-04T20:21:05 - test(frontend): add categorized mock fallbacks for images
+Update 176: 2026-03-04T20:21:07 - chore(frontend): configure Sepolia network in Hardhat
+Update 177: 2026-03-04T20:36:43 - chore(tests): configure Sepolia network in Hardhat
+Update 178: 2026-03-04T21:11:08 - fix(tests): add clean styling to footer
+Update 179: 2026-03-04T22:22:14 - test(frontend): update tsconfig to target ES2020
+Update 180: 2026-03-04T22:26:28 - feat(ui): fix deadline calculation bug
+Update 181: 2026-03-04T22:43:24 - chore(config): update Readme deployment section
+Update 182: 2026-03-04T22:56:35 - docs(docs): implement claim refund button functionality
+Update 183: 2026-03-05T08:03:21 - docs(frontend): fix hydration mismatch warnings
+Update 184: 2026-03-05T08:10:45 - style(config): test category duplicate prevention
+Update 185: 2026-03-05T08:12:51 - refactor(config): style dashboard layout
+Update 186: 2026-03-05T09:28:01 - chore(deploy): optimize font loading settings
+Update 187: 2026-03-05T09:56:45 - test(contracts): style dashboard layout
+Update 188: 2026-03-05T10:44:09 - style(ipfs): fix hydration mismatch warnings
+Update 189: 2026-03-05T10:44:20 - chore(docs): update Readme deployment section
+Update 190: 2026-03-05T10:54:04 - chore(tests): test category duplicate prevention
+Update 191: 2026-03-05T11:11:56 - feat(config): style homepage hero section
+Update 192: 2026-03-05T12:18:02 - docs(ipfs): optimize active campaigns gas cost
+Update 193: 2026-03-05T12:29:31 - style(ipfs): add custom query hooks for contributions
+Update 194: 2026-03-05T12:33:22 - style(frontend): add double refund prevention tests
+Update 195: 2026-03-05T12:37:23 - feat(contracts): fix overflow bug in fee calculation
+Update 196: 2026-03-05T12:38:07 - chore(docs): integrate react-hot-toast alerts
+Update 197: 2026-03-05T13:29:15 - docs(config): build dashboard my-campaigns tab
+Update 198: 2026-03-05T13:32:24 - feat(docs): fix hydration mismatch warnings
+Update 199: 2026-03-05T14:37:15 - chore(deploy): add default categories to constructor
+Update 200: 2026-03-05T15:13:12 - docs(config): implement campaign creation logic
+Update 201: 2026-03-05T15:32:16 - docs(frontend): add custom query hooks for contributions
+Update 202: 2026-03-05T15:34:48 - chore(tests): implement contribution form validation
+Update 203: 2026-03-05T15:58:28 - feat(tests): implement category filter buttons
+Update 204: 2026-03-05T16:09:37 - refactor(contracts): implement withdraw funds test cases
+Update 205: 2026-03-05T16:09:57 - feat(frontend): add reentrancy protection to withdrawals
+Update 206: 2026-03-05T17:10:01 - style(ui): fix overflow bug in fee calculation
+Update 207: 2026-03-05T17:29:40 - fix(ui): integrate Pinata IPFS file uploader
+Update 208: 2026-03-05T17:40:57 - docs(tests): implement contribution form validation
+Update 209: 2026-03-05T17:46:49 - style(contracts): style dashboard layout
+Update 210: 2026-03-05T17:50:18 - test(deploy): implement withdraw funds test cases
+Update 211: 2026-03-05T18:17:53 - refactor(deploy): add glassmorphism styles to css base
+Update 212: 2026-03-05T18:32:07 - chore(docs): implement category add owner function
+Update 213: 2026-03-05T18:45:55 - feat(ui): enhance input checks for createCampaign
+Update 214: 2026-03-05T18:48:49 - docs(contracts): add loading skeletons during tx confirm
+Update 215: 2026-03-05T19:00:21 - docs(deploy): add check for non-zero addresses
+Update 216: 2026-03-05T19:24:51 - fix(frontend): add ConnectButton to header
+Update 217: 2026-03-05T19:38:04 - feat(contracts): fix deadline calculation bug
+Update 218: 2026-03-05T20:20:14 - chore(contracts): add clean styling to footer
+Update 219: 2026-03-05T21:03:17 - style(frontend): fix deadline calculation bug
+Update 220: 2026-03-05T21:24:02 - style(deploy): optimize active campaigns gas cost
+Update 221: 2026-03-05T21:27:34 - style(contracts): update Readme deployment section
+Update 222: 2026-03-05T21:46:04 - test(tests): add loading skeletons during tx confirm
+Update 223: 2026-03-05T22:02:36 - chore(frontend): create responsive navbar with mobile menu
+Update 224: 2026-03-05T22:07:18 - refactor(frontend): add claim refund button functionality
+Update 225: 2026-03-05T22:32:08 - style(deploy): integrate Pinata IPFS file uploader
+Update 226: 2026-03-05T23:53:46 - fix(frontend): write comprehensive unit tests
+Update 227: 2026-03-06T08:02:22 - refactor(deploy): implement withdraw funds test cases
+Update 228: 2026-03-06T08:26:52 - docs(tests): add reentrancy protection to withdrawals
+Update 229: 2026-03-06T08:41:00 - chore(deploy): optimize webpack bundle size settings
+Update 230: 2026-03-06T09:26:49 - refactor(deploy): fix deadline calculation bug
+Update 231: 2026-03-06T10:00:07 - refactor(tests): create responsive navbar with mobile menu
+Update 232: 2026-03-06T10:41:27 - fix(contracts): implement campaign details progress bar
+Update 233: 2026-03-06T11:15:10 - docs(config): integrate react-hot-toast alerts
+Update 234: 2026-03-06T11:38:33 - feat(ipfs): implement campaign details progress bar
+Update 235: 2026-03-06T11:59:25 - style(docs): add loading skeletons during tx confirm
+Update 236: 2026-03-06T12:29:19 - style(frontend): add loading skeletons during tx confirm
+Update 237: 2026-03-06T12:55:48 - style(deploy): enhance input checks for createCampaign
+Update 238: 2026-03-06T13:13:26 - test(frontend): write comprehensive unit tests
+Update 239: 2026-03-06T13:53:40 - feat(ui): add glassmorphism styles to css base
+Update 240: 2026-03-06T13:56:59 - test(ipfs): style homepage hero section
+Update 241: 2026-03-06T14:09:13 - refactor(frontend): style homepage hero section
+Update 242: 2026-03-06T14:12:06 - chore(contracts): fix deadline calculation bug
+Update 243: 2026-03-06T14:19:23 - style(contracts): enhance input checks for createCampaign
+Update 244: 2026-03-06T15:04:18 - feat(docs): implement campaign creation logic
+Update 245: 2026-03-06T15:16:06 - chore(docs): add campaign cancelled event
+Update 246: 2026-03-06T15:46:35 - fix(docs): implement category filter buttons
+Update 247: 2026-03-06T16:03:15 - test(ui): implement withdraw funds test cases
+Update 248: 2026-03-06T16:03:54 - feat(docs): refactor tailwind config spacing variables
+Update 249: 2026-03-06T16:15:45 - fix(ipfs): add ConnectButton to header
+Update 250: 2026-03-06T16:22:14 - fix(config): add loading skeletons during tx confirm
+Update 251: 2026-03-06T16:25:19 - feat(tests): fix hydration mismatch warnings
+Update 252: 2026-03-06T16:25:52 - fix(contracts): create wagmi provider configuration
+Update 253: 2026-03-06T16:54:49 - style(deploy): format ether values using viem utilities
+Update 254: 2026-03-06T16:59:23 - docs(docs): add glassmorphism styles to css base
+Update 255: 2026-03-06T17:15:27 - chore(docs): build dashboard my-campaigns tab
+Update 256: 2026-03-06T18:01:01 - refactor(frontend): add default categories to constructor
+Update 257: 2026-03-06T18:24:15 - chore(ui): enhance input checks for createCampaign
+Update 258: 2026-03-06T18:28:23 - style(ui): add loading skeletons during tx confirm
+Update 259: 2026-03-06T18:32:19 - style(docs): format ether values using viem utilities
+Update 260: 2026-03-06T19:23:55 - style(contracts): add glassmorphism styles to css base
+Update 261: 2026-03-06T19:25:45 - feat(ipfs): optimize webpack bundle size settings
+Update 262: 2026-03-06T19:26:07 - docs(contracts): add reentrancy protection to withdrawals
+Update 263: 2026-03-06T19:43:45 - refactor(frontend): add clean styling to footer
+Update 264: 2026-03-06T20:23:06 - fix(contracts): test category duplicate prevention
+Update 265: 2026-03-06T20:34:47 - test(ipfs): implement category filter buttons
+Update 266: 2026-03-06T20:41:49 - test(contracts): implement claim refund button functionality
+Update 267: 2026-03-06T20:49:14 - style(frontend): write comprehensive unit tests
+Update 268: 2026-03-06T20:53:52 - refactor(frontend): style homepage hero section
+Update 269: 2026-03-06T21:22:11 - chore(docs): add categorized mock fallbacks for images
+Update 270: 2026-03-06T22:06:12 - test(ipfs): optimize webpack bundle size settings
+Update 271: 2026-03-06T22:12:41 - test(contracts): add clean styling to footer
+Update 272: 2026-03-06T22:18:02 - docs(tests): add glassmorphism styles to css base
+Update 273: 2026-03-06T22:30:16 - refactor(frontend): add glassmorphism styles to css base
+Update 274: 2026-03-06T22:40:05 - feat(ipfs): add custom query hooks for contributions
+Update 275: 2026-03-06T23:41:39 - feat(tests): fix type errors for campaignsRaw mapping
+Update 276: 2026-03-07T08:14:40 - feat(deploy): test category duplicate prevention
+Update 277: 2026-03-07T08:26:55 - refactor(docs): refactor tailwind config spacing variables
+Update 278: 2026-03-07T08:30:34 - feat(ui): optimize active campaigns gas cost
+Update 279: 2026-03-07T08:50:37 - fix(ipfs): optimize webpack bundle size settings
+Update 280: 2026-03-07T08:54:55 - chore(deploy): add reentrancy protection to withdrawals
+Update 281: 2026-03-07T10:16:28 - feat(frontend): add default categories to constructor
+Update 282: 2026-03-07T10:52:18 - feat(config): create wagmi provider configuration
+Update 283: 2026-03-07T11:14:06 - docs(frontend): optimize font loading settings
+Update 284: 2026-03-07T11:19:01 - fix(contracts): add campaign cancelled event
+Update 285: 2026-03-07T11:55:23 - chore(ui): implement withdraw funds test cases
+Update 286: 2026-03-07T12:03:57 - docs(docs): fix overflow bug in fee calculation
+Update 287: 2026-03-07T12:16:03 - fix(contracts): add categorized mock fallbacks for images
+Update 288: 2026-03-07T12:22:49 - style(ui): enhance input checks for createCampaign
+Update 289: 2026-03-07T12:25:41 - docs(config): fix overflow bug in fee calculation
+Update 290: 2026-03-07T12:28:51 - style(config): update platform fee basis points limit
+Update 291: 2026-03-07T12:30:18 - chore(deploy): refactor tailwind config spacing variables
+Update 292: 2026-03-07T13:16:34 - docs(contracts): write comprehensive unit tests
+Update 293: 2026-03-07T14:03:03 - test(deploy): add cancel campaign control to dashboard
+Update 294: 2026-03-07T14:34:19 - feat(config): add categorized mock fallbacks for images
+Update 295: 2026-03-07T14:34:24 - test(config): implement withdraw funds test cases
+Update 296: 2026-03-07T15:42:11 - fix(config): integrate Pinata IPFS file uploader
+Update 297: 2026-03-07T16:23:41 - style(ipfs): update Readme deployment section
+Update 298: 2026-03-07T16:39:46 - chore(frontend): create remaining time countdown timer
+Update 299: 2026-03-07T16:40:15 - docs(ipfs): style dashboard layout
+Update 300: 2026-03-07T17:02:56 - chore(ui): integrate Pinata IPFS file uploader
+Update 301: 2026-03-07T17:03:34 - chore(tests): add reentrancy protection to withdrawals
+Update 302: 2026-03-07T17:30:08 - fix(ui): add check for non-zero addresses
+Update 303: 2026-03-07T17:45:11 - chore(config): add glassmorphism styles to css base
+Update 304: 2026-03-07T18:57:06 - feat(config): implement campaign creation logic
+Update 305: 2026-03-07T19:13:45 - fix(ipfs): add double refund prevention tests
+Update 306: 2026-03-07T19:40:51 - test(docs): test category duplicate prevention
+Update 307: 2026-03-07T20:39:10 - docs(contracts): optimize font loading settings
+Update 308: 2026-03-07T20:55:02 - feat(docs): add campaign cancelled event
+Update 309: 2026-03-07T21:46:43 - feat(tests): implement campaign details progress bar
+Update 310: 2026-03-07T22:03:46 - style(docs): update tsconfig to target ES2020
+Update 311: 2026-03-07T22:06:02 - fix(ipfs): add clean styling to footer
+Update 312: 2026-03-07T22:07:32 - test(config): add cancel campaign control to dashboard
+Update 313: 2026-03-07T22:29:51 - test(ui): add custom query hooks for contributions
+Update 314: 2026-03-07T22:50:45 - test(deploy): add double refund prevention tests
+Update 315: 2026-03-07T22:56:08 - style(tests): optimize webpack bundle size settings
+Update 316: 2026-03-08T10:04:47 - refactor(ipfs): implement campaign creation logic
+Update 317: 2026-03-08T10:21:03 - feat(tests): add claim refund button functionality
+Update 318: 2026-03-08T10:29:17 - style(ui): configure Sepolia network in Hardhat
+Update 319: 2026-03-08T10:41:00 - refactor(frontend): add reentrancy protection to withdrawals
+Update 320: 2026-03-08T11:05:33 - test(frontend): test category duplicate prevention
+Update 321: 2026-03-08T11:08:48 - refactor(frontend): update tsconfig to target ES2020
+Update 322: 2026-03-08T11:27:32 - test(docs): integrate react-hot-toast alerts
+Update 323: 2026-03-08T11:34:08 - fix(ipfs): fix overflow bug in fee calculation
+Update 324: 2026-03-08T12:29:52 - test(tests): add categorized mock fallbacks for images
+Update 325: 2026-03-08T12:32:38 - docs(config): add loading skeletons during tx confirm
+Update 326: 2026-03-08T12:37:30 - test(ipfs): integrate Pinata IPFS file uploader
+Update 327: 2026-03-08T12:59:55 - fix(contracts): configure Sepolia network in Hardhat
+Update 328: 2026-03-08T13:23:16 - style(deploy): optimize font loading settings
+Update 329: 2026-03-08T14:18:14 - style(tests): add check for non-zero addresses
+Update 330: 2026-03-08T14:26:35 - style(contracts): fix type errors for campaignsRaw mapping
+Update 331: 2026-03-08T15:36:41 - style(ipfs): implement withdraw funds test cases
+Update 332: 2026-03-08T15:41:40 - fix(ui): integrate Pinata IPFS file uploader
+Update 333: 2026-03-08T16:20:45 - test(contracts): write comprehensive unit tests
+Update 334: 2026-03-08T16:34:27 - refactor(deploy): create wagmi provider configuration
+Update 335: 2026-03-08T16:53:46 - chore(deploy): create remaining time countdown timer
+Update 336: 2026-03-08T17:24:09 - refactor(deploy): add category filter buttons
+Update 337: 2026-03-08T17:33:42 - fix(frontend): add campaign creation logic
+Update 338: 2026-03-08T18:17:19 - test(frontend): style dashboard layout
+Update 339: 2026-03-08T18:20:57 - fix(ui): add reentrancy protection to withdrawals
+Update 340: 2026-03-08T18:33:08 - docs(ipfs): update platform fee basis points limit
+Update 341: 2026-03-08T18:40:35 - feat(config): add check for non-zero addresses
+Update 342: 2026-03-08T19:50:58 - refactor(docs): fix hydration mismatch warnings
+Update 343: 2026-03-08T20:23:33 - refactor(deploy): add glassmorphism styles to css base
+Update 344: 2026-03-08T20:24:31 - fix(ipfs): integrate Pinata IPFS file uploader
+Update 345: 2026-03-08T21:05:03 - refactor(ipfs): fix type errors for campaignsRaw mapping
+Update 346: 2026-03-08T21:15:06 - feat(ipfs): optimize font loading settings
+Update 347: 2026-03-08T21:27:09 - docs(docs): configure Sepolia network in Hardhat
+Update 348: 2026-03-08T21:46:50 - chore(ui): add double refund prevention tests
+Update 349: 2026-03-08T21:53:56 - fix(tests): add ConnectButton to header
+Update 350: 2026-03-08T22:22:12 - feat(docs): implement category filter buttons
+Update 351: 2026-03-08T22:22:22 - feat(frontend): format ether values using viem utilities
+Update 352: 2026-03-08T22:29:40 - fix(config): refactor tailwind config spacing variables
+Update 353: 2026-03-08T22:39:31 - docs(contracts): implement withdraw funds test cases
+Update 354: 2026-03-08T22:56:13 - chore(tests): implement contribution form validation
+Update 355: 2026-03-08T23:42:23 - feat(frontend): implement campaign creation logic
+Update 356: 2026-03-08T23:50:25 - style(contracts): add campaign cancelled event
+Update 357: 2026-03-09T08:13:36 - style(ipfs): style dashboard layout
+Update 358: 2026-03-09T08:18:44 - chore(ui): create remaining time countdown timer
+Update 359: 2026-03-09T08:24:34 - refactor(frontend): style homepage hero section
+Update 360: 2026-03-09T08:51:17 - style(config): add campaign cancelled event
+Update 361: 2026-03-09T09:06:20 - fix(config): implement claim refund button functionality
+Update 362: 2026-03-09T09:18:36 - feat(contracts): add glassmorphism styles to css base
+Update 363: 2026-03-09T10:05:17 - style(config): add double refund prevention tests
+Update 364: 2026-03-09T10:40:04 - style(docs): format ether values using viem utilities
+Update 365: 2026-03-09T11:15:31 - style(tests): implement contribution form validation
+Update 366: 2026-03-09T11:30:14 - feat(deploy): integrate Pinata IPFS file uploader
+Update 367: 2026-03-09T12:00:21 - chore(docs): fix overflow bug in fee calculation
+Update 368: 2026-03-09T12:03:01 - chore(config): implement category add owner function
+Update 369: 2026-03-09T12:57:06 - refactor(tests): update tsconfig to target ES2020
+Update 370: 2026-03-09T13:11:29 - style(tests): implement campaign details progress bar
+Update 371: 2026-03-09T13:59:13 - feat(ui): add loading skeletons during tx confirm
+Update 372: 2026-03-09T14:19:40 - style(deploy): add campaign cancelled event
+Update 373: 2026-03-09T14:22:39 - chore(deploy): format ether values using viem utilities
+Update 374: 2026-03-09T14:34:07 - docs(ui): add default categories to constructor
+Update 375: 2026-03-09T14:34:19 - feat(contracts): optimize active campaigns gas cost
+Update 376: 2026-03-09T14:35:19 - style(config): refactor contract modifier checks
+Update 377: 2026-03-09T14:51:56 - refactor(ipfs): add clean styling to footer
+Update 378: 2026-03-09T14:55:00 - docs(config): style homepage hero section
+Update 379: 2026-03-09T14:58:56 - test(frontend): add custom query hooks for contributions
+Update 380: 2026-03-09T16:41:38 - feat(config): add category add owner function
+Update 381: 2026-03-09T17:02:32 - fix(frontend): integrate Pinata IPFS file uploader
+Update 382: 2026-03-09T17:32:03 - feat(frontend): fix type errors for campaignsRaw mapping
+Update 383: 2026-03-09T17:43:52 - refactor(frontend): add ConnectButton to header
+Update 384: 2026-03-09T18:11:46 - style(ipfs): fix type errors for campaignsRaw mapping
+Update 385: 2026-03-09T18:14:28 - style(tests): add reentrancy protection to withdrawals
+Update 386: 2026-03-09T18:25:04 - docs(ui): add ConnectButton to header
+Update 387: 2026-03-09T18:37:36 - refactor(contracts): add campaign cancelled event
+Update 388: 2026-03-09T18:54:18 - style(ipfs): create responsive navbar with mobile menu
+Update 389: 2026-03-09T18:55:12 - test(docs): integrate Pinata IPFS file uploader
+Update 390: 2026-03-09T19:00:14 - fix(tests): integrate react-hot-toast alerts
+Update 391: 2026-03-09T19:00:35 - fix(config): add cancel campaign control to dashboard
+Update 392: 2026-03-09T19:08:49 - test(docs): add loading skeletons during tx confirm
+Update 393: 2026-03-09T19:22:49 - docs(contracts): add clean styling to footer
+Update 394: 2026-03-09T19:27:19 - refactor(ipfs): style dashboard layout
+Update 395: 2026-03-09T19:29:23 - style(tests): add double refund prevention tests
+Update 396: 2026-03-09T19:32:25 - test(contracts): add glassmorphism styles to css base
+Update 397: 2026-03-09T19:53:27 - docs(tests): fix hydration mismatch warnings
+Update 398: 2026-03-09T20:10:31 - style(ipfs): create responsive navbar with mobile menu
+Update 399: 2026-03-09T20:20:54 - docs(ui): fix deadline calculation bug
+Update 400: 2026-03-09T20:29:46 - fix(ui): write comprehensive unit tests
+Update 401: 2026-03-09T21:07:45 - refactor(contracts): add claim refund button functionality
+Update 402: 2026-03-09T21:22:14 - style(contracts): add campaign details progress bar
+Update 403: 2026-03-09T21:25:17 - refactor(config): write comprehensive unit tests
+Update 404: 2026-03-09T21:54:04 - fix(docs): style homepage hero section
+Update 405: 2026-03-09T22:10:01 - chore(config): add check for non-zero addresses
+Update 406: 2026-03-09T22:10:45 - docs(tests): style dashboard layout
+Update 407: 2026-03-09T22:46:28 - refactor(tests): add campaign cancelled event
+Update 408: 2026-03-09T22:53:26 - refactor(frontend): fix overflow bug in fee calculation
+Update 409: 2026-03-09T23:13:52 - feat(config): add reentrancy protection to withdrawals
+Update 410: 2026-03-09T23:58:23 - docs(deploy): implement contribution form validation
+Update 411: 2026-03-09T23:58:59 - fix(ui): add custom query hooks for contributions
+Update 412: 2026-03-10T08:10:06 - docs(docs): implement category add owner function
+Update 413: 2026-03-10T08:41:58 - docs(frontend): add default categories to constructor
+Update 414: 2026-03-10T08:50:11 - chore(contracts): add custom query hooks for contributions
+Update 415: 2026-03-10T08:59:52 - refactor(frontend): optimize webpack bundle size settings
+Update 416: 2026-03-10T09:30:46 - chore(config): create wagmi provider configuration
+Update 417: 2026-03-10T10:08:09 - chore(tests): optimize webpack bundle size settings
+Update 418: 2026-03-10T10:18:28 - chore(ipfs): update Readme deployment section
+Update 419: 2026-03-10T10:58:01 - test(contracts): optimize active campaigns gas cost
+Update 420: 2026-03-10T11:06:02 - feat(config): fix hydration mismatch warnings
+Update 421: 2026-03-10T11:17:44 - docs(docs): implement campaign creation logic
+Update 422: 2026-03-10T12:14:58 - docs(ipfs): format ether values using viem utilities
+Update 423: 2026-03-10T12:23:02 - chore(ui): create wagmi provider configuration
+Update 424: 2026-03-10T12:30:53 - test(docs): optimize active campaigns gas cost
+Update 425: 2026-03-10T12:41:47 - feat(config): add Etherscan verification settings
+Update 426: 2026-03-10T12:47:27 - test(config): format ether values using viem utilities
+Update 427: 2026-03-10T13:33:54 - fix(frontend): add default categories to constructor
+Update 428: 2026-03-10T13:39:48 - chore(tests): test category duplicate prevention
+Update 429: 2026-03-10T13:40:17 - chore(ui): update tsconfig to target ES2020
+Update 430: 2026-03-10T13:54:25 - chore(ipfs): create responsive navbar with mobile menu
+Update 431: 2026-03-10T14:15:17 - fix(ipfs): fix hydration mismatch warnings
+Update 432: 2026-03-10T14:33:16 - fix(contracts): add custom query hooks for contributions
+Update 433: 2026-03-10T14:40:46 - docs(frontend): add campaign cancelled event
+Update 434: 2026-03-10T14:50:10 - test(frontend): write comprehensive unit tests
+Update 435: 2026-03-10T15:23:22 - chore(deploy): optimize font loading settings
+Update 436: 2026-03-10T15:58:22 - style(config): fix hydration mismatch warnings
+Update 437: 2026-03-10T15:58:48 - docs(contracts): add clean styling to footer
+Update 438: 2026-03-10T16:01:10 - refactor(contracts): add glassmorphism styles to css base
+Update 439: 2026-03-10T16:02:26 - docs(ipfs): create wagmi provider configuration
+Update 440: 2026-03-10T16:03:34 - fix(ui): refactor tailwind config spacing variables
+Update 441: 2026-03-10T16:21:35 - docs(deploy): optimize font loading settings
+Update 442: 2026-03-10T16:53:44 - style(config): add Etherscan verification settings
+Update 443: 2026-03-10T17:10:54 - refactor(contracts): add withdraw funds test cases
+Update 444: 2026-03-10T17:18:44 - style(docs): fix type errors for campaignsRaw mapping
+Update 445: 2026-03-10T18:43:49 - fix(ipfs): add double refund prevention tests
+Update 446: 2026-03-10T18:46:22 - chore(contracts): build dashboard my-campaigns tab
+Update 447: 2026-03-10T19:11:16 - docs(deploy): style homepage hero section
+Update 448: 2026-03-10T19:17:51 - feat(ui): optimize active campaigns gas cost
+Update 449: 2026-03-10T19:25:11 - test(ipfs): fix overflow bug in fee calculation
+Update 450: 2026-03-10T19:34:24 - fix(tests): fix overflow bug in fee calculation
+Update 451: 2026-03-10T19:37:11 - docs(contracts): update Readme deployment section
+Update 452: 2026-03-10T20:15:12 - style(ipfs): optimize webpack bundle size settings
+Update 453: 2026-03-10T20:21:38 - chore(docs): add ConnectButton to header
+Update 454: 2026-03-10T21:00:54 - chore(contracts): implement contribution form validation
+Update 455: 2026-03-10T21:21:51 - refactor(deploy): add reentrancy protection to withdrawals
+Update 456: 2026-03-10T21:24:35 - test(docs): update tsconfig to target ES2020
+Update 457: 2026-03-10T21:41:14 - chore(ui): add Etherscan verification settings
+Update 458: 2026-03-10T21:48:55 - docs(ipfs): build dashboard my-campaigns tab
+Update 459: 2026-03-10T22:12:09 - chore(frontend): fix overflow bug in fee calculation
+Update 460: 2026-03-10T22:13:28 - refactor(config): refactor tailwind config spacing variables
+Update 461: 2026-03-10T22:44:12 - fix(ipfs): style homepage hero section
+Update 462: 2026-03-10T22:48:41 - test(frontend): build dashboard my-campaigns tab
+Update 463: 2026-03-10T23:25:28 - chore(tests): build dashboard my-campaigns tab
+Update 464: 2026-03-10T23:44:19 - feat(ui): optimize webpack bundle size settings
+Update 465: 2026-03-10T23:47:44 - refactor(docs): fix deadline calculation bug
+Update 466: 2026-03-11T08:07:44 - style(contracts): optimize webpack bundle size settings
+Update 467: 2026-03-11T08:12:00 - refactor(docs): add contribution form validation
+Update 468: 2026-03-11T09:31:41 - fix(ipfs): add cancel campaign control to dashboard
+Update 469: 2026-03-11T09:41:13 - feat(ui): write comprehensive unit tests
+Update 470: 2026-03-11T09:41:47 - test(tests): fix deadline calculation bug
+Update 471: 2026-03-11T09:42:25 - feat(ui): test category duplicate prevention
+Update 472: 2026-03-11T10:13:28 - style(deploy): add categorized mock fallbacks for images
+Update 473: 2026-03-11T10:39:54 - fix(config): implement contribution form validation
+Update 474: 2026-03-11T11:35:13 - refactor(deploy): integrate react-hot-toast alerts
+Update 475: 2026-03-11T12:10:09 - docs(frontend): optimize webpack bundle size settings
+Update 476: 2026-03-11T12:29:19 - style(docs): integrate Pinata IPFS file uploader
+Update 477: 2026-03-11T12:43:44 - test(docs): format ether values using viem utilities
+Update 478: 2026-03-11T12:55:24 - refactor(deploy): style dashboard layout
+Update 479: 2026-03-11T13:00:37 - test(ipfs): update platform fee basis points limit
+Update 480: 2026-03-11T13:07:21 - style(docs): enhance input checks for createCampaign
+Update 481: 2026-03-11T13:13:06 - fix(ui): update tsconfig to target ES2020
+Update 482: 2026-03-11T13:27:14 - refactor(ipfs): add clean styling to footer
+Update 483: 2026-03-11T13:38:02 - docs(ipfs): create remaining time countdown timer
+Update 484: 2026-03-11T13:45:04 - fix(ui): add loading skeletons during tx confirm
+Update 485: 2026-03-11T14:01:09 - feat(tests): add clean styling to footer
+Update 486: 2026-03-11T14:13:22 - refactor(frontend): enhance input checks for createCampaign
+Update 487: 2026-03-11T14:21:18 - refactor(contracts): fix deadline calculation bug
+Update 488: 2026-03-11T14:26:51 - docs(config): add check for non-zero addresses
+Update 489: 2026-03-11T14:31:46 - test(ui): optimize webpack bundle size settings
+Update 490: 2026-03-11T14:32:09 - chore(deploy): fix overflow bug in fee calculation
+Update 491: 2026-03-11T14:49:36 - fix(ui): add ConnectButton to header
+Update 492: 2026-03-11T14:50:22 - fix(frontend): create remaining time countdown timer
+Update 493: 2026-03-11T14:52:23 - refactor(deploy): add campaign cancelled event
+Update 494: 2026-03-11T14:57:22 - fix(ipfs): implement category add owner function
+Update 495: 2026-03-11T15:01:26 - chore(config): refactor tailwind config spacing variables
+Update 496: 2026-03-11T15:26:19 - fix(ui): fix hydration mismatch warnings
+Update 497: 2026-03-11T15:30:24 - style(ipfs): add categorized mock fallbacks for images
+Update 498: 2026-03-11T16:32:52 - refactor(deploy): optimize webpack bundle size settings
+Update 499: 2026-03-11T16:49:34 - fix(deploy): integrate Pinata IPFS file uploader
+Update 500: 2026-03-11T16:54:38 - refactor(ui): add cancel campaign control to dashboard
+Update 501: 2026-03-11T16:55:18 - test(config): style homepage hero section
+Update 502: 2026-03-11T17:22:28 - style(ui): write comprehensive unit tests
+Update 503: 2026-03-11T17:34:18 - feat(tests): build dashboard my-campaigns tab
+Update 504: 2026-03-11T18:00:39 - feat(ui): update platform fee basis points limit
+Update 505: 2026-03-11T18:43:15 - fix(config): update Readme deployment section
+Update 506: 2026-03-11T19:11:07 - test(tests): add category add owner function
+Update 507: 2026-03-11T20:18:47 - fix(tests): integrate Pinata IPFS file uploader
+Update 508: 2026-03-11T21:10:57 - refactor(docs): implement withdraw funds test cases
+Update 509: 2026-03-11T21:24:51 - feat(frontend): implement category add owner function
+Update 510: 2026-03-11T22:04:23 - refactor(config): fix type errors for campaignsRaw mapping
+Update 511: 2026-03-11T22:21:23 - docs(docs): add check for non-zero addresses
+Update 512: 2026-03-11T22:40:03 - refactor(frontend): build dashboard my-campaigns tab
+Update 513: 2026-03-11T22:46:26 - feat(contracts): fix deadline calculation bug
+Update 514: 2026-03-11T23:18:54 - test(ipfs): add glassmorphism styles to css base
+Update 515: 2026-03-12T08:10:01 - test(ipfs): write comprehensive unit tests
+Update 516: 2026-03-12T08:37:26 - test(frontend): optimize font loading settings
+Update 517: 2026-03-12T08:49:21 - test(contracts): write comprehensive unit tests
+Update 518: 2026-03-12T09:02:04 - feat(ui): implement category add owner function
+Update 519: 2026-03-12T09:41:47 - refactor(docs): add campaign creation logic
+Update 520: 2026-03-12T09:54:26 - test(deploy): enhance input checks for createCampaign
+Update 521: 2026-03-12T10:12:06 - test(deploy): add default categories to constructor
+Update 522: 2026-03-12T11:22:11 - fix(ipfs): write comprehensive unit tests
+Update 523: 2026-03-12T11:34:06 - style(tests): style dashboard layout
+Update 524: 2026-03-12T12:05:19 - docs(deploy): optimize active campaigns gas cost
+Update 525: 2026-03-12T12:07:11 - refactor(ipfs): implement category filter buttons
+Update 526: 2026-03-12T12:13:10 - fix(ui): add default categories to constructor
+Update 527: 2026-03-12T12:19:33 - refactor(frontend): optimize active campaigns gas cost
+Update 528: 2026-03-12T14:28:41 - fix(ipfs): update platform fee basis points limit
+Update 529: 2026-03-12T14:43:00 - refactor(config): integrate react-hot-toast alerts
+Update 530: 2026-03-12T15:05:11 - refactor(ipfs): implement claim refund button functionality
+Update 531: 2026-03-12T15:39:30 - chore(docs): add categorized mock fallbacks for images
+Update 532: 2026-03-12T15:46:27 - refactor(ui): integrate react-hot-toast alerts
+Update 533: 2026-03-12T15:51:02 - test(ipfs): add default categories to constructor
+Update 534: 2026-03-12T16:27:30 - style(docs): add loading skeletons during tx confirm
+Update 535: 2026-03-12T16:30:19 - style(docs): build dashboard my-campaigns tab
+Update 536: 2026-03-12T16:36:31 - chore(ui): optimize active campaigns gas cost
+Update 537: 2026-03-12T16:54:47 - docs(frontend): integrate Pinata IPFS file uploader
+Update 538: 2026-03-12T16:59:03 - fix(contracts): add custom query hooks for contributions
+Update 539: 2026-03-12T17:08:08 - docs(frontend): add double refund prevention tests
+Update 540: 2026-03-12T17:21:42 - feat(contracts): add Etherscan verification settings
+Update 541: 2026-03-12T17:21:55 - feat(config): create wagmi provider configuration
+Update 542: 2026-03-12T18:08:02 - test(contracts): implement claim refund button functionality
+Update 543: 2026-03-12T18:23:23 - refactor(ui): add glassmorphism styles to css base
+Update 544: 2026-03-12T18:28:55 - refactor(deploy): implement campaign creation logic
+Update 545: 2026-03-12T18:46:07 - style(contracts): configure Sepolia network in Hardhat
+Update 546: 2026-03-12T19:49:34 - docs(ui): implement category add owner function
+Update 547: 2026-03-12T20:22:16 - style(tests): add ConnectButton to header
+Update 548: 2026-03-12T20:55:13 - test(docs): add check for non-zero addresses
+Update 549: 2026-03-12T21:06:29 - fix(contracts): optimize font loading settings
+Update 550: 2026-03-12T21:08:44 - fix(frontend): fix deadline calculation bug
+Update 551: 2026-03-12T21:11:22 - fix(ui): update Readme deployment section
+Update 552: 2026-03-12T21:37:13 - feat(docs): create remaining time countdown timer
+Update 553: 2026-03-12T22:13:23 - feat(tests): add cancel campaign control to dashboard
+Update 554: 2026-03-12T23:22:26 - chore(docs): fix deadline calculation bug
+Update 555: 2026-03-13T08:13:19 - refactor(contracts): fix overflow bug in fee calculation
+Update 556: 2026-03-13T08:21:47 - refactor(frontend): refactor tailwind config spacing variables
+Update 557: 2026-03-13T08:32:24 - feat(ipfs): add campaign cancelled event
+Update 558: 2026-03-13T08:39:16 - docs(ui): test category duplicate prevention
+Update 559: 2026-03-13T08:40:46 - refactor(ui): add double refund prevention tests
+Update 560: 2026-03-13T08:55:15 - chore(contracts): configure Sepolia network in Hardhat
+Update 561: 2026-03-13T09:25:43 - test(tests): enhance input checks for createCampaign
+Update 562: 2026-03-13T10:00:07 - test(docs): add loading skeletons during tx confirm
+Update 563: 2026-03-13T10:05:49 - fix(tests): implement category add owner function
+Update 564: 2026-03-13T10:21:15 - test(ui): configure Sepolia network in Hardhat
+Update 565: 2026-03-13T10:25:40 - feat(deploy): implement contribution form validation
+Update 566: 2026-03-13T10:30:17 - test(contracts): build dashboard my-campaigns tab
+Update 567: 2026-03-13T11:27:14 - fix(deploy): implement campaign creation logic
+Update 568: 2026-03-13T11:30:53 - chore(ipfs): enhance input checks for createCampaign
+Update 569: 2026-03-13T11:37:50 - docs(config): update platform fee basis points limit
+Update 570: 2026-03-13T11:47:39 - chore(docs): add categorized mock fallbacks for images
+Update 571: 2026-03-13T11:48:39 - docs(deploy): optimize webpack bundle size settings
+Update 572: 2026-03-13T12:19:37 - feat(frontend): optimize active campaigns gas cost
+Update 573: 2026-03-13T12:39:21 - fix(docs): optimize active campaigns gas cost
+Update 574: 2026-03-13T13:16:37 - test(docs): add glassmorphism styles to css base
+Update 575: 2026-03-13T13:21:55 - chore(contracts): add default categories to constructor
+Update 576: 2026-03-13T13:23:06 - chore(frontend): refactor tailwind config spacing variables
+Update 577: 2026-03-13T13:51:59 - style(config): format ether values using viem utilities
+Update 578: 2026-03-13T14:23:29 - docs(docs): integrate Pinata IPFS file uploader
+Update 579: 2026-03-13T14:29:12 - fix(frontend): create remaining time countdown timer
+Update 580: 2026-03-13T14:33:10 - style(config): add glassmorphism styles to css base
+Update 581: 2026-03-13T14:42:58 - docs(tests): add Etherscan verification settings
+Update 582: 2026-03-13T14:58:05 - test(ui): update tsconfig to target ES2020
+Update 583: 2026-03-13T15:30:19 - style(config): optimize active campaigns gas cost
+Update 584: 2026-03-13T15:40:41 - style(docs): optimize font loading settings
+Update 585: 2026-03-13T16:03:36 - chore(ipfs): add double refund prevention tests
+Update 586: 2026-03-13T17:05:22 - fix(tests): add double refund prevention tests
+Update 587: 2026-03-13T17:16:57 - docs(frontend): update tsconfig to target ES2020
+Update 588: 2026-03-13T18:27:02 - test(ui): update platform fee basis points limit
+Update 589: 2026-03-13T19:54:06 - feat(ui): add campaign cancelled event
+Update 590: 2026-03-13T20:23:01 - fix(docs): style homepage hero section
+Update 591: 2026-03-13T20:51:56 - style(config): style dashboard layout
+Update 592: 2026-03-13T21:13:46 - fix(config): add custom query hooks for contributions
+Update 593: 2026-03-13T21:21:06 - refactor(docs): configure Sepolia network in Hardhat
+Update 594: 2026-03-13T21:22:47 - feat(deploy): implement campaign creation logic
+Update 595: 2026-03-13T21:23:31 - refactor(ui): configure Sepolia network in Hardhat
+Update 596: 2026-03-13T21:28:33 - refactor(deploy): integrate react-hot-toast alerts
+Update 597: 2026-03-13T22:15:23 - chore(contracts): add loading skeletons during tx confirm
+Update 598: 2026-03-13T22:28:08 - test(ui): style dashboard layout
+Update 599: 2026-03-13T23:01:04 - feat(docs): add double refund prevention tests
+Update 600: 2026-03-13T23:33:04 - feat(ui): implement category filter buttons
+Update 601: 2026-03-14T08:28:45 - chore(deploy): add double refund prevention tests
+Update 602: 2026-03-14T10:31:31 - chore(contracts): implement category add owner function
+Update 603: 2026-03-14T10:41:14 - feat(docs): refactor contract modifier checks
+Update 604: 2026-03-14T10:43:15 - fix(deploy): optimize font loading settings
+Update 605: 2026-03-14T10:48:37 - docs(frontend): fix overflow bug in fee calculation
+Update 606: 2026-03-14T11:29:13 - feat(frontend): configure Sepolia network in Hardhat
+Update 607: 2026-03-14T11:42:06 - chore(docs): optimize active campaigns gas cost
+Update 608: 2026-03-14T11:57:57 - feat(ui): refactor contract modifier checks
+Update 609: 2026-03-14T12:09:18 - style(ipfs): add ConnectButton to header
+Update 610: 2026-03-14T12:10:15 - style(frontend): add clean styling to footer
+Update 611: 2026-03-14T12:32:06 - docs(docs): add glassmorphism styles to css base
+Update 612: 2026-03-14T12:39:30 - chore(contracts): configure Sepolia network in Hardhat
+Update 613: 2026-03-14T13:42:01 - style(docs): integrate react-hot-toast alerts
+Update 614: 2026-03-14T13:45:15 - chore(tests): create remaining time countdown timer
+Update 615: 2026-03-14T14:11:26 - style(ipfs): integrate Pinata IPFS file uploader
+Update 616: 2026-03-14T14:13:19 - chore(docs): add default categories to constructor
+Update 617: 2026-03-14T14:20:09 - test(tests): style dashboard layout
+Update 618: 2026-03-14T14:36:31 - docs(frontend): optimize font loading settings
+Update 619: 2026-03-14T14:59:17 - feat(contracts): style dashboard layout
+Update 620: 2026-03-14T16:09:37 - refactor(config): integrate react-hot-toast alerts
+Update 621: 2026-03-14T16:10:30 - test(ipfs): style homepage hero section
+Update 622: 2026-03-14T16:14:17 - style(deploy): add loading skeletons during tx confirm
+Update 623: 2026-03-14T16:17:02 - feat(frontend): add default categories to constructor
+Update 624: 2026-03-14T16:33:10 - style(contracts): add Etherscan verification settings
+Update 625: 2026-03-14T16:42:14 - fix(tests): refactor contract modifier checks
+Update 626: 2026-03-14T17:06:37 - test(ui): enhance input checks for createCampaign
+Update 627: 2026-03-14T17:17:45 - style(docs): update platform fee basis points limit
+Update 628: 2026-03-14T17:19:19 - fix(deploy): implement campaign details progress bar
+Update 629: 2026-03-14T17:23:42 - chore(ipfs): style homepage hero section
+Update 630: 2026-03-14T17:26:20 - chore(docs): implement claim refund button functionality
+Update 631: 2026-03-14T17:33:41 - fix(config): add loading skeletons during tx confirm
+Update 632: 2026-03-14T17:40:35 - chore(deploy): add campaign cancelled event
+Update 633: 2026-03-14T18:45:19 - chore(config): build dashboard my-campaigns tab
+Update 634: 2026-03-14T18:51:06 - style(docs): build dashboard my-campaigns tab
+Update 635: 2026-03-14T18:53:52 - feat(contracts): add check for non-zero addresses
+Update 636: 2026-03-14T18:59:55 - refactor(ui): integrate react-hot-toast alerts
+Update 637: 2026-03-14T19:14:39 - style(config): fix overflow bug in fee calculation
+Update 638: 2026-03-14T19:53:14 - refactor(deploy): implement contribution form validation
+Update 639: 2026-03-14T20:24:54 - style(config): style homepage hero section
+Update 640: 2026-03-14T21:25:47 - docs(docs): add clean styling to footer
+Update 641: 2026-03-14T21:34:03 - docs(docs): optimize webpack bundle size settings
+Update 642: 2026-03-14T23:13:42 - style(tests): refactor contract modifier checks
+Update 643: 2026-03-14T23:17:07 - chore(docs): add categorized mock fallbacks for images
+Update 644: 2026-03-14T23:21:31 - refactor(ipfs): create responsive navbar with mobile menu
+Update 645: 2026-03-14T23:23:40 - docs(docs): add cancel campaign control to dashboard
+Update 646: 2026-03-14T23:28:19 - refactor(deploy): fix hydration mismatch warnings
+Update 647: 2026-03-15T08:23:29 - refactor(ipfs): configure Sepolia network in Hardhat
+Update 648: 2026-03-15T08:40:49 - test(tests): refactor contract modifier checks
+Update 649: 2026-03-15T08:46:17 - refactor(docs): add clean styling to footer
+Update 650: 2026-03-15T09:45:20 - style(frontend): optimize active campaigns gas cost
+Update 651: 2026-03-15T09:50:00 - test(ui): test category duplicate prevention
+Update 652: 2026-03-15T10:34:17 - style(deploy): implement category add owner function
+Update 653: 2026-03-15T10:36:32 - test(frontend): enhance input checks for createCampaign
+Update 654: 2026-03-15T10:47:34 - test(deploy): implement campaign details progress bar
+Update 655: 2026-03-15T11:10:31 - docs(contracts): write comprehensive unit tests
+Update 656: 2026-03-15T11:15:51 - test(docs): test category duplicate prevention
+Update 657: 2026-03-15T11:57:47 - test(deploy): implement withdraw funds test cases
+Update 658: 2026-03-15T13:05:44 - style(ui): add double refund prevention tests
+Update 659: 2026-03-15T14:08:03 - chore(config): add ConnectButton to header
+Update 660: 2026-03-15T14:22:57 - fix(deploy): add campaign cancelled event
+Update 661: 2026-03-15T14:34:51 - feat(frontend): create responsive navbar with mobile menu
+Update 662: 2026-03-15T14:34:52 - refactor(contracts): create remaining time countdown timer
+Update 663: 2026-03-15T15:00:49 - style(ui): create remaining time countdown timer
+Update 664: 2026-03-15T15:16:40 - test(tests): optimize webpack bundle size settings
+Update 665: 2026-03-15T15:27:38 - feat(docs): format ether values using viem utilities
+Update 666: 2026-03-15T15:34:50 - docs(config): configure Sepolia network in Hardhat
+Update 667: 2026-03-15T16:21:04 - refactor(ipfs): add reentrancy protection to withdrawals
+Update 668: 2026-03-15T17:11:27 - test(frontend): add glassmorphism styles to css base
+Update 669: 2026-03-15T17:24:02 - test(tests): fix type errors for campaignsRaw mapping
+Update 670: 2026-03-15T17:55:18 - style(docs): implement contribution form validation
+Update 671: 2026-03-15T18:00:37 - style(deploy): fix overflow bug in fee calculation
+Update 672: 2026-03-15T18:10:35 - fix(ipfs): integrate react-hot-toast alerts
+Update 673: 2026-03-15T18:34:52 - docs(deploy): fix overflow bug in fee calculation
+Update 674: 2026-03-15T19:23:29 - refactor(ui): add check for non-zero addresses
+Update 675: 2026-03-15T19:55:44 - style(docs): add check for non-zero addresses
+Update 676: 2026-03-15T20:03:00 - fix(docs): write comprehensive unit tests
+Update 677: 2026-03-15T21:17:05 - chore(docs): implement withdraw funds test cases
+Update 678: 2026-03-15T21:31:42 - refactor(frontend): add contribution form validation
+Update 679: 2026-03-15T21:57:44 - docs(frontend): optimize webpack bundle size settings
+Update 680: 2026-03-15T22:18:59 - test(docs): create remaining time countdown timer
+Update 681: 2026-03-15T23:25:45 - style(deploy): format ether values using viem utilities
+Update 682: 2026-03-15T23:56:14 - chore(tests): build dashboard my-campaigns tab
+Update 683: 2026-03-16T08:02:00 - docs(config): format ether values using viem utilities
+Update 684: 2026-03-16T08:41:59 - docs(config): implement campaign creation logic
+Update 685: 2026-03-16T09:45:58 - feat(deploy): integrate Pinata IPFS file uploader
+Update 686: 2026-03-16T10:06:05 - style(ipfs): update Readme deployment section
+Update 687: 2026-03-16T10:18:49 - style(frontend): fix deadline calculation bug
+Update 688: 2026-03-16T10:25:35 - style(contracts): implement category add owner function
+Update 689: 2026-03-16T10:51:26 - docs(tests): style homepage hero section
+Update 690: 2026-03-16T10:53:31 - feat(deploy): update tsconfig to target ES2020
+Update 691: 2026-03-16T11:29:22 - chore(deploy): integrate Pinata IPFS file uploader
+Update 692: 2026-03-16T11:38:09 - test(contracts): add categorized mock fallbacks for images
+Update 693: 2026-03-16T11:53:09 - fix(docs): style homepage hero section
+Update 694: 2026-03-16T11:53:31 - docs(frontend): add check for non-zero addresses
+Update 695: 2026-03-16T12:41:54 - docs(docs): implement claim refund button functionality
+Update 696: 2026-03-16T13:19:27 - chore(ipfs): add Etherscan verification settings
+Update 697: 2026-03-16T13:55:59 - chore(deploy): optimize active campaigns gas cost
+Update 698: 2026-03-16T14:54:57 - test(deploy): add Etherscan verification settings
+Update 699: 2026-03-16T14:55:52 - test(tests): optimize font loading settings
+Update 700: 2026-03-16T15:00:15 - feat(docs): update Readme deployment section
+Update 701: 2026-03-16T15:04:28 - fix(ui): implement category add owner function
+Update 702: 2026-03-16T15:31:08 - docs(contracts): format ether values using viem utilities
+Update 703: 2026-03-16T15:31:29 - style(ui): add glassmorphism styles to css base
+Update 704: 2026-03-16T15:52:30 - chore(config): integrate react-hot-toast alerts
+Update 705: 2026-03-16T17:20:10 - refactor(ipfs): write comprehensive unit tests
+Update 706: 2026-03-16T17:41:14 - feat(contracts): style homepage hero section
+Update 707: 2026-03-16T18:12:06 - docs(tests): fix hydration mismatch warnings
+Update 708: 2026-03-16T18:18:26 - style(ui): add double refund prevention tests
+Update 709: 2026-03-16T18:29:36 - fix(docs): style dashboard layout
+Update 710: 2026-03-16T18:53:48 - docs(frontend): integrate Pinata IPFS file uploader
+Update 711: 2026-03-16T19:02:16 - feat(ipfs): create remaining time countdown timer
+Update 712: 2026-03-16T19:36:09 - refactor(contracts): add Etherscan verification settings
+Update 713: 2026-03-16T20:18:40 - fix(ui): fix type errors for campaignsRaw mapping
+Update 714: 2026-03-16T20:28:40 - refactor(deploy): fix hydration mismatch warnings
+Update 715: 2026-03-16T20:37:27 - feat(config): style dashboard layout
+Update 716: 2026-03-16T20:40:54 - feat(deploy): implement campaign creation logic
+Update 717: 2026-03-16T21:41:01 - feat(contracts): update platform fee basis points limit
+Update 718: 2026-03-16T21:41:39 - refactor(ui): configure Sepolia network in Hardhat
+Update 719: 2026-03-16T21:53:52 - style(docs): add campaign cancelled event
+Update 720: 2026-03-16T21:58:27 - style(ipfs): add ConnectButton to header
+Update 721: 2026-03-16T22:11:31 - style(tests): add clean styling to footer
+Update 722: 2026-03-16T22:33:11 - test(ui): add glassmorphism styles to css base
+Update 723: 2026-03-16T22:41:22 - style(frontend): fix type errors for campaignsRaw mapping
+Update 724: 2026-03-16T22:51:25 - style(config): fix type errors for campaignsRaw mapping
+Update 725: 2026-03-16T23:32:42 - fix(docs): update Readme deployment section
+Update 726: 2026-03-17T08:02:16 - docs(docs): add campaign cancelled event
+Update 727: 2026-03-17T08:36:51 - docs(config): add Etherscan verification settings
+Update 728: 2026-03-17T08:39:33 - chore(contracts): refactor contract modifier checks
+Update 729: 2026-03-17T08:45:03 - test(ui): implement campaign creation logic
+Update 730: 2026-03-17T09:05:20 - refactor(frontend): integrate react-hot-toast alerts
+Update 731: 2026-03-17T10:08:31 - style(ipfs): refactor tailwind config spacing variables
+Update 732: 2026-03-17T10:13:49 - chore(frontend): fix hydration mismatch warnings
+Update 733: 2026-03-17T10:21:59 - fix(ui): implement withdraw funds test cases
+Update 734: 2026-03-17T11:29:35 - refactor(frontend): optimize font loading settings
+Update 735: 2026-03-17T11:59:52 - docs(ipfs): add campaign creation logic
+Update 736: 2026-03-17T12:49:27 - style(deploy): add loading skeletons during tx confirm
+Update 737: 2026-03-17T13:07:39 - style(frontend): implement campaign creation logic
+Update 738: 2026-03-17T13:47:38 - test(config): create responsive navbar with mobile menu
+Update 739: 2026-03-17T13:48:27 - style(config): test category duplicate prevention
+Update 740: 2026-03-17T14:17:14 - feat(contracts): add glassmorphism styles to css base
+Update 741: 2026-03-17T14:38:08 - fix(ui): create wagmi provider configuration
+Update 742: 2026-03-17T15:07:55 - style(frontend): configure Sepolia network in Hardhat
+Update 743: 2026-03-17T16:25:23 - style(docs): add clean styling to footer
+Update 744: 2026-03-17T17:01:03 - feat(config): style dashboard layout
+Update 745: 2026-03-17T17:46:45 - chore(ipfs): optimize webpack bundle size settings
+Update 746: 2026-03-17T18:08:03 - docs(ipfs): add loading skeletons during tx confirm
+Update 747: 2026-03-17T19:19:58 - refactor(frontend): add category filter buttons
+Update 748: 2026-03-17T19:52:17 - test(ui): update platform fee basis points limit
+Update 749: 2026-03-17T20:06:55 - docs(ipfs): enhance input checks for createCampaign
+Update 750: 2026-03-17T21:45:00 - style(ui): implement campaign details progress bar
+Update 751: 2026-03-17T21:54:23 - chore(frontend): add custom query hooks for contributions
+Update 752: 2026-03-17T23:05:18 - test(frontend): add reentrancy protection to withdrawals
+Update 753: 2026-03-17T23:22:03 - fix(tests): test category duplicate prevention
+Update 754: 2026-03-18T08:07:43 - test(ipfs): write comprehensive unit tests
+Update 755: 2026-03-18T09:14:13 - refactor(tests): write comprehensive unit tests
+Update 756: 2026-03-18T09:17:58 - fix(ui): add loading skeletons during tx confirm
+Update 757: 2026-03-18T09:42:18 - feat(docs): add clean styling to footer
+Update 758: 2026-03-18T10:49:15 - refactor(ui): fix type errors for campaignsRaw mapping
+Update 759: 2026-03-18T10:51:42 - fix(config): add clean styling to footer
+Update 760: 2026-03-18T10:59:47 - chore(frontend): fix hydration mismatch warnings
+Update 761: 2026-03-18T11:06:23 - chore(contracts): configure Sepolia network in Hardhat
+Update 762: 2026-03-18T11:32:42 - test(contracts): build dashboard my-campaigns tab
+Update 763: 2026-03-18T13:01:49 - test(ui): add double refund prevention tests
+Update 764: 2026-03-18T13:11:10 - refactor(contracts): fix deadline calculation bug
+Update 765: 2026-03-18T13:12:08 - chore(ui): add clean styling to footer
+Update 766: 2026-03-18T13:32:52 - fix(ui): add custom query hooks for contributions
+Update 767: 2026-03-18T14:01:57 - test(ui): add reentrancy protection to withdrawals
+Update 768: 2026-03-18T14:09:52 - style(frontend): add glassmorphism styles to css base
+Update 769: 2026-03-18T14:24:45 - refactor(contracts): implement category add owner function
+Update 770: 2026-03-18T14:26:00 - docs(ui): refactor tailwind config spacing variables
+Update 771: 2026-03-18T15:13:03 - test(config): add ConnectButton to header
+Update 772: 2026-03-18T15:17:20 - test(ui): add default categories to constructor
+Update 773: 2026-03-18T15:43:12 - feat(config): style dashboard layout
+Update 774: 2026-03-18T15:50:44 - test(config): add check for non-zero addresses
+Update 775: 2026-03-18T15:52:48 - chore(config): implement category add owner function
+Update 776: 2026-03-18T17:00:53 - docs(config): test category duplicate prevention
+Update 777: 2026-03-18T17:35:06 - feat(tests): integrate Pinata IPFS file uploader
+Update 778: 2026-03-18T17:38:57 - style(tests): refactor tailwind config spacing variables
+Update 779: 2026-03-18T17:41:08 - refactor(tests): test category duplicate prevention
+Update 780: 2026-03-18T17:56:51 - feat(ipfs): integrate react-hot-toast alerts
+Update 781: 2026-03-18T17:58:55 - refactor(ipfs): format ether values using viem utilities
+Update 782: 2026-03-18T18:14:58 - style(ipfs): integrate Pinata IPFS file uploader
+Update 783: 2026-03-18T18:26:10 - style(ipfs): integrate react-hot-toast alerts
+Update 784: 2026-03-18T18:29:04 - docs(ui): create responsive navbar with mobile menu
+Update 785: 2026-03-18T19:06:20 - fix(deploy): test category duplicate prevention
+Update 786: 2026-03-18T19:39:00 - test(config): add loading skeletons during tx confirm
+Update 787: 2026-03-18T19:47:27 - test(ui): add default categories to constructor
+Update 788: 2026-03-18T19:56:15 - test(contracts): refactor tailwind config spacing variables
+Update 789: 2026-03-18T20:12:01 - chore(ipfs): add Etherscan verification settings
+Update 790: 2026-03-18T20:44:02 - test(config): optimize webpack bundle size settings
+Update 791: 2026-03-18T20:53:08 - feat(tests): implement claim refund button functionality
+Update 792: 2026-03-18T21:11:54 - test(tests): implement withdraw funds test cases
+Update 793: 2026-03-18T21:40:26 - docs(contracts): style dashboard layout
+Update 794: 2026-03-18T22:00:28 - docs(frontend): implement withdraw funds test cases
+Update 795: 2026-03-18T22:44:46 - style(deploy): create wagmi provider configuration
+Update 796: 2026-03-18T23:45:11 - chore(frontend): implement campaign creation logic
+Update 797: 2026-03-19T08:00:22 - feat(docs): fix hydration mismatch warnings
+Update 798: 2026-03-19T08:13:07 - refactor(deploy): add campaign cancelled event
+Update 799: 2026-03-19T08:26:53 - refactor(frontend): integrate Pinata IPFS file uploader
+Update 800: 2026-03-19T08:36:15 - docs(ui): add loading skeletons during tx confirm
+Update 801: 2026-03-19T08:43:09 - docs(ui): create remaining time countdown timer
+Update 802: 2026-03-19T09:14:28 - feat(config): add campaign cancelled event
+Update 803: 2026-03-19T10:52:39 - feat(docs): add ConnectButton to header
+Update 804: 2026-03-19T10:59:25 - docs(ipfs): add Etherscan verification settings
+Update 805: 2026-03-19T11:00:44 - chore(ipfs): fix hydration mismatch warnings
+Update 806: 2026-03-19T11:25:12 - fix(tests): fix overflow bug in fee calculation
+Update 807: 2026-03-19T11:59:34 - fix(contracts): write comprehensive unit tests
+Update 808: 2026-03-19T12:15:37 - style(config): write comprehensive unit tests
+Update 809: 2026-03-19T12:32:14 - feat(contracts): style homepage hero section
+Update 810: 2026-03-19T12:39:15 - test(deploy): add clean styling to footer
+Update 811: 2026-03-19T13:04:05 - style(deploy): update Readme deployment section
+Update 812: 2026-03-19T13:42:16 - test(frontend): update tsconfig to target ES2020
+Update 813: 2026-03-19T13:52:34 - feat(config): add double refund prevention tests
+Update 814: 2026-03-19T14:16:57 - test(config): implement claim refund button functionality
+Update 815: 2026-03-19T14:21:26 - style(frontend): write comprehensive unit tests
+Update 816: 2026-03-19T14:21:49 - style(ui): test category duplicate prevention
+Update 817: 2026-03-19T14:22:46 - style(contracts): add check for non-zero addresses
+Update 818: 2026-03-19T15:53:12 - style(contracts): optimize active campaigns gas cost
+Update 819: 2026-03-19T16:23:45 - feat(frontend): update Readme deployment section
+Update 820: 2026-03-19T18:15:12 - test(tests): implement campaign details progress bar
+Update 821: 2026-03-19T18:22:43 - fix(tests): create responsive navbar with mobile menu
+Update 822: 2026-03-19T18:45:51 - chore(docs): implement campaign creation logic
+Update 823: 2026-03-19T18:53:15 - test(docs): create responsive navbar with mobile menu
+Update 824: 2026-03-19T19:10:21 - chore(ui): fix deadline calculation bug
+Update 825: 2026-03-19T19:31:15 - refactor(frontend): style homepage hero section
+Update 826: 2026-03-19T20:05:17 - fix(contracts): optimize font loading settings
+Update 827: 2026-03-19T20:09:48 - chore(deploy): update tsconfig to target ES2020
+Update 828: 2026-03-19T20:38:52 - refactor(docs): implement campaign details progress bar
+Update 829: 2026-03-19T20:40:03 - refactor(ui): enhance input checks for createCampaign
+Update 830: 2026-03-19T20:43:04 - feat(config): fix hydration mismatch warnings
+Update 831: 2026-03-19T20:45:48 - docs(ipfs): create wagmi provider configuration
+Update 832: 2026-03-19T21:18:09 - test(tests): fix overflow bug in fee calculation
+Update 833: 2026-03-19T21:33:02 - test(contracts): fix type errors for campaignsRaw mapping
+Update 834: 2026-03-19T21:45:50 - feat(ui): add check for non-zero addresses
+Update 835: 2026-03-19T22:06:29 - feat(deploy): create responsive navbar with mobile menu
+Update 836: 2026-03-19T22:36:47 - chore(contracts): update Readme deployment section
+Update 837: 2026-03-19T22:47:12 - refactor(frontend): fix deadline calculation bug
+Update 838: 2026-03-19T22:47:40 - style(frontend): add campaign creation logic
+Update 839: 2026-03-19T22:48:38 - chore(docs): add ConnectButton to header
+Update 840: 2026-03-19T23:00:13 - fix(config): update tsconfig to target ES2020
+Update 841: 2026-03-19T23:08:31 - fix(ipfs): integrate Pinata IPFS file uploader
+Update 842: 2026-03-19T23:33:01 - chore(contracts): add check for non-zero addresses
+Update 843: 2026-03-19T23:52:57 - chore(ui): implement category add owner function
+Update 844: 2026-03-20T08:31:53 - feat(tests): implement category add owner function
+Update 845: 2026-03-20T08:39:36 - chore(ipfs): fix type errors for campaignsRaw mapping
+Update 846: 2026-03-20T08:43:06 - fix(config): integrate react-hot-toast alerts
+Update 847: 2026-03-20T09:13:29 - fix(frontend): add ConnectButton to header
+Update 848: 2026-03-20T09:21:07 - feat(ipfs): fix type errors for campaignsRaw mapping
+Update 849: 2026-03-20T09:25:58 - feat(frontend): add custom query hooks for contributions
+Update 850: 2026-03-20T09:31:53 - docs(frontend): add reentrancy protection to withdrawals
+Update 851: 2026-03-20T09:40:22 - feat(deploy): build dashboard my-campaigns tab
+Update 852: 2026-03-20T10:27:05 - docs(deploy): build dashboard my-campaigns tab
+Update 853: 2026-03-20T10:55:27 - chore(ui): implement contribution form validation
+Update 854: 2026-03-20T11:04:34 - docs(config): add campaign details progress bar
+Update 855: 2026-03-20T11:18:30 - style(docs): add campaign cancelled event
+Update 856: 2026-03-20T12:38:45 - style(config): implement claim refund button functionality
+Update 857: 2026-03-20T12:44:28 - chore(deploy): fix deadline calculation bug
+Update 858: 2026-03-20T13:37:36 - test(deploy): implement claim refund button functionality
+Update 859: 2026-03-20T13:57:05 - chore(ipfs): create responsive navbar with mobile menu
+Update 860: 2026-03-20T14:20:56 - feat(ui): format ether values using viem utilities
+Update 861: 2026-03-20T14:39:15 - test(docs): optimize webpack bundle size settings
+Update 862: 2026-03-20T14:40:47 - feat(tests): optimize font loading settings
+Update 863: 2026-03-20T14:45:51 - fix(tests): add categorized mock fallbacks for images
+Update 864: 2026-03-20T15:03:48 - test(frontend): optimize font loading settings
+Update 865: 2026-03-20T15:28:26 - chore(config): update Readme deployment section
+Update 866: 2026-03-20T15:38:52 - feat(contracts): implement claim refund button functionality
+Update 867: 2026-03-20T15:57:01 - docs(config): create remaining time countdown timer
+Update 868: 2026-03-20T16:19:18 - feat(frontend): add custom query hooks for contributions
+Update 869: 2026-03-20T16:46:11 - feat(frontend): integrate Pinata IPFS file uploader
+Update 870: 2026-03-20T16:51:15 - feat(config): create wagmi provider configuration
+Update 871: 2026-03-20T17:04:15 - test(tests): add reentrancy protection to withdrawals
+Update 872: 2026-03-20T17:21:33 - refactor(config): implement campaign details progress bar
+Update 873: 2026-03-20T17:28:02 - chore(docs): implement contribution form validation
+Update 874: 2026-03-20T17:33:33 - refactor(ui): add category add owner function
+Update 875: 2026-03-20T18:01:32 - refactor(frontend): enhance input checks for createCampaign
+Update 876: 2026-03-20T18:05:18 - refactor(tests): format ether values using viem utilities
+Update 877: 2026-03-20T18:10:35 - fix(ipfs): refactor contract modifier checks
+Update 878: 2026-03-20T18:13:20 - style(ipfs): add check for non-zero addresses
+Update 879: 2026-03-20T18:38:01 - refactor(deploy): add ConnectButton to header
+Update 880: 2026-03-20T18:39:11 - feat(deploy): integrate react-hot-toast alerts
+Update 881: 2026-03-20T18:40:53 - style(config): implement campaign details progress bar
+Update 882: 2026-03-20T18:42:07 - refactor(deploy): add glassmorphism styles to css base
+Update 883: 2026-03-20T18:46:38 - fix(ui): create responsive navbar with mobile menu
+Update 884: 2026-03-20T18:56:25 - feat(ui): create responsive navbar with mobile menu
+Update 885: 2026-03-20T19:19:03 - feat(ipfs): integrate Pinata IPFS file uploader
+Update 886: 2026-03-20T19:37:41 - style(tests): test category duplicate prevention
+Update 887: 2026-03-20T19:40:01 - refactor(frontend): enhance input checks for createCampaign
+Update 888: 2026-03-20T20:25:20 - style(ipfs): add loading skeletons during tx confirm
+Update 889: 2026-03-20T20:49:54 - fix(ipfs): add campaign details progress bar
+Update 890: 2026-03-20T21:03:49 - refactor(tests): enhance input checks for createCampaign
+Update 891: 2026-03-20T21:27:40 - style(config): style homepage hero section
+Update 892: 2026-03-20T21:39:24 - fix(tests): add glassmorphism styles to css base
+Update 893: 2026-03-20T21:58:34 - docs(docs): optimize active campaigns gas cost
+Update 894: 2026-03-20T22:22:38 - fix(frontend): implement withdraw funds test cases
+Update 895: 2026-03-20T22:27:45 - chore(deploy): configure Sepolia network in Hardhat
+Update 896: 2026-03-20T22:38:22 - style(contracts): implement campaign details progress bar
+Update 897: 2026-03-20T22:39:32 - feat(deploy): add check for non-zero addresses
+Update 898: 2026-03-20T22:41:42 - fix(ui): style dashboard layout
+Update 899: 2026-03-20T22:46:49 - feat(deploy): format ether values using viem utilities
+Update 900: 2026-03-20T22:50:19 - feat(ui): add ConnectButton to header
+Update 901: 2026-03-20T22:54:25 - feat(config): create remaining time countdown timer
+Update 902: 2026-03-20T23:00:11 - fix(config): optimize webpack bundle size settings
+Update 903: 2026-03-20T23:31:22 - docs(contracts): refactor contract modifier checks
+Update 904: 2026-03-20T23:37:35 - chore(tests): integrate react-hot-toast alerts
+Update 905: 2026-03-20T23:50:17 - style(docs): style dashboard layout
+Update 906: 2026-03-21T08:02:54 - feat(config): add loading skeletons during tx confirm
+Update 907: 2026-03-21T09:32:50 - feat(deploy): add default categories to constructor
+Update 908: 2026-03-21T09:48:54 - refactor(deploy): add clean styling to footer
+Update 909: 2026-03-21T09:54:02 - docs(config): optimize font loading settings
+Update 910: 2026-03-21T10:02:17 - style(deploy): refactor contract modifier checks
+Update 911: 2026-03-21T10:28:42 - refactor(ui): write comprehensive unit tests
+Update 912: 2026-03-21T10:47:32 - docs(tests): style dashboard layout
+Update 913: 2026-03-21T10:52:34 - fix(docs): create remaining time countdown timer
+Update 914: 2026-03-21T11:02:19 - chore(ipfs): write comprehensive unit tests
+Update 915: 2026-03-21T11:20:47 - feat(deploy): style dashboard layout
+Update 916: 2026-03-21T11:51:39 - feat(ui): implement campaign details progress bar
+Update 917: 2026-03-21T12:01:39 - feat(tests): fix type errors for campaignsRaw mapping
+Update 918: 2026-03-21T12:03:44 - style(deploy): implement campaign creation logic
+Update 919: 2026-03-21T12:11:27 - feat(deploy): add reentrancy protection to withdrawals
+Update 920: 2026-03-21T13:56:56 - test(contracts): update Readme deployment section
+Update 921: 2026-03-21T14:03:37 - feat(contracts): test category duplicate prevention
+Update 922: 2026-03-21T14:29:30 - refactor(tests): fix deadline calculation bug
+Update 923: 2026-03-21T14:33:18 - test(docs): add campaign cancelled event
+Update 924: 2026-03-21T14:54:52 - style(config): add category filter buttons
+Update 925: 2026-03-21T15:02:46 - fix(tests): add check for non-zero addresses
+Update 926: 2026-03-21T15:57:35 - refactor(contracts): add Etherscan verification settings
+Update 927: 2026-03-21T16:20:31 - style(deploy): fix hydration mismatch warnings
+Update 928: 2026-03-21T17:03:28 - feat(frontend): refactor contract modifier checks
+Update 929: 2026-03-21T17:07:12 - docs(tests): create responsive navbar with mobile menu
+Update 930: 2026-03-21T17:39:38 - refactor(ui): update platform fee basis points limit
+Update 931: 2026-03-21T17:41:47 - style(ipfs): add categorized mock fallbacks for images
+Update 932: 2026-03-21T17:55:52 - chore(ui): fix hydration mismatch warnings
+Update 933: 2026-03-21T17:57:05 - feat(tests): fix deadline calculation bug
+Update 934: 2026-03-21T18:03:12 - chore(docs): test category duplicate prevention
+Update 935: 2026-03-21T18:28:40 - docs(tests): style dashboard layout
+Update 936: 2026-03-21T18:53:36 - fix(tests): integrate react-hot-toast alerts
+Update 937: 2026-03-21T19:10:30 - test(deploy): implement category filter buttons
+Update 938: 2026-03-21T19:52:53 - refactor(contracts): implement campaign details progress bar
+Update 939: 2026-03-21T19:53:46 - feat(deploy): build dashboard my-campaigns tab
+Update 940: 2026-03-21T20:09:33 - style(ui): create wagmi provider configuration
+Update 941: 2026-03-21T21:17:15 - feat(deploy): configure Sepolia network in Hardhat
+Update 942: 2026-03-21T21:22:06 - refactor(config): add check for non-zero addresses
+Update 943: 2026-03-21T21:32:41 - feat(contracts): add glassmorphism styles to css base
+Update 944: 2026-03-21T22:05:35 - docs(ui): style dashboard layout
+Update 945: 2026-03-21T22:07:02 - refactor(frontend): style homepage hero section
+Update 946: 2026-03-21T22:07:44 - fix(tests): add custom query hooks for contributions
+Update 947: 2026-03-21T22:08:54 - feat(ipfs): add cancel campaign control to dashboard
+Update 948: 2026-03-21T22:13:14 - feat(tests): fix overflow bug in fee calculation
+Update 949: 2026-03-21T22:25:38 - style(docs): create remaining time countdown timer
+Update 950: 2026-03-21T22:57:08 - style(frontend): fix type errors for campaignsRaw mapping
+Update 951: 2026-03-21T23:16:10 - refactor(tests): configure Sepolia network in Hardhat
+Update 952: 2026-03-21T23:37:02 - feat(frontend): add custom query hooks for contributions
+Update 953: 2026-03-21T23:52:39 - chore(ipfs): add category filter buttons
+Update 954: 2026-03-22T08:13:39 - chore(deploy): integrate react-hot-toast alerts
+Update 955: 2026-03-22T08:23:35 - fix(frontend): add campaign cancelled event
+Update 956: 2026-03-22T08:29:27 - test(ipfs): style dashboard layout
+Update 957: 2026-03-22T08:34:57 - feat(ui): add glassmorphism styles to css base
+Update 958: 2026-03-22T08:38:10 - style(config): create remaining time countdown timer
+Update 959: 2026-03-22T08:51:35 - docs(contracts): add reentrancy protection to withdrawals
+Update 960: 2026-03-22T09:09:07 - fix(deploy): implement withdraw funds test cases
+Update 961: 2026-03-22T09:12:23 - refactor(contracts): enhance input checks for createCampaign
+Update 962: 2026-03-22T10:48:09 - feat(ui): style dashboard layout
+Update 963: 2026-03-22T11:28:00 - chore(ui): add ConnectButton to header
+Update 964: 2026-03-22T11:51:36 - refactor(contracts): fix hydration mismatch warnings
+Update 965: 2026-03-22T11:55:52 - style(config): create responsive navbar with mobile menu
+Update 966: 2026-03-22T12:12:20 - feat(config): add loading skeletons during tx confirm
+Update 967: 2026-03-22T12:24:09 - style(config): add cancel campaign control to dashboard
+Update 968: 2026-03-22T12:29:40 - fix(contracts): create wagmi provider configuration
+Update 969: 2026-03-22T12:35:11 - refactor(tests): add custom query hooks for contributions
+Update 970: 2026-03-22T12:58:12 - style(tests): implement campaign creation logic
+Update 971: 2026-03-22T13:22:55 - docs(docs): add ConnectButton to header
+Update 972: 2026-03-22T13:47:31 - test(deploy): implement withdraw funds test cases
+Update 973: 2026-03-22T14:07:06 - test(frontend): build dashboard my-campaigns tab
+Update 974: 2026-03-22T14:31:02 - docs(contracts): write comprehensive unit tests
+Update 975: 2026-03-22T14:31:31 - feat(deploy): integrate Pinata IPFS file uploader
+Update 976: 2026-03-22T14:37:20 - style(frontend): add campaign cancelled event
+Update 977: 2026-03-22T14:48:22 - refactor(docs): add reentrancy protection to withdrawals
+Update 978: 2026-03-22T14:49:36 - chore(docs): enhance input checks for createCampaign
+Update 979: 2026-03-22T14:51:22 - test(deploy): add categorized mock fallbacks for images
+Update 980: 2026-03-22T15:09:12 - refactor(deploy): style homepage hero section
+Update 981: 2026-03-22T15:34:57 - fix(deploy): add double refund prevention tests
+Update 982: 2026-03-22T15:41:38 - feat(docs): add loading skeletons during tx confirm
+Update 983: 2026-03-22T15:51:12 - refactor(contracts): implement withdraw funds test cases
+Update 984: 2026-03-22T16:09:02 - style(contracts): add categorized mock fallbacks for images
+Update 985: 2026-03-22T16:14:54 - test(contracts): add ConnectButton to header
+Update 986: 2026-03-22T16:53:04 - docs(tests): implement category filter buttons
+Update 987: 2026-03-22T18:30:45 - refactor(contracts): add clean styling to footer
+Update 988: 2026-03-22T18:33:14 - chore(config): add Etherscan verification settings
+Update 989: 2026-03-22T18:39:43 - feat(docs): add custom query hooks for contributions
+Update 990: 2026-03-22T19:23:00 - chore(tests): add custom query hooks for contributions
+Update 991: 2026-03-22T19:52:36 - feat(ipfs): write comprehensive unit tests
+Update 992: 2026-03-22T19:54:09 - feat(tests): implement category add owner function
+Update 993: 2026-03-22T20:44:21 - fix(ui): add Etherscan verification settings
+Update 994: 2026-03-22T20:52:53 - style(ui): refactor tailwind config spacing variables
+Update 995: 2026-03-22T21:09:09 - test(contracts): fix overflow bug in fee calculation
+Update 996: 2026-03-22T21:34:39 - feat(ui): refactor contract modifier checks
+Update 997: 2026-03-22T22:13:14 - style(config): refactor tailwind config spacing variables
+Update 998: 2026-03-22T22:30:20 - feat(ui): add glassmorphism styles to css base
+Update 999: 2026-03-22T22:39:08 - chore(deploy): add claim refund button functionality
+Update 1000: 2026-03-22T22:55:25 - style(docs): add glassmorphism styles to css base
+Update 1001: 2026-03-22T23:04:44 - style(contracts): update tsconfig to target ES2020
+Update 1002: 2026-03-23T08:03:14 - docs(docs): add glassmorphism styles to css base
+Update 1003: 2026-03-23T08:22:12 - test(deploy): update Readme deployment section
+Update 1004: 2026-03-23T08:25:16 - chore(deploy): add clean styling to footer
+Update 1005: 2026-03-23T08:47:42 - feat(docs): implement campaign creation logic
+Update 1006: 2026-03-23T08:48:09 - chore(docs): optimize webpack bundle size settings
+Update 1007: 2026-03-23T09:33:41 - feat(deploy): add campaign cancelled event
+Update 1008: 2026-03-23T10:24:21 - test(ui): add categorized mock fallbacks for images
+Update 1009: 2026-03-23T10:26:55 - chore(docs): refactor tailwind config spacing variables
+Update 1010: 2026-03-23T10:29:31 - chore(ipfs): style dashboard layout
+Update 1011: 2026-03-23T10:54:23 - refactor(ipfs): configure Sepolia network in Hardhat
+Update 1012: 2026-03-23T10:57:19 - refactor(docs): update platform fee basis points limit
+Update 1013: 2026-03-23T11:50:02 - refactor(tests): add contribution form validation
+Update 1014: 2026-03-23T12:25:08 - feat(config): fix overflow bug in fee calculation
+Update 1015: 2026-03-23T12:32:00 - docs(frontend): add double refund prevention tests
+Update 1016: 2026-03-23T12:42:57 - style(ui): update tsconfig to target ES2020
+Update 1017: 2026-03-23T12:43:58 - style(docs): add loading skeletons during tx confirm
+Update 1018: 2026-03-23T12:48:19 - style(tests): integrate Pinata IPFS file uploader
+Update 1019: 2026-03-23T13:02:44 - style(contracts): integrate react-hot-toast alerts
+Update 1020: 2026-03-23T13:16:01 - style(contracts): implement category add owner function
+Update 1021: 2026-03-23T13:32:47 - test(contracts): enhance input checks for createCampaign
+Update 1022: 2026-03-23T13:52:29 - style(contracts): implement campaign creation logic
+Update 1023: 2026-03-23T14:01:31 - refactor(config): add glassmorphism styles to css base
+Update 1024: 2026-03-23T14:15:21 - feat(ipfs): add custom query hooks for contributions
+Update 1025: 2026-03-23T14:43:42 - fix(config): integrate react-hot-toast alerts
+Update 1026: 2026-03-23T14:59:27 - fix(ipfs): add clean styling to footer
+Update 1027: 2026-03-23T15:35:08 - fix(docs): create remaining time countdown timer
+Update 1028: 2026-03-23T15:56:40 - chore(config): add clean styling to footer
+Update 1029: 2026-03-23T16:10:01 - refactor(ui): create wagmi provider configuration
+Update 1030: 2026-03-23T16:24:02 - chore(ui): optimize webpack bundle size settings
+Update 1031: 2026-03-23T16:40:31 - fix(ui): refactor tailwind config spacing variables
+Update 1032: 2026-03-23T17:04:53 - feat(ipfs): integrate react-hot-toast alerts
+Update 1033: 2026-03-23T17:08:50 - docs(contracts): create responsive navbar with mobile menu
+Update 1034: 2026-03-23T17:45:41 - docs(deploy): add reentrancy protection to withdrawals
+Update 1035: 2026-03-23T18:09:44 - feat(frontend): fix type errors for campaignsRaw mapping
+Update 1036: 2026-03-23T18:48:28 - test(contracts): implement contribution form validation
+Update 1037: 2026-03-23T19:17:12 - test(ui): update Readme deployment section
+Update 1038: 2026-03-23T19:32:19 - test(ipfs): create remaining time countdown timer
+Update 1039: 2026-03-23T19:59:50 - fix(config): add loading skeletons during tx confirm
+Update 1040: 2026-03-23T20:11:53 - docs(frontend): add double refund prevention tests
+Update 1041: 2026-03-23T20:22:24 - docs(docs): style dashboard layout
+Update 1042: 2026-03-23T20:52:50 - refactor(config): refactor contract modifier checks
+Update 1043: 2026-03-23T21:12:28 - test(config): add check for non-zero addresses
+Update 1044: 2026-03-23T21:25:20 - feat(ui): add double refund prevention tests
+Update 1045: 2026-03-23T21:52:12 - refactor(contracts): enhance input checks for createCampaign
+Update 1046: 2026-03-23T22:13:10 - docs(config): add categorized mock fallbacks for images
+Update 1047: 2026-03-23T22:47:02 - style(docs): add custom query hooks for contributions
+Update 1048: 2026-03-23T23:00:19 - chore(contracts): fix deadline calculation bug
+Update 1049: 2026-03-23T23:27:00 - test(docs): optimize font loading settings
+Update 1050: 2026-03-23T23:54:57 - feat(tests): update tsconfig to target ES2020
+Update 1051: 2026-03-24T08:42:05 - feat(deploy): add glassmorphism styles to css base
+Update 1052: 2026-03-24T08:54:28 - test(ui): fix type errors for campaignsRaw mapping
+Update 1053: 2026-03-24T09:48:04 - feat(ipfs): fix type errors for campaignsRaw mapping
+Update 1054: 2026-03-24T09:52:14 - style(ipfs): enhance input checks for createCampaign
+Update 1055: 2026-03-24T10:22:39 - test(contracts): style homepage hero section
+Update 1056: 2026-03-24T10:57:11 - docs(contracts): integrate Pinata IPFS file uploader
+Update 1057: 2026-03-24T11:24:30 - test(ipfs): configure Sepolia network in Hardhat
+Update 1058: 2026-03-24T12:04:42 - test(frontend): add campaign creation logic
+Update 1059: 2026-03-24T12:16:58 - fix(docs): add double refund prevention tests
+Update 1060: 2026-03-24T13:20:47 - style(contracts): create wagmi provider configuration
+Update 1061: 2026-03-24T13:43:14 - feat(deploy): fix hydration mismatch warnings
+Update 1062: 2026-03-24T14:04:16 - fix(deploy): add category add owner function
+Update 1063: 2026-03-24T14:09:32 - docs(config): create remaining time countdown timer
+Update 1064: 2026-03-24T14:22:18 - chore(frontend): optimize webpack bundle size settings
+Update 1065: 2026-03-24T14:27:35 - test(docs): test category duplicate prevention
+Update 1066: 2026-03-24T14:32:33 - fix(ipfs): integrate Pinata IPFS file uploader
+Update 1067: 2026-03-24T14:54:15 - feat(config): add cancel campaign control to dashboard
+Update 1068: 2026-03-24T15:03:23 - feat(ipfs): update tsconfig to target ES2020
+Update 1069: 2026-03-24T15:10:51 - test(ui): integrate react-hot-toast alerts
+Update 1070: 2026-03-24T15:47:36 - test(frontend): integrate react-hot-toast alerts
+Update 1071: 2026-03-24T16:15:56 - refactor(contracts): refactor tailwind config spacing variables
+Update 1072: 2026-03-24T16:25:13 - refactor(deploy): add ConnectButton to header
+Update 1073: 2026-03-24T16:53:59 - test(ui): fix overflow bug in fee calculation
+Update 1074: 2026-03-24T16:59:33 - style(ipfs): test category duplicate prevention
+Update 1075: 2026-03-24T17:08:26 - docs(ui): integrate react-hot-toast alerts
+Update 1076: 2026-03-24T17:15:27 - test(docs): optimize active campaigns gas cost
+Update 1077: 2026-03-24T17:47:49 - test(tests): add custom query hooks for contributions
+Update 1078: 2026-03-24T17:49:05 - style(docs): add clean styling to footer
+Update 1079: 2026-03-24T18:17:39 - docs(ipfs): fix deadline calculation bug
+Update 1080: 2026-03-24T18:47:49 - test(docs): add cancel campaign control to dashboard
+Update 1081: 2026-03-24T18:50:08 - docs(docs): style homepage hero section
+Update 1082: 2026-03-24T19:00:00 - style(ui): refactor tailwind config spacing variables
+Update 1083: 2026-03-24T19:02:58 - style(docs): optimize active campaigns gas cost
+Update 1084: 2026-03-24T19:20:49 - test(contracts): add cancel campaign control to dashboard
+Update 1085: 2026-03-24T19:33:54 - fix(frontend): add double refund prevention tests
+Update 1086: 2026-03-24T20:01:00 - feat(ipfs): integrate react-hot-toast alerts
+Update 1087: 2026-03-24T20:24:19 - refactor(config): fix overflow bug in fee calculation
+Update 1088: 2026-03-24T20:25:54 - feat(docs): add loading skeletons during tx confirm
+Update 1089: 2026-03-24T20:29:59 - test(docs): add ConnectButton to header
+Update 1090: 2026-03-24T20:51:55 - docs(deploy): optimize font loading settings
+Update 1091: 2026-03-24T21:34:46 - docs(frontend): add cancel campaign control to dashboard
+Update 1092: 2026-03-24T21:36:45 - fix(frontend): add campaign creation logic
+Update 1093: 2026-03-24T22:28:23 - style(tests): add clean styling to footer
+Update 1094: 2026-03-24T22:54:46 - refactor(frontend): update platform fee basis points limit
+Update 1095: 2026-03-24T23:03:53 - refactor(ipfs): add withdraw funds test cases
+Update 1096: 2026-03-25T08:52:09 - refactor(docs): update platform fee basis points limit
+Update 1097: 2026-03-25T10:07:16 - style(contracts): optimize webpack bundle size settings
+Update 1098: 2026-03-25T10:24:21 - refactor(contracts): implement campaign details progress bar
+Update 1099: 2026-03-25T10:24:22 - chore(ipfs): fix overflow bug in fee calculation
+Update 1100: 2026-03-25T10:39:05 - test(tests): fix hydration mismatch warnings
+Update 1101: 2026-03-25T10:46:34 - refactor(ui): add campaign cancelled event
+Update 1102: 2026-03-25T10:57:02 - refactor(contracts): write comprehensive unit tests
+Update 1103: 2026-03-25T11:10:00 - refactor(ipfs): update tsconfig to target ES2020
+Update 1104: 2026-03-25T11:16:00 - refactor(ui): test category duplicate prevention
+Update 1105: 2026-03-25T11:18:17 - refactor(config): add check for non-zero addresses
+Update 1106: 2026-03-25T11:48:43 - fix(contracts): optimize font loading settings
+Update 1107: 2026-03-25T12:12:23 - feat(deploy): implement campaign details progress bar
+Update 1108: 2026-03-25T12:14:49 - feat(ipfs): implement withdraw funds test cases
+Update 1109: 2026-03-25T12:28:52 - chore(frontend): integrate react-hot-toast alerts
+Update 1110: 2026-03-25T12:29:14 - docs(config): add categorized mock fallbacks for images
+Update 1111: 2026-03-25T12:31:13 - style(deploy): fix overflow bug in fee calculation
+Update 1112: 2026-03-25T12:37:31 - refactor(contracts): add loading skeletons during tx confirm
+Update 1113: 2026-03-25T12:39:56 - test(tests): add ConnectButton to header
+Update 1114: 2026-03-25T14:24:18 - chore(ui): integrate Pinata IPFS file uploader
+Update 1115: 2026-03-25T14:29:43 - docs(ipfs): update Readme deployment section
+Update 1116: 2026-03-25T14:59:50 - feat(config): integrate react-hot-toast alerts
+Update 1117: 2026-03-25T15:00:51 - docs(deploy): enhance input checks for createCampaign
+Update 1118: 2026-03-25T15:31:24 - docs(config): add categorized mock fallbacks for images
+Update 1119: 2026-03-25T15:38:51 - test(config): add glassmorphism styles to css base
+Update 1120: 2026-03-25T15:54:42 - feat(ui): add cancel campaign control to dashboard
+Update 1121: 2026-03-25T16:04:22 - test(config): add withdraw funds test cases
+Update 1122: 2026-03-25T17:54:54 - feat(config): write comprehensive unit tests
+Update 1123: 2026-03-25T18:15:35 - chore(ipfs): add default categories to constructor
+Update 1124: 2026-03-25T18:33:14 - feat(ui): integrate Pinata IPFS file uploader
+Update 1125: 2026-03-25T19:06:35 - refactor(ipfs): implement category filter buttons
+Update 1126: 2026-03-25T19:15:50 - feat(tests): format ether values using viem utilities
+Update 1127: 2026-03-25T19:27:53 - style(deploy): format ether values using viem utilities
+Update 1128: 2026-03-25T20:33:51 - fix(contracts): add check for non-zero addresses
+Update 1129: 2026-03-25T20:43:44 - feat(tests): fix overflow bug in fee calculation
+Update 1130: 2026-03-25T21:35:58 - docs(contracts): add double refund prevention tests
+Update 1131: 2026-03-25T21:39:54 - test(contracts): add check for non-zero addresses
+Update 1132: 2026-03-25T21:51:38 - test(config): fix overflow bug in fee calculation
+Update 1133: 2026-03-25T21:55:00 - fix(docs): integrate Pinata IPFS file uploader
+Update 1134: 2026-03-25T22:37:37 - chore(ipfs): fix overflow bug in fee calculation
+Update 1135: 2026-03-25T23:49:56 - fix(frontend): create responsive navbar with mobile menu
+Update 1136: 2026-03-26T08:26:10 - docs(ipfs): create responsive navbar with mobile menu
+Update 1137: 2026-03-26T08:54:50 - docs(config): implement contribution form validation
+Update 1138: 2026-03-26T09:27:52 - test(contracts): refactor contract modifier checks
+Update 1139: 2026-03-26T09:33:20 - docs(contracts): fix deadline calculation bug
+Update 1140: 2026-03-26T11:17:36 - style(frontend): fix deadline calculation bug
+Update 1141: 2026-03-26T11:28:36 - style(tests): enhance input checks for createCampaign
+Update 1142: 2026-03-26T11:58:08 - feat(deploy): optimize active campaigns gas cost
+Update 1143: 2026-03-26T12:03:28 - test(config): add glassmorphism styles to css base
+Update 1144: 2026-03-26T12:38:01 - chore(frontend): refactor tailwind config spacing variables
+Update 1145: 2026-03-26T12:40:25 - refactor(ui): integrate react-hot-toast alerts
+Update 1146: 2026-03-26T12:52:32 - test(tests): implement category add owner function
+Update 1147: 2026-03-26T13:01:31 - refactor(ui): integrate react-hot-toast alerts
+Update 1148: 2026-03-26T13:44:59 - docs(tests): update platform fee basis points limit
+Update 1149: 2026-03-26T14:23:33 - refactor(tests): add default categories to constructor
+Update 1150: 2026-03-26T15:25:12 - chore(contracts): build dashboard my-campaigns tab
+Update 1151: 2026-03-26T16:10:35 - fix(tests): implement claim refund button functionality
+Update 1152: 2026-03-26T17:30:48 - feat(config): configure Sepolia network in Hardhat
+Update 1153: 2026-03-26T18:10:06 - refactor(ipfs): create responsive navbar with mobile menu
+Update 1154: 2026-03-26T18:21:30 - refactor(deploy): format ether values using viem utilities
+Update 1155: 2026-03-26T18:24:38 - refactor(deploy): optimize active campaigns gas cost
+Update 1156: 2026-03-26T18:54:23 - docs(docs): add reentrancy protection to withdrawals
+Update 1157: 2026-03-26T18:56:45 - docs(deploy): create remaining time countdown timer
+Update 1158: 2026-03-26T18:59:17 - feat(ui): style homepage hero section
+Update 1159: 2026-03-26T19:02:03 - docs(ipfs): integrate react-hot-toast alerts
+Update 1160: 2026-03-26T19:30:22 - test(frontend): add custom query hooks for contributions
+Update 1161: 2026-03-26T20:12:44 - refactor(deploy): update tsconfig to target ES2020
+Update 1162: 2026-03-26T20:21:16 - docs(ui): add contribution form validation
+Update 1163: 2026-03-26T20:56:17 - chore(docs): add categorized mock fallbacks for images
+Update 1164: 2026-03-26T21:35:55 - test(frontend): test category duplicate prevention
+Update 1165: 2026-03-26T22:10:47 - refactor(tests): implement campaign creation logic
+Update 1166: 2026-03-26T22:29:24 - docs(docs): implement contribution form validation
+Update 1167: 2026-03-26T22:56:25 - docs(tests): write comprehensive unit tests
+Update 1168: 2026-03-26T23:14:40 - test(tests): enhance input checks for createCampaign
+Update 1169: 2026-03-26T23:58:43 - chore(docs): implement category add owner function
+Update 1170: 2026-03-27T08:10:55 - feat(deploy): refactor contract modifier checks
+Update 1171: 2026-03-27T08:14:56 - style(frontend): refactor contract modifier checks
+Update 1172: 2026-03-27T08:19:55 - style(frontend): fix hydration mismatch warnings
+Update 1173: 2026-03-27T08:22:28 - feat(ui): fix hydration mismatch warnings
+Update 1174: 2026-03-27T08:31:50 - chore(docs): add glassmorphism styles to css base
+Update 1175: 2026-03-27T08:59:18 - style(frontend): format ether values using viem utilities
+Update 1176: 2026-03-27T09:17:52 - refactor(contracts): add check for non-zero addresses
+Update 1177: 2026-03-27T09:20:03 - refactor(ipfs): add default categories to constructor
+Update 1178: 2026-03-27T09:21:13 - feat(contracts): update Readme deployment section
+Update 1179: 2026-03-27T09:47:57 - feat(tests): add campaign cancelled event
+Update 1180: 2026-03-27T09:51:35 - fix(deploy): test category duplicate prevention
+Update 1181: 2026-03-27T10:00:27 - fix(ui): implement category add owner function
+Update 1182: 2026-03-27T10:11:55 - fix(contracts): implement contribution form validation
+Update 1183: 2026-03-27T10:49:43 - docs(deploy): format ether values using viem utilities
+Update 1184: 2026-03-27T11:30:15 - refactor(deploy): fix type errors for campaignsRaw mapping
+Update 1185: 2026-03-27T11:35:01 - style(deploy): implement claim refund button functionality
+Update 1186: 2026-03-27T11:36:22 - chore(deploy): add ConnectButton to header
+Update 1187: 2026-03-27T12:42:25 - fix(deploy): add loading skeletons during tx confirm
+Update 1188: 2026-03-27T13:07:43 - chore(frontend): format ether values using viem utilities
+Update 1189: 2026-03-27T13:29:06 - style(ipfs): add categorized mock fallbacks for images
+Update 1190: 2026-03-27T14:23:40 - chore(ui): configure Sepolia network in Hardhat
+Update 1191: 2026-03-27T14:29:54 - fix(config): optimize webpack bundle size settings
+Update 1192: 2026-03-27T14:38:12 - style(docs): add reentrancy protection to withdrawals
+Update 1193: 2026-03-27T14:41:38 - fix(deploy): add double refund prevention tests
+Update 1194: 2026-03-27T15:07:16 - feat(deploy): update tsconfig to target ES2020
+Update 1195: 2026-03-27T15:28:23 - chore(tests): add custom query hooks for contributions
+Update 1196: 2026-03-27T15:51:04 - chore(ipfs): create responsive navbar with mobile menu
+Update 1197: 2026-03-27T16:01:37 - style(frontend): configure Sepolia network in Hardhat
+Update 1198: 2026-03-27T16:12:54 - chore(docs): add custom query hooks for contributions
+Update 1199: 2026-03-27T16:42:42 - style(contracts): add category filter buttons
+Update 1200: 2026-03-27T17:14:14 - test(tests): add reentrancy protection to withdrawals
+Update 1201: 2026-03-27T17:36:48 - fix(docs): add cancel campaign control to dashboard
+Update 1202: 2026-03-27T18:19:43 - fix(docs): refactor contract modifier checks
+Update 1203: 2026-03-27T18:23:06 - refactor(config): create remaining time countdown timer
+Update 1204: 2026-03-27T18:51:28 - refactor(ui): create wagmi provider configuration
+Update 1205: 2026-03-27T18:56:44 - fix(contracts): integrate react-hot-toast alerts
+Update 1206: 2026-03-27T19:17:28 - fix(ipfs): add Etherscan verification settings
+Update 1207: 2026-03-27T19:58:57 - style(config): fix overflow bug in fee calculation
+Update 1208: 2026-03-27T20:20:38 - fix(docs): update tsconfig to target ES2020
+Update 1209: 2026-03-27T20:21:29 - docs(deploy): update Readme deployment section
+Update 1210: 2026-03-27T20:24:22 - chore(docs): refactor tailwind config spacing variables
+Update 1211: 2026-03-27T20:35:28 - style(frontend): configure Sepolia network in Hardhat
+Update 1212: 2026-03-27T21:53:14 - refactor(frontend): add Etherscan verification settings
+Update 1213: 2026-03-27T21:53:39 - docs(ui): create responsive navbar with mobile menu
+Update 1214: 2026-03-28T09:13:14 - chore(deploy): implement campaign creation logic
+Update 1215: 2026-03-28T09:13:16 - test(tests): add glassmorphism styles to css base
+Update 1216: 2026-03-28T09:26:58 - style(config): integrate react-hot-toast alerts
+Update 1217: 2026-03-28T09:28:45 - fix(docs): add clean styling to footer
+Update 1218: 2026-03-28T09:44:05 - test(ipfs): add clean styling to footer
+Update 1219: 2026-03-28T09:57:08 - fix(deploy): fix deadline calculation bug
+Update 1220: 2026-03-28T10:10:12 - style(config): fix hydration mismatch warnings
+Update 1221: 2026-03-28T10:26:03 - test(config): fix deadline calculation bug
+Update 1222: 2026-03-28T10:41:25 - fix(tests): refactor tailwind config spacing variables
+Update 1223: 2026-03-28T10:58:10 - test(ui): fix deadline calculation bug
+Update 1224: 2026-03-28T11:01:13 - style(frontend): add reentrancy protection to withdrawals
+Update 1225: 2026-03-28T11:08:44 - feat(contracts): configure Sepolia network in Hardhat
+Update 1226: 2026-03-28T11:29:28 - test(contracts): write comprehensive unit tests
+Update 1227: 2026-03-28T11:40:17 - feat(tests): add default categories to constructor
+Update 1228: 2026-03-28T11:54:50 - test(ipfs): style dashboard layout
+Update 1229: 2026-03-28T11:55:00 - fix(tests): fix overflow bug in fee calculation
+Update 1230: 2026-03-28T12:16:40 - chore(docs): optimize font loading settings
+Update 1231: 2026-03-28T13:03:22 - chore(contracts): enhance input checks for createCampaign
+Update 1232: 2026-03-28T13:36:43 - refactor(deploy): test category duplicate prevention
+Update 1233: 2026-03-28T13:50:14 - style(config): fix type errors for campaignsRaw mapping
+Update 1234: 2026-03-28T14:06:13 - refactor(ui): style homepage hero section
+Update 1235: 2026-03-28T14:24:57 - style(config): enhance input checks for createCampaign
+Update 1236: 2026-03-28T14:36:15 - refactor(frontend): style homepage hero section
+Update 1237: 2026-03-28T14:38:54 - feat(deploy): test category duplicate prevention
+Update 1238: 2026-03-28T15:02:18 - test(frontend): implement category filter buttons
+Update 1239: 2026-03-28T15:03:47 - docs(config): update platform fee basis points limit
+Update 1240: 2026-03-28T15:14:57 - feat(ui): implement category filter buttons
+Update 1241: 2026-03-28T15:31:27 - refactor(tests): implement withdraw funds test cases
+Update 1242: 2026-03-28T16:09:07 - chore(ipfs): format ether values using viem utilities
+Update 1243: 2026-03-28T16:37:50 - feat(config): add default categories to constructor
+Update 1244: 2026-03-28T17:08:20 - chore(tests): create responsive navbar with mobile menu
+Update 1245: 2026-03-28T17:17:18 - docs(ui): fix deadline calculation bug
+Update 1246: 2026-03-28T17:21:08 - feat(ui): optimize active campaigns gas cost
+Update 1247: 2026-03-28T17:25:41 - test(tests): implement claim refund button functionality
+Update 1248: 2026-03-28T17:41:55 - fix(contracts): implement withdraw funds test cases
+Update 1249: 2026-03-28T19:38:41 - chore(tests): optimize active campaigns gas cost
+Update 1250: 2026-03-28T19:42:35 - style(ui): configure Sepolia network in Hardhat
+Update 1251: 2026-03-28T19:44:36 - test(config): create responsive navbar with mobile menu
+Update 1252: 2026-03-28T20:00:26 - test(frontend): add ConnectButton to header
+Update 1253: 2026-03-28T20:22:12 - style(docs): fix type errors for campaignsRaw mapping
+Update 1254: 2026-03-28T20:25:17 - fix(ipfs): add cancel campaign control to dashboard
+Update 1255: 2026-03-28T20:49:45 - style(config): update platform fee basis points limit
+Update 1256: 2026-03-28T21:05:55 - chore(contracts): integrate react-hot-toast alerts
+Update 1257: 2026-03-28T21:09:29 - docs(ipfs): fix deadline calculation bug
+Update 1258: 2026-03-28T21:41:21 - chore(tests): implement campaign creation logic
+Update 1259: 2026-03-28T22:04:32 - chore(ui): refactor contract modifier checks
+Update 1260: 2026-03-28T22:27:46 - docs(config): implement category add owner function
+Update 1261: 2026-03-28T23:06:24 - test(frontend): refactor contract modifier checks
+Update 1262: 2026-03-28T23:23:59 - feat(config): build dashboard my-campaigns tab
+Update 1263: 2026-03-29T08:59:26 - style(deploy): implement withdraw funds test cases
+Update 1264: 2026-03-29T09:14:57 - test(deploy): add default categories to constructor
+Update 1265: 2026-03-29T09:32:47 - feat(contracts): refactor contract modifier checks
+Update 1266: 2026-03-29T09:33:28 - chore(frontend): integrate react-hot-toast alerts
+Update 1267: 2026-03-29T09:46:57 - refactor(docs): fix type errors for campaignsRaw mapping
+Update 1268: 2026-03-29T09:52:58 - style(docs): fix type errors for campaignsRaw mapping
+Update 1269: 2026-03-29T09:53:02 - fix(docs): implement claim refund button functionality
+Update 1270: 2026-03-29T10:02:22 - docs(contracts): enhance input checks for createCampaign
+Update 1271: 2026-03-29T10:08:45 - style(tests): fix overflow bug in fee calculation
+Update 1272: 2026-03-29T10:51:25 - fix(deploy): test category duplicate prevention
+Update 1273: 2026-03-29T11:29:30 - test(tests): write comprehensive unit tests
+Update 1274: 2026-03-29T11:39:20 - chore(frontend): add claim refund button functionality
+Update 1275: 2026-03-29T12:19:49 - style(config): add clean styling to footer
+Update 1276: 2026-03-29T13:36:01 - test(contracts): integrate Pinata IPFS file uploader
+Update 1277: 2026-03-29T15:04:05 - docs(ui): add glassmorphism styles to css base
+Update 1278: 2026-03-29T15:08:08 - feat(config): update tsconfig to target ES2020
+Update 1279: 2026-03-29T15:10:26 - refactor(ui): add double refund prevention tests
+Update 1280: 2026-03-29T15:30:52 - chore(deploy): configure Sepolia network in Hardhat
+Update 1281: 2026-03-29T15:32:19 - chore(ui): add clean styling to footer
+Update 1282: 2026-03-29T15:33:47 - style(config): implement withdraw funds test cases
+Update 1283: 2026-03-29T15:37:26 - chore(config): add contribution form validation
+Update 1284: 2026-03-29T15:46:47 - style(contracts): add default categories to constructor
+Update 1285: 2026-03-29T16:17:39 - fix(deploy): optimize webpack bundle size settings
+Update 1286: 2026-03-29T16:34:35 - style(ui): implement campaign details progress bar
+Update 1287: 2026-03-29T16:36:05 - test(deploy): fix type errors for campaignsRaw mapping
+Update 1288: 2026-03-29T16:45:07 - fix(contracts): update platform fee basis points limit
+Update 1289: 2026-03-29T17:05:40 - docs(deploy): fix overflow bug in fee calculation
+Update 1290: 2026-03-29T17:09:50 - feat(ui): add Etherscan verification settings
+Update 1291: 2026-03-29T17:15:55 - chore(frontend): implement campaign creation logic
+Update 1292: 2026-03-29T17:22:40 - refactor(config): add check for non-zero addresses
+Update 1293: 2026-03-29T17:42:33 - refactor(config): optimize font loading settings
+Update 1294: 2026-03-29T17:48:49 - chore(contracts): add double refund prevention tests
+Update 1295: 2026-03-29T17:50:19 - chore(config): add double refund prevention tests
+Update 1296: 2026-03-29T17:51:15 - fix(deploy): fix hydration mismatch warnings
+Update 1297: 2026-03-29T18:10:28 - feat(contracts): implement campaign creation logic
+Update 1298: 2026-03-29T18:21:51 - style(ui): fix deadline calculation bug
+Update 1299: 2026-03-29T18:54:20 - refactor(ipfs): optimize active campaigns gas cost
+Update 1300: 2026-03-29T18:56:18 - fix(tests): fix deadline calculation bug
+Update 1301: 2026-03-29T19:31:59 - chore(contracts): add campaign cancelled event
+Update 1302: 2026-03-29T20:54:39 - chore(config): implement contribution form validation
+Update 1303: 2026-03-29T20:58:49 - docs(docs): add category filter buttons
+Update 1304: 2026-03-29T21:22:59 - docs(frontend): implement campaign details progress bar
+Update 1305: 2026-03-29T21:51:16 - style(tests): add ConnectButton to header
+Update 1306: 2026-03-29T22:17:58 - style(deploy): write comprehensive unit tests
+Update 1307: 2026-03-29T22:41:26 - test(contracts): create responsive navbar with mobile menu
+Update 1308: 2026-03-29T22:57:18 - feat(frontend): create wagmi provider configuration
+Update 1309: 2026-03-29T23:08:04 - test(tests): fix hydration mismatch warnings
+Update 1310: 2026-03-29T23:31:23 - chore(ipfs): add default categories to constructor
+Update 1311: 2026-03-29T23:41:18 - fix(ipfs): configure Sepolia network in Hardhat
+Update 1312: 2026-03-29T23:58:23 - chore(contracts): write comprehensive unit tests
+Update 1313: 2026-03-30T08:22:54 - fix(ui): implement contribution form validation
+Update 1314: 2026-03-30T08:23:04 - chore(contracts): integrate Pinata IPFS file uploader
+Update 1315: 2026-03-30T08:59:06 - fix(deploy): update platform fee basis points limit
+Update 1316: 2026-03-30T09:01:58 - chore(docs): optimize font loading settings
+Update 1317: 2026-03-30T09:09:17 - chore(frontend): refactor contract modifier checks
+Update 1318: 2026-03-30T09:23:35 - docs(config): add reentrancy protection to withdrawals
+Update 1319: 2026-03-30T10:01:47 - chore(deploy): add custom query hooks for contributions
+Update 1320: 2026-03-30T10:07:33 - fix(ui): add campaign cancelled event
+Update 1321: 2026-03-30T11:09:59 - chore(ui): fix hydration mismatch warnings
+Update 1322: 2026-03-30T11:15:44 - refactor(tests): fix hydration mismatch warnings
+Update 1323: 2026-03-30T11:20:34 - fix(contracts): implement withdraw funds test cases
+Update 1324: 2026-03-30T11:31:53 - docs(config): implement campaign creation logic
+Update 1325: 2026-03-30T11:39:01 - docs(docs): implement campaign details progress bar
+Update 1326: 2026-03-30T11:40:15 - feat(tests): add Etherscan verification settings
+Update 1327: 2026-03-30T11:47:36 - refactor(ipfs): fix type errors for campaignsRaw mapping
+Update 1328: 2026-03-30T11:52:36 - test(ipfs): create responsive navbar with mobile menu
+Update 1329: 2026-03-30T11:58:24 - feat(frontend): implement category filter buttons
+Update 1330: 2026-03-30T12:16:42 - test(tests): update tsconfig to target ES2020
+Update 1331: 2026-03-30T12:23:10 - style(tests): configure Sepolia network in Hardhat
+Update 1332: 2026-03-30T12:28:31 - docs(contracts): add reentrancy protection to withdrawals
+Update 1333: 2026-03-30T13:17:54 - fix(ui): fix hydration mismatch warnings
+Update 1334: 2026-03-30T13:49:18 - test(deploy): add loading skeletons during tx confirm
+Update 1335: 2026-03-30T13:52:22 - test(ipfs): add ConnectButton to header
+Update 1336: 2026-03-30T13:58:38 - style(ipfs): optimize webpack bundle size settings
+Update 1337: 2026-03-30T14:11:10 - style(docs): style homepage hero section
+Update 1338: 2026-03-30T14:13:48 - refactor(deploy): add default categories to constructor
+Update 1339: 2026-03-30T14:51:53 - chore(tests): add Etherscan verification settings
+Update 1340: 2026-03-30T15:01:08 - fix(ipfs): optimize font loading settings
+Update 1341: 2026-03-30T15:04:16 - feat(tests): optimize webpack bundle size settings
+Update 1342: 2026-03-30T15:52:05 - style(ui): style homepage hero section
+Update 1343: 2026-03-30T15:58:15 - fix(ipfs): add cancel campaign control to dashboard
+Update 1344: 2026-03-30T16:03:30 - refactor(tests): refactor contract modifier checks
+Update 1345: 2026-03-30T16:05:43 - docs(config): add reentrancy protection to withdrawals
+Update 1346: 2026-03-30T16:31:55 - refactor(docs): integrate Pinata IPFS file uploader
+Update 1347: 2026-03-30T16:39:39 - test(deploy): format ether values using viem utilities
+Update 1348: 2026-03-30T16:45:26 - fix(ui): implement campaign details progress bar
+Update 1349: 2026-03-30T17:29:41 - docs(frontend): fix type errors for campaignsRaw mapping
+Update 1350: 2026-03-30T18:25:48 - feat(config): implement claim refund button functionality
+Update 1351: 2026-03-30T19:23:02 - refactor(deploy): add categorized mock fallbacks for images
+Update 1352: 2026-03-30T19:43:59 - chore(frontend): format ether values using viem utilities
+Update 1353: 2026-03-30T20:29:23 - feat(ipfs): enhance input checks for createCampaign
+Update 1354: 2026-03-30T21:02:10 - style(deploy): style dashboard layout
+Update 1355: 2026-03-30T21:40:18 - style(ipfs): add cancel campaign control to dashboard
+Update 1356: 2026-03-30T22:43:04 - test(frontend): refactor tailwind config spacing variables
+Update 1357: 2026-03-30T23:32:46 - chore(contracts): implement contribution form validation
+Update 1358: 2026-03-30T23:59:45 - feat(config): implement contribution form validation
+Update 1359: 2026-03-31T09:06:25 - refactor(tests): add loading skeletons during tx confirm
+Update 1360: 2026-03-31T09:09:58 - chore(frontend): update platform fee basis points limit
+Update 1361: 2026-03-31T09:17:20 - feat(docs): build dashboard my-campaigns tab
+Update 1362: 2026-03-31T10:15:32 - feat(config): add reentrancy protection to withdrawals
+Update 1363: 2026-03-31T10:37:25 - refactor(docs): add default categories to constructor
+Update 1364: 2026-03-31T10:43:51 - style(docs): update tsconfig to target ES2020
+Update 1365: 2026-03-31T11:10:16 - docs(ipfs): write comprehensive unit tests
+Update 1366: 2026-03-31T11:22:19 - chore(frontend): implement withdraw funds test cases
+Update 1367: 2026-03-31T11:22:31 - style(config): add custom query hooks for contributions
+Update 1368: 2026-03-31T11:27:49 - fix(ipfs): optimize active campaigns gas cost
+Update 1369: 2026-03-31T11:32:38 - test(ui): add custom query hooks for contributions
+Update 1370: 2026-03-31T11:50:40 - refactor(ipfs): add cancel campaign control to dashboard
+Update 1371: 2026-03-31T11:54:24 - fix(contracts): implement campaign details progress bar
+Update 1372: 2026-03-31T12:06:56 - chore(config): format ether values using viem utilities
+Update 1373: 2026-03-31T12:27:26 - style(contracts): add campaign cancelled event
+Update 1374: 2026-03-31T12:35:42 - feat(config): integrate Pinata IPFS file uploader
+Update 1375: 2026-03-31T12:54:57 - chore(docs): create responsive navbar with mobile menu
+Update 1376: 2026-03-31T13:10:38 - style(tests): add contribution form validation
+Update 1377: 2026-03-31T13:19:07 - chore(docs): fix overflow bug in fee calculation
+Update 1378: 2026-03-31T13:53:59 - refactor(config): add reentrancy protection to withdrawals
+Update 1379: 2026-03-31T13:58:18 - fix(ui): add campaign creation logic
+Update 1380: 2026-03-31T14:19:44 - chore(docs): implement campaign details progress bar
+Update 1381: 2026-03-31T15:03:44 - test(tests): create remaining time countdown timer
+Update 1382: 2026-03-31T15:52:47 - docs(tests): build dashboard my-campaigns tab
+Update 1383: 2026-03-31T16:21:58 - feat(ipfs): optimize webpack bundle size settings
+Update 1384: 2026-03-31T16:22:52 - test(contracts): add Etherscan verification settings
+Update 1385: 2026-03-31T16:23:17 - docs(tests): fix type errors for campaignsRaw mapping
+Update 1386: 2026-03-31T17:16:11 - docs(frontend): implement category filter buttons
+Update 1387: 2026-03-31T17:56:54 - style(ipfs): implement campaign details progress bar
+Update 1388: 2026-03-31T18:04:39 - docs(frontend): add campaign cancelled event
+Update 1389: 2026-03-31T18:08:10 - refactor(frontend): fix type errors for campaignsRaw mapping
+Update 1390: 2026-03-31T18:52:04 - fix(frontend): implement campaign details progress bar
+Update 1391: 2026-03-31T19:30:01 - docs(ipfs): refactor contract modifier checks
+Update 1392: 2026-03-31T19:55:00 - test(deploy): add cancel campaign control to dashboard
+Update 1393: 2026-03-31T19:58:40 - test(tests): update Readme deployment section
+Update 1394: 2026-03-31T20:02:08 - style(contracts): implement campaign details progress bar
+Update 1395: 2026-03-31T20:31:48 - chore(config): add ConnectButton to header
+Update 1396: 2026-03-31T21:21:55 - refactor(ui): refactor tailwind config spacing variables
+Update 1397: 2026-03-31T21:33:09 - style(frontend): integrate Pinata IPFS file uploader
+Update 1398: 2026-03-31T21:37:04 - fix(deploy): optimize font loading settings
+Update 1399: 2026-03-31T21:41:40 - fix(ui): add claim refund button functionality
+Update 1400: 2026-03-31T22:57:28 - docs(ui): add ConnectButton to header
