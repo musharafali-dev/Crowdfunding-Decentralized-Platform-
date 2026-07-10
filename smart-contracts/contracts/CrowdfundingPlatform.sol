@@ -2,8 +2,9 @@
 pragma solidity ^0.8.19;
 
 import "@openzeppelin/contracts/security/ReentrancyGuard.sol";
+import "@openzeppelin/contracts/security/Pausable.sol";
 
-contract CrowdfundingPlatform is ReentrancyGuard {
+contract CrowdfundingPlatform is ReentrancyGuard, Pausable {
     enum CampaignStatus {
         Active,
         Successful,
@@ -38,6 +39,13 @@ contract CrowdfundingPlatform is ReentrancyGuard {
     string[] public categories;
 
     // Events
+    event CampaignUpdated(
+        uint256 indexed campaignId,
+        string newTitle,
+        string newDescription,
+        string newImageHash
+    );
+
     event CampaignCreated(
         uint256 indexed campaignId,
         address indexed creator,
@@ -135,9 +143,11 @@ contract CrowdfundingPlatform is ReentrancyGuard {
         uint256 _durationInDays,
         string memory _imageHash,
         string memory _category
-    ) external payable returns (uint256) {
+    ) external payable whenNotPaused returns (uint256) {
         require(bytes(_title).length > 0, "Title cannot be empty");
+        require(bytes(_title).length <= 100, "Title exceeds 100 characters");
         require(bytes(_description).length > 0, "Description cannot be empty");
+        require(bytes(_description).length <= 1000, "Description exceeds 1000 characters");
         require(_goal > 0, "Goal must be greater than 0");
         require(_durationInDays > 0, "Duration must be greater than 0");
         
@@ -198,6 +208,7 @@ contract CrowdfundingPlatform is ReentrancyGuard {
     function contribute(uint256 _campaignId) 
         external 
         payable 
+        whenNotPaused
         campaignExists(_campaignId) 
         beforeDeadline(_campaignId) 
         nonReentrant 
@@ -224,6 +235,7 @@ contract CrowdfundingPlatform is ReentrancyGuard {
     function withdrawFunds(uint256 _campaignId) 
         external 
         onlyCreator(_campaignId) 
+        whenNotPaused
         campaignExists(_campaignId) 
         afterDeadline(_campaignId) 
         nonReentrant 
@@ -255,6 +267,7 @@ contract CrowdfundingPlatform is ReentrancyGuard {
 
     function claimRefund(uint256 _campaignId) 
         external 
+        whenNotPaused
         campaignExists(_campaignId) 
         afterDeadline(_campaignId) 
         nonReentrant 
@@ -288,6 +301,7 @@ contract CrowdfundingPlatform is ReentrancyGuard {
     function cancelCampaign(uint256 _campaignId) 
         external 
         onlyCreator(_campaignId) 
+        whenNotPaused
         campaignExists(_campaignId) 
         beforeDeadline(_campaignId) 
     {
@@ -298,6 +312,34 @@ contract CrowdfundingPlatform is ReentrancyGuard {
 
         emit CampaignCancelled(_campaignId);
         emit CampaignStatusChanged(_campaignId, CampaignStatus.Cancelled);
+    }
+
+    function updateCampaign(
+        uint256 _campaignId,
+        string memory _newTitle,
+        string memory _newDescription,
+        string memory _newImageHash
+    )
+        external
+        onlyCreator(_campaignId)
+        whenNotPaused
+        campaignExists(_campaignId)
+        beforeDeadline(_campaignId)
+    {
+        Campaign storage campaign = campaigns[_campaignId];
+        require(campaign.status == CampaignStatus.Active, "Campaign is not active");
+        require(campaign.amountRaised == 0, "Cannot update campaign after contributions have been made");
+
+        require(bytes(_newTitle).length > 0, "Title cannot be empty");
+        require(bytes(_newTitle).length <= 100, "Title exceeds 100 characters");
+        require(bytes(_newDescription).length > 0, "Description cannot be empty");
+        require(bytes(_newDescription).length <= 1000, "Description exceeds 1000 characters");
+
+        campaign.title = _newTitle;
+        campaign.description = _newDescription;
+        campaign.imageHash = _newImageHash;
+
+        emit CampaignUpdated(_campaignId, _newTitle, _newDescription, _newImageHash);
     }
 
     // Owner Functions
@@ -325,6 +367,14 @@ contract CrowdfundingPlatform is ReentrancyGuard {
     function transferOwnership(address _newOwner) external onlyOwner {
         require(_newOwner != address(0), "Invalid address");
         platformOwner = _newOwner;
+    }
+
+    function pause() external onlyOwner {
+        _pause();
+    }
+
+    function unpause() external onlyOwner {
+        _unpause();
     }
 
     // Read Functions

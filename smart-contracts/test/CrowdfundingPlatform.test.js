@@ -34,6 +34,40 @@ describe("CrowdfundingPlatform", function () {
     });
   });
 
+  describe("Pausable Functionality", function () {
+    it("Should allow owner to pause and unpause", async function () {
+      await expect(contract.connect(owner).pause())
+        .to.emit(contract, "Paused")
+        .withArgs(owner.address);
+
+      expect(await contract.paused()).to.be.true;
+
+      await expect(contract.connect(owner).unpause())
+        .to.emit(contract, "Unpaused")
+        .withArgs(owner.address);
+
+      expect(await contract.paused()).to.be.false;
+    });
+
+    it("Should restrict pause/unpause to owner", async function () {
+      await expect(contract.connect(creator).pause()).to.be.revertedWith("Not platform owner");
+    });
+
+    it("Should prevent creating a campaign when paused", async function () {
+      await contract.connect(owner).pause();
+      await expect(
+        contract.connect(creator).createCampaign(
+          "Gadget",
+          "Cool gadget",
+          ethers.parseEther("10"),
+          30,
+          "hash",
+          "Technology"
+        )
+      ).to.be.revertedWith("Pausable: paused");
+    });
+  });
+
   describe("Campaign Creation", function () {
     it("Should create a campaign with valid parameters", async function () {
       const title = "New Gadget";
@@ -101,6 +135,71 @@ describe("CrowdfundingPlatform", function () {
       await expect(
         contract.connect(creator).createCampaign("Title", "Desc", 100, 30, "hash", "InvalidCategory")
       ).to.be.revertedWith("Invalid campaign category");
+    });
+
+    it("Should fail if title or description is too long", async function () {
+      const longTitle = "a".repeat(101);
+      const longDesc = "b".repeat(1001);
+
+      await expect(
+        contract.connect(creator).createCampaign(longTitle, "Desc", 100, 30, "hash", "Technology")
+      ).to.be.revertedWith("Title exceeds 100 characters");
+
+      await expect(
+        contract.connect(creator).createCampaign("Title", longDesc, 100, 30, "hash", "Technology")
+      ).to.be.revertedWith("Description exceeds 1000 characters");
+    });
+  });
+
+  describe("Campaign Updating", function () {
+    beforeEach(async function () {
+      await contract.connect(creator).createCampaign(
+        "Gadget",
+        "Cool gadget",
+        ethers.parseEther("5"),
+        30,
+        "hash1",
+        "Technology"
+      );
+    });
+
+    it("Should update campaign details successfully if no contributions", async function () {
+      await expect(
+        contract.connect(creator).updateCampaign(0, "New Title", "New Desc", "hash2")
+      )
+        .to.emit(contract, "CampaignUpdated")
+        .withArgs(0, "New Title", "New Desc", "hash2");
+
+      const campaign = await contract.getCampaign(0);
+      expect(campaign.title).to.equal("New Title");
+      expect(campaign.description).to.equal("New Desc");
+      expect(campaign.imageHash).to.equal("hash2");
+    });
+
+    it("Should fail to update if title or description is too long", async function () {
+      const longTitle = "a".repeat(101);
+      const longDesc = "b".repeat(1001);
+
+      await expect(
+        contract.connect(creator).updateCampaign(0, longTitle, "New Desc", "hash2")
+      ).to.be.revertedWith("Title exceeds 100 characters");
+
+      await expect(
+        contract.connect(creator).updateCampaign(0, "New Title", longDesc, "hash2")
+      ).to.be.revertedWith("Description exceeds 1000 characters");
+    });
+
+    it("Should fail to update if caller is not the creator", async function () {
+      await expect(
+        contract.connect(contributor1).updateCampaign(0, "New Title", "New Desc", "hash2")
+      ).to.be.revertedWith("Not campaign creator");
+    });
+
+    it("Should fail to update if campaign has contributions", async function () {
+      await contract.connect(contributor1).contribute(0, { value: ethers.parseEther("1") });
+      await expect(
+        contract.connect(creator).updateCampaign(0, "New Title", "New Desc", "hash2")
+      ).to.be.revertedWith("Cannot update campaign after contributions have been made");
     });
   });
 
